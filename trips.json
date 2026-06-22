@@ -1,0 +1,2719 @@
+{
+  "family": {
+    "kids": [
+      {
+        "name": "עומר",
+        "birthDate": "2020-03-30",
+        "gender": "boy"
+      },
+      {
+        "name": "רונה",
+        "birthDate": "2023-12-18",
+        "gender": "girl"
+      }
+    ]
+  },
+  "trips": [
+    {
+      "id": "thailand-2025",
+      "title": "תאילנד - קוסמוי",
+      "location": "Koh Samui, Thailand",
+      "country": "Thailand",
+      "region": "Asia",
+      "dates": {
+        "start": "2025-04-02",
+        "end": "2025-04-17"
+      },
+      "coverImage": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=800",
+      "summary": "שבועיים בקוסמוי עם ילד בן 5 וילדה בת שנה וחצי. שלושה מלונות שונים.",
+      "notes": "תאילנד מדהימה למשפחות. קוסמוי נוחה מאוד עם ילדים קטנים. האוכל טעים וזול מחוץ למלונות.",
+      "flights": "אל-על: ישראל → בנגקוק → קוסמוי הלוך חזור",
+      "hotels": [
+        {
+          "name": "Sala Samui",
+          "address": "Chaweng Beach, Koh Samui",
+          "lat": 9.5353,
+          "lng": 100.0615,
+          "nights": 3,
+          "notes": "מלון מצויין מפנק ברמה שבוחרים את הכריות והריח של הסבון בחדר. לא זול. אחלה ארוחת בוקר, בריכות וחוף. האוכל והשתייה יקר אבל טעים. מועדון ילדים פיצפון אבל חמוד לילדים קטנים או ליצירה. מחוץ למלון יש מסעדות והליכה של 20 דק מגיעים למרכז הצאוונג - לא נוח עם עגלות.",
+          "link": "https://www.salahospitality.com/samui/"
+        },
+        {
+          "name": "Buri Rasa Village",
+          "address": "Chaweng Beach, Koh Samui",
+          "lat": 9.519,
+          "lng": 100.058,
+          "nights": 4,
+          "notes": "מלון בוטיקי חמוד 30 חדרים. לקחת חדר קרקע כי זה רק מדרגות. יש מדרגות לרדת לבריכה - לא נוח עם עגלה. החוף קצת גלי. מסאג מעולה במחיר של 50 שקלים! האפי האוור על קוקטיילים מ-13:00. אין תפריט ילדים אבל אוכל סבבה. ארוחת בוקר חמודה. נמצא בקצה של הצאוונג יש מסעדות במרחק הליכה. לאחרונה התחילו להגביל ללא ילדים.",
+          "link": "https://www.burirasa.com/"
+        },
+        {
+          "name": "Holiday Inn - Fisherman Village",
+          "address": "Fisherman Village, Bophut, Koh Samui",
+          "lat": 9.556,
+          "lng": 100.002,
+          "nights": 6,
+          "notes": "מלון ילדים גדול! פארק מים קטן, מועדון ילדים ענק עם גימבורי וגן משחקים, בריכות. המלון עצמו מאוד המוני - המון ישראלים. ארוחת בוקר סבבה וגם אוכל לצהריים במלון. המיקום מושלם! ממש על טיילת של כפר הדייגים - מופעי אש, מסעדות ושוק לילה.",
+          "link": "https://www.ihg.com/holidayinn/hotels/us/en/find-hotels/select-roomrate?fromRedirect=true&qSrt=sBR&qSlH=USMBO"
+        }
+      ],
+      "schedule": [],
+      "attractions": [
+        {
+          "name": "כפר הדייגים (Fisherman Village)",
+          "lat": 9.556,
+          "lng": 100.002,
+          "type": "market",
+          "kidFriendly": 5,
+          "notes": "טיילת עם מופעי אש, מסעדות ושוק לילה. המיקום המושלם לערבים עם ילדים."
+        },
+        {
+          "name": "Baan Ya Jan",
+          "lat": 9.532,
+          "lng": 100.06,
+          "type": "restaurant",
+          "kidFriendly": 4,
+          "notes": "מסעדה תאילנדית מעולה באיזור הצאוונג."
+        }
+      ],
+      "tips": [
+        "ציוד תינוקות: פורמולה, חיתולים, מוצצים, מגבונים, חיתולי מים ובגדים - להביא מהארץ!",
+        "לא לסמוך על קניות שם - לא על מותגים שאנחנו מכירים",
+        "חיתולים - יש רק פולאפס ומגבונים בחבילות קטנות",
+        "בגדים ארוכים לרוב לא צריך, אולי רק לטיסה",
+        "כביסה לעשות שם",
+        "קרם הגנה לתינוקות - להביא מהארץ"
+      ],
+      "source": "notes",
+      "instagram": "https://www.instagram.com/stories/highlights/18066413098757508/"
+    },
+    {
+      "id": "hungary-budapest-2025",
+      "title": "הונגריה - אגם בלטון ובודפשט",
+      "location": "Lake Balaton & Budapest, Hungary",
+      "country": "Hungary",
+      "region": "Europe",
+      "dates": {
+        "start": "2025-08-22",
+        "end": "2025-08-30"
+      },
+      "coverImage": "https://images.unsplash.com/photo-1549893072-4bc678117f45?w=800",
+      "summary": "9 ימים בהונגריה - אגם בלטון עם פארקי מים ומגלשות, מלון ילדים Kolping, ובודפשט.",
+      "notes": "שילוב מעולה של מלון ילדים (Kolping) עם ימי טיול באגם בלטון ובודפשט.",
+      "flights": "ישראייר לבודפשט",
+      "budget": "טיסות: 3,517€ | Kolping: 1,278€+1,103€+1,453€ | שיופוק: 710€×2 | בודפשט: 483-520€",
+      "hotels": [
+        {
+          "name": "Residence Hotel Balaton",
+          "address": "Siófok, Hungary",
+          "lat": 46.905,
+          "lng": 18.048,
+          "nights": 3,
+          "notes": "מלון בשיופוק עם ארוחת בוקר. ביטול עד 14.8."
+        },
+        {
+          "name": "Kolping Family Resort",
+          "address": "Alsópáhok, Hungary",
+          "lat": 46.787,
+          "lng": 17.179,
+          "nights": 3,
+          "notes": "מלון ילדים עם חצי פנסיון.",
+          "link": "https://www.kolpinghotel.hu/"
+        },
+        {
+          "name": "7 Seasons Apartments",
+          "address": "Budapest, Hungary",
+          "lat": 47.4979,
+          "lng": 19.0402,
+          "nights": 2,
+          "notes": "בודפשט עם חניה וארוחת בוקר. ביטול עד 21.8.",
+          "link": "http://7seasonsapartments.com/"
+        }
+      ],
+      "schedule": [
+        {
+          "day": 1,
+          "date": "2025-08-22",
+          "title": "הגעה לאגם בלטון",
+          "activities": [
+            {
+              "time": "10:00",
+              "activity": "נחיתה בבודפשט, לקיחת רכב, נסיעה שעתיים לאגם",
+              "type": "transport"
+            },
+            {
+              "time": "15:00",
+              "activity": "סיבוב בעיירה שיופוק, גלגל ענק",
+              "type": "attraction"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "date": "2025-08-23",
+          "title": "מגלשות הרים ופארק חבלים",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "Balatonibob - מגלשות הרים מגיל 3 + פארק חבלים + גימבורי",
+              "type": "attraction"
+            },
+            {
+              "time": "14:00",
+              "activity": "גימבורי לרונה / גן משחקים / גן חיות (40 דק נסיעה)",
+              "type": "kids"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "date": "2025-08-24",
+          "title": "פארק אטרקציות",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "פארק חבלים זמרדי / רונה בגימבורי",
+              "type": "attraction"
+            },
+            {
+              "time": "14:00",
+              "activity": "פארק מים מובנפיק BalaLand",
+              "type": "kids"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "date": "2025-08-25",
+          "title": "ספא טרמי ונסיעה לקולפינג",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "Zalakaros Thermal Spa - פארק מים וספא טרמי",
+              "type": "attraction"
+            },
+            {
+              "time": "15:00",
+              "activity": "נסיעה לKolping Family Resort",
+              "type": "transport"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "date": "2025-08-26",
+          "title": "יום מלון Kolping",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "מלון - בריכות, מועדון ילדים, משחקים",
+              "type": "kids"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "date": "2025-08-27",
+          "title": "יום מלון Kolping",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "מלון",
+              "type": "kids"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "date": "2025-08-28",
+          "title": "נסיעה לבודפשט",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "נסיעה לבודפשט",
+              "type": "transport"
+            },
+            {
+              "time": "12:00",
+              "activity": "פארק לאומי / קרקס / גן חיות",
+              "type": "attraction"
+            }
+          ]
+        },
+        {
+          "day": 8,
+          "date": "2025-08-29",
+          "title": "בודפשט",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "רכבת הילדים",
+              "type": "attraction"
+            },
+            {
+              "time": "12:00",
+              "activity": "פארק חבלים",
+              "type": "attraction"
+            },
+            {
+              "time": "19:00",
+              "activity": "ארוחת ערב מסעדת הארי פוטר",
+              "type": "food"
+            }
+          ]
+        },
+        {
+          "day": 9,
+          "date": "2025-08-30",
+          "title": "קניות וחזרה",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "קניות, פארק חבלים, גימבורי - מה שלא עשינו",
+              "type": "attraction"
+            },
+            {
+              "time": "14:00",
+              "activity": "נסיעה לשדה - טיסה 16:00",
+              "type": "transport"
+            }
+          ]
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Balatonibob",
+          "lat": 46.883,
+          "lng": 17.827,
+          "type": "adventure-park",
+          "kidFriendly": 5,
+          "notes": "מגלשות הרים מגיל 3, פארק חבלים וגימבורי. https://balatonibob.hu/en/prices",
+          "link": "https://balatonibob.hu/en/"
+        },
+        {
+          "name": "BalaLand Family Park (Mövenpick)",
+          "lat": 46.91,
+          "lng": 17.87,
+          "type": "water-park",
+          "kidFriendly": 5,
+          "notes": "גימבורי ופארק מים. https://www.movenpickbalaland.hu/family-park/",
+          "link": "https://www.movenpickbalaland.hu/family-park/"
+        },
+        {
+          "name": "Zalakaros Thermal Spa",
+          "lat": 46.553,
+          "lng": 17.127,
+          "type": "water-park",
+          "kidFriendly": 5,
+          "notes": "פארק המים והספא הטרמי. https://zkf.hu/",
+          "link": "https://zkf.hu/"
+        },
+        {
+          "name": "Zamárdi Adventure Park",
+          "lat": 46.886,
+          "lng": 17.957,
+          "type": "adventure-park",
+          "kidFriendly": 4,
+          "notes": "פארק חבלים, חיפוש מטמון, מבוך. מתאים לעומר ודורי. https://zamardikalandpark.hu/",
+          "link": "https://zamardikalandpark.hu/"
+        },
+        {
+          "name": "גלגל ענק שיופוק",
+          "lat": 46.905,
+          "lng": 18.05,
+          "type": "attraction",
+          "kidFriendly": 4,
+          "notes": "Siófok Óriáskerék"
+        },
+        {
+          "name": "גן חיות Veszprém",
+          "lat": 47.093,
+          "lng": 17.89,
+          "type": "zoo",
+          "kidFriendly": 4,
+          "notes": "http://www.veszpzoo.hu/en",
+          "link": "http://www.veszpzoo.hu/en"
+        },
+        {
+          "name": "שייט מערות טפולצה",
+          "lat": 46.882,
+          "lng": 17.443,
+          "type": "cave",
+          "kidFriendly": 3,
+          "notes": "Tapolca Lake Cave"
+        },
+        {
+          "name": "רכבת הילדים - בודפשט",
+          "lat": 47.527,
+          "lng": 18.962,
+          "type": "attraction",
+          "kidFriendly": 5,
+          "notes": "רכבת שמופעלת על ידי ילדים!"
+        }
+      ],
+      "tips": [
+        "מפה עם כל האטרקציות באגם בלטון: https://www.google.com/maps/d/u/0/viewer?mid=1jfJbvWvFD-DuTGiW0wEgrZX08TfwxeQ",
+        "Kolping Family Resort - חצי פנסיון, מלון ילדים מצויין",
+        "מסעדת הארי פוטר בבודפשט - מומלץ לארוחת ערב"
+      ],
+      "source": "google-sheets",
+      "instagram": "https://www.instagram.com/stories/highlights/17912658786410611/",
+      "googleMap": "https://www.google.com/maps/d/viewer?mid=1jfJbvWvFD-DuTGiW0wEgrZX08TfwxeQ"
+    },
+    {
+      "id": "florida-punta-cana-2023",
+      "title": "פלורידה + פונטה קאנה",
+      "location": "Florida, USA & Punta Cana",
+      "country": "USA / Dominican Republic",
+      "region": "Americas",
+      "dates": {
+        "start": "2023-01-26",
+        "end": "2023-02-15"
+      },
+      "coverImage": "https://images.unsplash.com/photo-1597466599360-3b9775841aec?w=800",
+      "summary": "3 שבועות - מיאמי, הקיס, לגולנד, דיסני, קריסטל ריבר ופונטה קאנה. טיול מושלם עם ילד בן 3.",
+      "notes": "לגולנד היה מושלם - מלון מגניב ברמות, עומר עף. דיסני - לישון במלון של דיסני היתה החלטה מעולה! Animal Kingdom פחות מומלץ לקטנים - עדיף Universal.",
+      "flights": "טיסה למיאמי + טיסה פנימית לפונטה קאנה + חזרה דרך מיאמי",
+      "hotels": [
+        {
+          "name": "Arlo Wynwood",
+          "address": "Wynwood, Miami, FL",
+          "lat": 25.804,
+          "lng": -80.199,
+          "nights": 2,
+          "notes": "באזור וינווד מיאמי"
+        },
+        {
+          "name": "Key West Motel",
+          "address": "Key West, FL",
+          "lat": 24.5551,
+          "lng": -81.78,
+          "nights": 1,
+          "notes": "מוטל פשוט"
+        },
+        {
+          "name": "Postcard Inn Beach Resort",
+          "address": "Islamorada, FL",
+          "lat": 24.91,
+          "lng": -80.634,
+          "nights": 1,
+          "notes": "ריזורט באיסלמורדה"
+        },
+        {
+          "name": "Legoland Hotel",
+          "address": "Winter Haven, FL",
+          "lat": 27.9886,
+          "lng": -81.6904,
+          "nights": 2,
+          "notes": "מלון מגניב ברמות! עומר עף. מותאם לילדים קטנים. יש גם פארק מים.",
+          "link": "https://www.legoland.com/florida/legoland-hotel/"
+        },
+        {
+          "name": "Plantation on Crystal River",
+          "address": "Crystal River, FL",
+          "lat": 28.883,
+          "lng": -82.593,
+          "nights": 1,
+          "notes": "ליד Crystal River - מנטיס!"
+        },
+        {
+          "name": "Walt Disney World Swan & Dolphin",
+          "address": "Disney World, Orlando, FL",
+          "lat": 28.3597,
+          "lng": -81.5583,
+          "nights": 2,
+          "notes": "מלון דיסני - החלטה מעולה! כניסה מוקדמת חצי שעה לפארקים.",
+          "link": "https://swandolphin.com/"
+        },
+        {
+          "name": "Lopesan Costa Bávaro Resort",
+          "address": "Punta Cana, Dominican Republic",
+          "lat": 18.684,
+          "lng": -68.419,
+          "nights": 6,
+          "notes": "הכל כלול עם פארק מים מטורף!",
+          "link": "https://www.lopesan.com/en/hotels/dominican-republic/lopesan-costa-bavaro/"
+        }
+      ],
+      "schedule": [
+        {
+          "day": 1,
+          "date": "2023-01-27",
+          "title": "הגעה למיאמי",
+          "activities": [
+            {
+              "time": "06:00",
+              "activity": "נחיתה במיאמי, לקיחת רכב + ביטוח בדלפק + כיסא ילדים",
+              "type": "transport"
+            },
+            {
+              "time": "16:00",
+              "activity": "טיילת עם גלגל ענק, מסעדות, תערוכת דינוזאורים",
+              "type": "attraction"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "date": "2023-01-28",
+          "title": "מיאמי ביץ",
+          "activities": [
+            {
+              "time": "10:00",
+              "activity": "מוזיאון הילדים",
+              "type": "kids"
+            },
+            {
+              "time": "13:00",
+              "activity": "מיאמי ביץ",
+              "type": "attraction"
+            },
+            {
+              "time": "16:00",
+              "activity": "ביקור משפחה",
+              "type": "attraction"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "date": "2023-01-29",
+          "title": "Wynwood → Keys",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "Wynwood Walls",
+              "type": "attraction"
+            },
+            {
+              "time": "12:00",
+              "activity": "נסיעה לקיס, עצירה ב-Key Largo - מסעדה איטלקית טעימה",
+              "type": "transport"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "date": "2023-01-30",
+          "title": "Key West → Islamorada",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "בוקר בחוף Key West",
+              "type": "attraction"
+            },
+            {
+              "time": "13:00",
+              "activity": "שנצ + נסיעה לIslamorada",
+              "type": "transport"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "date": "2023-01-31",
+          "title": "Theater of the Sea → Marco Island",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "Theater of the Sea - מקום חמוד עם חיות ומופעים",
+              "type": "attraction"
+            },
+            {
+              "time": "13:00",
+              "activity": "שנצ + נסיעה למרקו איילנד",
+              "type": "transport"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "date": "2023-02-01",
+          "title": "Marco Island → Legoland",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "מרקו איילנד - חופים כיפים, ארוחת בוקר ב-JW Hotel",
+              "type": "attraction"
+            },
+            {
+              "time": "12:00",
+              "activity": "נסיעה ללגולנד",
+              "type": "transport"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "date": "2023-02-02",
+          "title": "Legoland! 🧱",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "לגולנד יום שלם - מושלם לילדים קטנים!",
+              "type": "attraction"
+            }
+          ]
+        },
+        {
+          "day": 8,
+          "date": "2023-02-03",
+          "title": "Peppa Pig → Crystal River",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "Peppa Pig Theme Park",
+              "type": "kids"
+            },
+            {
+              "time": "14:00",
+              "activity": "נסיעה ל-Crystal River",
+              "type": "transport"
+            }
+          ]
+        },
+        {
+          "day": 9,
+          "date": "2023-02-04",
+          "title": "Crystal River → Tampa",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "סיור בסירה לראות מנטיס! (בחור יהודי שפגשנו לקח אותנו)",
+              "type": "attraction"
+            },
+            {
+              "time": "11:00",
+              "activity": "Three Sisters Springs",
+              "type": "attraction"
+            },
+            {
+              "time": "13:00",
+              "activity": "Homosassa Springs Wildlife",
+              "type": "attraction"
+            },
+            {
+              "time": "15:00",
+              "activity": "KC Crump Restaurant - מגרש משחקים, מוסיקה חיה על הנהר",
+              "type": "food"
+            }
+          ]
+        },
+        {
+          "day": 10,
+          "date": "2023-02-05",
+          "title": "Tampa → Disney",
+          "activities": [
+            {
+              "time": "10:00",
+              "activity": "מוזיאון ילדים טמפה + אאוטלט",
+              "type": "kids"
+            },
+            {
+              "time": "16:00",
+              "activity": "נסיעה לדיסני",
+              "type": "transport"
+            }
+          ]
+        },
+        {
+          "day": 11,
+          "date": "2023-02-06",
+          "title": "Magic Kingdom 🏰",
+          "activities": [
+            {
+              "time": "08:30",
+              "activity": "כניסה מוקדמת! קודם למתקנים הרחוקים, Magic Pass 18$",
+              "type": "attraction"
+            },
+            {
+              "time": "14:00",
+              "activity": "שנצ במלון + מקלחות",
+              "type": "hotel"
+            },
+            {
+              "time": "17:00",
+              "activity": "חזרה לפארק רעננים! עומר שרד עד סגירה + זיקוקים",
+              "type": "attraction"
+            }
+          ]
+        },
+        {
+          "day": 12,
+          "date": "2023-02-07",
+          "title": "Animal Kingdom + NBA",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "Animal Kingdom (פחות מומלץ - רוב המתקנים לא לגיל קטן)",
+              "type": "attraction"
+            },
+            {
+              "time": "19:00",
+              "activity": "משחק NBA! חוויה מטורפת",
+              "type": "attraction"
+            }
+          ]
+        },
+        {
+          "day": 13,
+          "date": "2023-02-08",
+          "title": "אאוטלט + התארגנות",
+          "activities": [
+            {
+              "time": "10:00",
+              "activity": "אאוטלט + מפגש משפחתי + התארגנות לטיסה לפונטה קאנה",
+              "type": "attraction"
+            }
+          ]
+        },
+        {
+          "day": 14,
+          "date": "2023-02-09",
+          "title": "פונטה קאנה - הגעה",
+          "activities": [
+            {
+              "time": "10:00",
+              "activity": "טיסה לפונטה קאנה",
+              "type": "transport"
+            },
+            {
+              "time": "15:00",
+              "activity": "Lopesan - הכל כלול + פארק מים מטורף!",
+              "type": "hotel"
+            }
+          ]
+        },
+        {
+          "day": 20,
+          "date": "2023-02-15",
+          "title": "חזרה הביתה",
+          "activities": [
+            {
+              "time": "14:22",
+              "activity": "טיסה פונטה קאנה → מיאמי",
+              "type": "transport"
+            },
+            {
+              "time": "20:40",
+              "activity": "טיסה לישראל",
+              "type": "transport"
+            }
+          ]
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Legoland Florida",
+          "lat": 27.9886,
+          "lng": -81.6904,
+          "type": "theme-park",
+          "kidFriendly": 5,
+          "notes": "מושלם! מלון מגניב ברמות, עומר עף. מותאם לילדים קטנים. יש פארק מים.",
+          "link": "https://www.legoland.com/florida/"
+        },
+        {
+          "name": "Magic Kingdom - Disney",
+          "lat": 28.4177,
+          "lng": -81.5812,
+          "type": "theme-park",
+          "kidFriendly": 5,
+          "notes": "Magic Pass 18$ שווה כל שקל! ללכת קודם למתקנים הרחוקים. לצאת לשנצ 14:00, לחזור 17:00 רעננים - עומר שרד עד סגירה כולל זיקוקים!",
+          "link": "https://disneyworld.disney.go.com/destinations/magic-kingdom/"
+        },
+        {
+          "name": "Animal Kingdom",
+          "lat": 28.3553,
+          "lng": -81.5901,
+          "type": "theme-park",
+          "kidFriendly": 2,
+          "notes": "פחות מומלץ לקטנים. רוב המתקנים לא מתאימים. עדיף Universal.",
+          "link": "https://disneyworld.disney.go.com/destinations/animal-kingdom/"
+        },
+        {
+          "name": "Peppa Pig Theme Park",
+          "lat": 27.99,
+          "lng": -81.688,
+          "type": "theme-park",
+          "kidFriendly": 5,
+          "notes": "מושלם לגילאים צעירים! ליד לגולנד.",
+          "link": "https://www.peppapigthemepark.com/"
+        },
+        {
+          "name": "Theater of the Sea",
+          "lat": 24.923,
+          "lng": -80.625,
+          "type": "zoo",
+          "kidFriendly": 4,
+          "notes": "מקום חמוד עם חיות ומופעים באיסלמורדה.",
+          "link": "https://theaterofthesea.com/"
+        },
+        {
+          "name": "Crystal River - Manatees",
+          "lat": 28.883,
+          "lng": -82.593,
+          "type": "nature",
+          "kidFriendly": 4,
+          "notes": "Three Sisters Springs - סיור בסירה לראות מנטיס. חוויה!"
+        },
+        {
+          "name": "KC Crump Restaurant",
+          "lat": 28.835,
+          "lng": -82.588,
+          "type": "restaurant",
+          "kidFriendly": 5,
+          "notes": "מסעדה מגניבה בחוץ, מגרש משחקים ומוסיקה חיה בשבת על הנהר."
+        },
+        {
+          "name": "Wynwood Walls",
+          "lat": 25.801,
+          "lng": -80.1993,
+          "type": "art",
+          "kidFriendly": 3,
+          "notes": "קירות גרפיטי מדהימים.",
+          "link": "https://www.thewynwoodwalls.com/"
+        },
+        {
+          "name": "Lopesan - Punta Cana",
+          "lat": 18.684,
+          "lng": -68.419,
+          "type": "resort",
+          "kidFriendly": 5,
+          "notes": "הכל כלול עם פארק מים מטורף! יום טיול לאי - 10 שעות, לא מומלץ לכל ילד."
+        }
+      ],
+      "tips": [
+        "מיאמי: ביטוח רכב בדלפק + לבדוק כיסא ילדים",
+        "דיסני: Magic Pass 18$ - שווה כל שקל!",
+        "דיסני: כניסה מוקדמת (יתרון מלון דיסני), ללכת קודם למתקנים רחוקים",
+        "דיסני: לצאת לשנצ 14:00, חזרה 17:00 - הילד שורד עד סגירה",
+        "דיסני: Animal Kingdom פחות מתאים - עדיף Universal",
+        "לגולנד: 2 לילות = מספיק, מלון שווה ברמות",
+        "פונטה קאנה: יום טיול לאי 10 שעות - לא מומלץ עם קטנים",
+        "Crystal River: KC Crump - מגרש משחקים + מוסיקה חיה על הנהר"
+      ],
+      "source": "google-sheets",
+      "instagram": [
+        "https://www.instagram.com/stories/highlights/18029115712460592/",
+        "https://www.instagram.com/stories/highlights/17966285357220519/",
+        "https://www.instagram.com/stories/highlights/17997645142631870/",
+        "https://www.instagram.com/stories/highlights/18279517147101021/"
+      ]
+    },
+    {
+      "id": "slovenia-croatia-2023",
+      "title": "סלובניה וקרואטיה",
+      "location": "Slovenia & Croatia",
+      "country": "Slovenia / Croatia",
+      "region": "Europe",
+      "dates": {
+        "start": "2023-09-30",
+        "end": "2023-10-07"
+      },
+      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Lake_Bled_from_the_Mountain.jpg/1280px-Lake_Bled_from_the_Mountain.jpg",
+      "summary": "שבוע בין אגם בוהיני בסלובניה לחוף הים בקרואטיה. ערוצים, מערות ואגמים.",
+      "notes": "סלובניה מדהימה לטבע. האגמים והמסלולים מושלמים למשפחות. שילוב מעולה של טבע + חוף.",
+      "flights": "טיסה ללובליאנה 13:10-15:50 | חזרה 15:50-21:10",
+      "hotels": [
+        {
+          "name": "Bohinj Eco Hotel",
+          "address": "Bohinj, Slovenia",
+          "lat": 46.283,
+          "lng": 13.861,
+          "nights": 3,
+          "notes": "מלון אקולוגי עם פארק מים. מושלם לטיולים באזור.",
+          "link": "https://www.bohinj-eco-hotel.si/en/"
+        },
+        {
+          "name": "Family Hotel Amarin by Maistra",
+          "address": "Rovinj, Croatia",
+          "lat": 45.077,
+          "lng": 13.617,
+          "nights": 4,
+          "notes": "מלון משפחות ליד רוביני.",
+          "link": "https://www.maistra.com/properties/family-hotel-amarin/"
+        }
+      ],
+      "schedule": [
+        {
+          "day": 1,
+          "date": "2023-09-30",
+          "title": "הגעה לבוהיני",
+          "activities": [
+            {
+              "time": "15:50",
+              "activity": "נחיתה בלובליאנה",
+              "type": "transport"
+            },
+            {
+              "time": "17:00",
+              "activity": "נסיעה לבוהיני",
+              "type": "transport"
+            },
+            {
+              "time": "18:00",
+              "activity": "פארק מים במלון",
+              "type": "kids"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "date": "2023-10-01",
+          "title": "ערוץ וינטגר + אגם בלד",
+          "activities": [
+            {
+              "time": "08:00",
+              "activity": "ערוץ וינטגר - מסלול בתוך הערוץ (קצר או 2.5 שעות מעגלי)",
+              "type": "attraction"
+            },
+            {
+              "time": "12:00",
+              "activity": "Zipline / מיני גולף",
+              "type": "attraction"
+            },
+            {
+              "time": "15:00",
+              "activity": "אגם בלד - מגלשת הרים Straža",
+              "type": "attraction"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "date": "2023-10-02",
+          "title": "אגם בוהיני והר ווגל",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "רכבל להר ווגל - אומגות ומסלול מעגלי קליל",
+              "type": "attraction"
+            },
+            {
+              "time": "12:00",
+              "activity": "חוות סוסים Ranc Mrcina (לתאם מראש!)",
+              "type": "kids"
+            },
+            {
+              "time": "14:00",
+              "activity": "מסלול אופניים 11 קמ + בית קפה שוקולד Čokohram",
+              "type": "attraction"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "date": "2023-10-03",
+          "title": "מערת פוסטוינה → קרואטיה",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "מערת נטיפים פוסטוינה - מדהימה!",
+              "type": "attraction"
+            },
+            {
+              "time": "13:00",
+              "activity": "נסיעה 3 שעות לקרואטיה",
+              "type": "transport"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "date": "2023-10-04",
+          "title": "יום מלון Amarin",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "מלון - חוף, בריכות, פעילויות",
+              "type": "hotel"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "date": "2023-10-05",
+          "title": "מלון + Golden Cape",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "Golden Cape Forest Park",
+              "type": "attraction"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "date": "2023-10-06",
+          "title": "יום אחרון",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "יום חופשי במלון",
+              "type": "hotel"
+            }
+          ]
+        },
+        {
+          "day": 8,
+          "date": "2023-10-07",
+          "title": "חזרה",
+          "activities": [
+            {
+              "time": "09:30",
+              "activity": "נסיעה 2.5 שעות לשדה + החזרת רכב",
+              "type": "transport"
+            },
+            {
+              "time": "15:50",
+              "activity": "טיסה (נחיתה 21:10)",
+              "type": "transport"
+            }
+          ]
+        }
+      ],
+      "attractions": [
+        {
+          "name": "ערוץ וינטגר (Vintgar Gorge)",
+          "lat": 46.392,
+          "lng": 14.085,
+          "type": "nature",
+          "kidFriendly": 4,
+          "notes": "מסלול מדהים בתוך הערוץ. 8:00-17:00. קצר או 2.5 שעות מעגלי.",
+          "link": "https://vintgar.si/?lang=en"
+        },
+        {
+          "name": "אגם בלד - מגלשת Straža",
+          "lat": 46.365,
+          "lng": 14.098,
+          "type": "attraction",
+          "kidFriendly": 5,
+          "notes": "מגלשת הרים עם נוף לאגם!",
+          "link": "https://www.straza-bled.si/en/Summer/Opening-hours"
+        },
+        {
+          "name": "הר ווגל - רכבל",
+          "lat": 46.264,
+          "lng": 13.838,
+          "type": "nature",
+          "kidFriendly": 4,
+          "notes": "אומגות ומסלול מעגלי קליל.",
+          "link": "http://www.vogel.si/summer"
+        },
+        {
+          "name": "Zipline Dolinka",
+          "lat": 46.38,
+          "lng": 14.07,
+          "type": "adventure",
+          "kidFriendly": 3,
+          "notes": "זיפליין!",
+          "link": "https://zipline-dolinka.si/"
+        },
+        {
+          "name": "חוות סוסים Ranc Mrcina",
+          "lat": 46.29,
+          "lng": 13.87,
+          "type": "animals",
+          "kidFriendly": 5,
+          "notes": "לתאם מראש!",
+          "link": "https://ranc-mrcina.com/"
+        },
+        {
+          "name": "בית קפה שוקולד Čokohram",
+          "lat": 46.285,
+          "lng": 13.89,
+          "type": "food",
+          "kidFriendly": 5,
+          "notes": "בית קפה שמייצרים שוקולד. עצירה מושלמת במסלול אופניים.",
+          "link": "http://www.cokohram.si/about/"
+        },
+        {
+          "name": "מערת פוסטוינה",
+          "lat": 45.782,
+          "lng": 14.205,
+          "type": "cave",
+          "kidFriendly": 4,
+          "notes": "מערת נטיפים מדהימה! חובה.",
+          "link": "https://www.postojnska-jama.eu/en/"
+        },
+        {
+          "name": "Golden Cape Forest Park",
+          "lat": 45.078,
+          "lng": 13.63,
+          "type": "park",
+          "kidFriendly": 4,
+          "notes": "פארק יער ליד רוביני."
+        }
+      ],
+      "tips": [
+        "ערוץ וינטגר: 8:00-17:00, להגיע מוקדם",
+        "חוות סוסים: חובה לתאם מראש!",
+        "מסלול אופניים 11 קמ עם עצירה בשוקולד - מושלם!",
+        "פליטוויצה - רחוק מדי מהמסלול",
+        "מפל סביצה - 500 מדרגות, לשקול עם ילדים קטנים"
+      ],
+      "source": "google-sheets",
+      "instagram": "https://www.instagram.com/stories/highlights/17908162253834146/"
+    },
+    {
+      "id": "italy-dolomites",
+      "title": "איטליה - דולומיטים (מתוכנן)",
+      "location": "Lake Garda & Dolomites, Italy",
+      "country": "Italy",
+      "region": "Europe",
+      "dates": {
+        "start": "2026-07-15",
+        "end": "2026-07-31"
+      },
+      "coverImage": "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?w=800",
+      "summary": "17 ימים מתוכננים באיטליה - גארדלנד, אגם גארדה, והדולומיטים. פארקי שעשועים, אגמים וטיולי הרים.",
+      "notes": "נחיתה בוורונה/מילאנו/ונציה + רכב. הדולומיטים מדהימים אבל לבדוק גובה מותר עם תינוקות לפני רכבלים.",
+      "flights": "טיסה לוורונה/מילאנו/ונציה",
+      "hotels": [],
+      "schedule": [
+        {
+          "day": 1,
+          "date": "2026-07-15",
+          "title": "נחיתה",
+          "activities": [
+            {
+              "time": "10:00",
+              "activity": "נחיתה + רכב",
+              "type": "transport"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "date": "2026-07-16",
+          "title": "גארדלנד",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "גארדלנד!",
+              "type": "attraction"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "date": "2026-07-17",
+          "title": "גארדלנד יום 2",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "גארדלנד + SeaLife",
+              "type": "attraction"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "date": "2026-07-18",
+          "title": "פארק חבלים + שביל פונאלה",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "פארק חבלים בוסאטה (מגיל 3)",
+              "type": "attraction"
+            },
+            {
+              "time": "14:00",
+              "activity": "שביל פונאלה - 2 שעות מריבה למפל וחזרה",
+              "type": "attraction"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "date": "2026-07-19",
+          "title": "אגם טנו + מפלים",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "אגם טנו - שעה סביב האגם / פיקניק",
+              "type": "attraction"
+            },
+            {
+              "time": "13:00",
+              "activity": "מפלי וארונה - חצי שעה לתצפית",
+              "type": "attraction"
+            },
+            {
+              "time": "15:00",
+              "activity": "נסיעה לדולומיטים",
+              "type": "transport"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "date": "2026-07-20",
+          "title": "אגם מולבנו",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "רכבל Pradel + Forest Park",
+              "type": "attraction"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "date": "2026-07-21",
+          "title": "שמורת מפלי נארדיס",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "אוטובוס לאורך הפארק, אפשר לרדת ולטייל",
+              "type": "attraction"
+            }
+          ]
+        },
+        {
+          "day": 8,
+          "date": "2026-07-22",
+          "title": "Meran 2000",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "מגלשת הרים + מסלולי טיול",
+              "type": "attraction"
+            }
+          ]
+        },
+        {
+          "day": 9,
+          "date": "2026-07-23",
+          "title": "Alpe di Siusi",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "דשא ופריחה, מסלולי טיולים - אפשר כמה ימים",
+              "type": "attraction"
+            }
+          ]
+        },
+        {
+          "day": 10,
+          "date": "2026-07-24",
+          "title": "מעבר הרים סלה + עמק גארדה",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "מעבר הרים סלה - תצפית מהאוטו",
+              "type": "attraction"
+            },
+            {
+              "time": "14:00",
+              "activity": "עמק גארדה - טיולים",
+              "type": "attraction"
+            }
+          ]
+        },
+        {
+          "day": 11,
+          "date": "2026-07-25",
+          "title": "Paneveggio / אגם קארזה + מגלשות",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "Paneveggio מסלול נגיש / אגם קארזה",
+              "type": "attraction"
+            },
+            {
+              "time": "14:00",
+              "activity": "מרכז Leitner - מגלשות, אבובים, גן שעשועים + רכבל",
+              "type": "attraction"
+            }
+          ]
+        },
+        {
+          "day": 12,
+          "date": "2026-07-26",
+          "title": "סאס פורדוי",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "מעבר הרים מרשים, רכבל. דרך מפותלת!",
+              "type": "attraction"
+            }
+          ]
+        },
+        {
+          "day": 13,
+          "date": "2026-07-27",
+          "title": "מרמולדה + פונטה רוקה ⭐",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "הר המרמולדה + אגם פדאיה - לא לפספס! רכבל, הר מושלג",
+              "type": "attraction"
+            },
+            {
+              "time": "14:00",
+              "activity": "פונטה רוקה - 3 רכבלים לפסגה",
+              "type": "attraction"
+            }
+          ]
+        },
+        {
+          "day": 14,
+          "date": "2026-07-28",
+          "title": "אגמים + מגלשות",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "אגם ברייס (Lago di Braies)",
+              "type": "attraction"
+            },
+            {
+              "time": "13:00",
+              "activity": "מגלשת הרים סן קנדידו",
+              "type": "attraction"
+            }
+          ]
+        },
+        {
+          "day": 15,
+          "date": "2026-07-29",
+          "title": "חוף + מעיינות חמים",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "פונטה סן ויגיליו - חוף עם משחקים",
+              "type": "attraction"
+            },
+            {
+              "time": "14:00",
+              "activity": "אקווהארדנס - מעיינות חמים + בריכת ילדים",
+              "type": "attraction"
+            }
+          ]
+        },
+        {
+          "day": 16,
+          "date": "2026-07-30",
+          "title": "מפלים + גן חיות",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "שמורת המפלים מולינה - 8 מפלים!",
+              "type": "attraction"
+            },
+            {
+              "time": "14:00",
+              "activity": "Natura Viva Zoo",
+              "type": "kids"
+            }
+          ]
+        },
+        {
+          "day": 17,
+          "date": "2026-07-31",
+          "title": "חזרה",
+          "activities": [
+            {
+              "time": "10:00",
+              "activity": "טיסה הביתה",
+              "type": "transport"
+            }
+          ]
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Gardaland",
+          "lat": 45.4567,
+          "lng": 10.7137,
+          "type": "theme-park",
+          "kidFriendly": 5,
+          "notes": "2 לילות = יומיים כניסה + SeaLife. https://www.gardaland.it/en/",
+          "link": "https://www.gardaland.it/en/"
+        },
+        {
+          "name": "פארק חבלים בוסאטה",
+          "lat": 45.876,
+          "lng": 10.843,
+          "type": "adventure-park",
+          "kidFriendly": 4,
+          "notes": "מגיל 3. ליד ריבה דל גארדה."
+        },
+        {
+          "name": "אגם טנו",
+          "lat": 45.932,
+          "lng": 10.821,
+          "type": "lake",
+          "kidFriendly": 5,
+          "notes": "שעה סביב האגם / פיקניק. עצירה בדרך לדולומיטים."
+        },
+        {
+          "name": "מפלי וארונה",
+          "lat": 45.769,
+          "lng": 10.864,
+          "type": "waterfall",
+          "kidFriendly": 3,
+          "notes": "חצי שעה לתצפית."
+        },
+        {
+          "name": "אגם מולבנו + Forest Park",
+          "lat": 46.145,
+          "lng": 10.963,
+          "type": "lake",
+          "kidFriendly": 4,
+          "notes": "רכבל Pradel.",
+          "link": "https://www.molveno.it/en/forest-park"
+        },
+        {
+          "name": "Meran 2000",
+          "lat": 46.677,
+          "lng": 11.221,
+          "type": "mountain",
+          "kidFriendly": 4,
+          "notes": "מגלשת הרים + מסלולים.",
+          "link": "https://www.meran2000.com/en/"
+        },
+        {
+          "name": "Alpe di Siusi",
+          "lat": 46.542,
+          "lng": 11.633,
+          "type": "nature",
+          "kidFriendly": 5,
+          "notes": "דשא ופריחה. אפשר כמה ימים!",
+          "link": "https://www.seiseralm.it/en/"
+        },
+        {
+          "name": "הר המרמולדה",
+          "lat": 46.434,
+          "lng": 11.856,
+          "type": "mountain",
+          "kidFriendly": 4,
+          "notes": "לא לפספס! רכבל פתוח, הר מושלג כל השנה."
+        },
+        {
+          "name": "פונטה רוקה",
+          "lat": 46.453,
+          "lng": 11.768,
+          "type": "mountain",
+          "kidFriendly": 3,
+          "notes": "3 רכבלים לפסגה. לבדוק גובה עם תינוקות."
+        },
+        {
+          "name": "אגם ברייס",
+          "lat": 46.694,
+          "lng": 12.085,
+          "type": "lake",
+          "kidFriendly": 5,
+          "notes": "אגם מדהים!"
+        },
+        {
+          "name": "מגלשת סן קנדידו",
+          "lat": 46.733,
+          "lng": 12.281,
+          "type": "attraction",
+          "kidFriendly": 4,
+          "notes": "מגלשת הרים."
+        },
+        {
+          "name": "אקווהארדנס",
+          "lat": 45.481,
+          "lng": 10.941,
+          "type": "spa",
+          "kidFriendly": 4,
+          "notes": "מעיינות חמים + בריכת ילדים. עיירה חמודה.",
+          "link": "https://www.aquardens.it/en/"
+        },
+        {
+          "name": "שמורת מפלים מולינה",
+          "lat": 45.576,
+          "lng": 10.967,
+          "type": "waterfall",
+          "kidFriendly": 4,
+          "notes": "מסלול בין 8 מפלים!"
+        },
+        {
+          "name": "סאס פורדוי",
+          "lat": 46.491,
+          "lng": 11.813,
+          "type": "mountain",
+          "kidFriendly": 3,
+          "notes": "מרשים. דרך מפותלת. מסלולים לא בטוח שמתאימים לילדים."
+        },
+        {
+          "name": "פונטה סן ויגיליו",
+          "lat": 45.585,
+          "lng": 10.713,
+          "type": "beach",
+          "kidFriendly": 5,
+          "notes": "חוף בתשלום עם משחקים לקטנים."
+        },
+        {
+          "name": "Natura Viva Zoo",
+          "lat": 45.465,
+          "lng": 10.757,
+          "type": "zoo",
+          "kidFriendly": 4,
+          "notes": "גן חיות.",
+          "link": "https://www.parconaturaviva.it/en/"
+        }
+      ],
+      "tips": [
+        "גארדלנד: 2 לילות = 2 ימי כניסה + SeaLife",
+        "הדולומיטים: לבדוק גובה מותר עם תינוקות לפני רכבלים",
+        "Alpe di Siusi: שווה כמה ימים",
+        "מרמולדה: חובה! לא לפספס",
+        "מלון מומלץ: https://www.dasmuehlwald.com/en/"
+      ],
+      "source": "google-sheets",
+      "instagram": "",
+      "googleMap": "https://www.google.com/maps/d/viewer?mid=1as-s2-efAx06DXkBRmld14fMylAgB5s"
+    },
+    {
+      "id": "crete-euphoria-2024",
+      "title": "כרתים - Euphoria Resort",
+      "location": "Chania, Crete, Greece",
+      "country": "Greece",
+      "region": "Europe",
+      "dates": {
+        "start": "2024-06-01",
+        "end": "2024-06-08"
+      },
+      "coverImage": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=800",
+      "summary": "מלון מדהים! שירות ברמה גבוהה מאוד. נהננו והילדים עפו ממש.",
+      "notes": "שורה תחתונה: מלון מדהים שירות ברמה גבוהה.\n\nחסרונות:\n1. בין ארוחת בוקר עד 12:30 אין מה לאכול חוץ מגלידה וציפס\n2. רצפת הבריכה: צריך נעלי מים - עומר נפצע כל יום\n3. שדה תעופה קטן - אין אלטרנטיבות אם בעיה בטיסה",
+      "flights": "ישראייר לחנאייה (רק ישראייר מהחברות הישראליות). Ryanair ו-Blue Bird גם טסות. שדה קטן.",
+      "hotels": [
+        {
+          "name": "Euphoria Resort",
+          "address": "Chania, Crete, Greece",
+          "lat": 35.466,
+          "lng": 24.034,
+          "nights": 7,
+          "notes": "מלון מדהים! חדרים ענקיים עם מחיצה סלון/שינה. סופר בכניסה למלון עם הכל. שירות ברמה גבוהה מאוד.",
+          "link": "https://www.euphoria-resort.com/"
+        }
+      ],
+      "schedule": [],
+      "attractions": [
+        {
+          "name": "בריכה ראשית",
+          "lat": 35.466,
+          "lng": 24.034,
+          "type": "pool",
+          "kidFriendly": 4,
+          "notes": "10:00-19:00. ענקית, רדודים+עמוקים. כניסה בירידה מתונה - מעולה. רצפה מחוספסת (חיסרון: שיפשופים - נעלי ים חובה!). שירות מלצרים."
+        },
+        {
+          "name": "פארק מים",
+          "lat": 35.4665,
+          "lng": 24.0345,
+          "type": "water-park",
+          "kidFriendly": 5,
+          "notes": "מדהים! 10:00-18:00, סגור בשלישי! מגלשות לקטנים + מגלשות גבוהות. אוכל: סופלקי, וופל בלגי, גלידה."
+        },
+        {
+          "name": "מועדון ילדים",
+          "lat": 35.4655,
+          "lng": 24.0335,
+          "type": "kids-club",
+          "kidFriendly": 4,
+          "notes": "10:00-18:00, מגיל 4 ללא הורים. למעלה: בריכת כדורים + משחקים עד גיל 2."
+        }
+      ],
+      "tips": [
+        "נסיעה משדה: 45 דק, מונית 45€",
+        "בריכה: חובה נעלי ים! עומר נפצע כל יום מהרצפה",
+        "פארק מים סגור בשלישי!",
+        "מסעדות: שבוע=3 חינם, 4 לילות=1. להזמין מראש מהארץ!",
+        "אסייתית טעימה (סושי+דגים) אבל לא לילדים",
+        "בופה איטלקי 13:00-17:30: פיצות, פסטות, ציפס ליד הבריכה",
+        "קוקטיילים מעולים! בר מיצים טריים ליד הבריכה שווה",
+        "נשנושים: תפוציפס בבר חופשי + גלידה",
+        "חדר אוכל: בוקר, צהריים 12:30, ערב 18:00",
+        "אם רוצים לובי בערב - לבקש חדרים קרובים",
+        "סופר בכניסה למלון עם הכל"
+      ],
+      "source": "notes",
+      "instagram": ""
+    },
+    {
+      "id": "bavaria-allgau-2024",
+      "title": "בוואריה - אלגוי",
+      "location": "Allgäu & Bavaria, Germany",
+      "country": "Germany",
+      "region": "Europe",
+      "dates": {
+        "start": "2024-08-07",
+        "end": "2024-08-17"
+      },
+      "coverImage": "https://images.unsplash.com/photo-1527668752968-14dc70a27c95?w=800",
+      "summary": "שבוע בבוואריה - מגלשות הרים, פארקי שעשועים, נקיקים ושוקולד. מושלם לילדים!",
+      "notes": "אזור האלגוי בגרמניה מושלם למשפחות. מגלשות הרים בכל פינה, פארקי חבלים, ונופים מדהימים.",
+      "flights": "טיסה לציריך",
+      "hotels": [],
+      "schedule": [
+        {
+          "day": "יום 1 - 7.8",
+          "activities": "נחיתה באיטליה ונסיעה 3 שעות לאינסבורק",
+          "notes": "לא מומלץ לנחות באיטליה, עדיף לנחות במינכן ולחסוך את היום"
+        },
+        {
+          "day": "יום 2 - 8.8",
+          "activities": "לגולנד",
+          "notes": "מלון של לגולנד - כרטיס ליומיים. שווה לעשות Fast Pass ליום אחד. יש מלא מתקנים לגילאי 3-5. מתקנים נסגרים ב-18:00, הפארק ב-19:00"
+        },
+        {
+          "day": "יום 3 - 9.8",
+          "activities": "לגולנד + נסיעה למלון Mondi",
+          "notes": ""
+        },
+        {
+          "day": "יום 4 - 10.8",
+          "activities": "Räuber Kasimirweg - שביל הגנבים",
+          "notes": "מסלול מעגלי עם מסלול כדורים (צריך 50 סנט). מוצל וחמוד, מקבלים תעודה ומטבע. אין מקום לקנות ארטיק אחרי! אח\"כ בריכה וגימבורי במלון"
+        },
+        {
+          "day": "יום 5 - 11.8",
+          "activities": "Alpsee Bergwelt",
+          "notes": "רכבל פתוח עם נוף מהמם. רוב עולים ברכבל ויורדים במגלשת הרים - תורים ארוכים! למעלה: פארק חבלים (מגיל 6), גן שעשועים מעץ מדהים, 2 מסעדות. חזרנו ב-17:00 כולל שעה+ תור למגלשה - אבל שווה!"
+        },
+        {
+          "day": "יום 6 - 12.8",
+          "activities": "Breitachklamm",
+          "notes": "מסלול בנקיק: 45 דק הלוך + 30 דק חזור (מסלול קצר עם עליות, מוצל וביער). עומר הלך רוב הדרך. 4€ מזומן לחניה"
+        },
+        {
+          "day": "יום 7 - 13.8",
+          "activities": "Sommerrodelbahn Hündle + אגם Alpsee",
+          "notes": "רכבל סגור (מתאים לעגלות), מסלולים למעלה, מגלשת הרים, גן שעשועים ומקפצות. אח\"כ אגם Alpsee - מהמם לרחצה, חניה ציבורית (מטבעות), טיילת, מיניגולף, דק מוצל"
+        },
+        {
+          "day": "יום 7 - 14.8",
+          "activities": "Skywalk Allgäu",
+          "notes": "פארק צמרות עצים מדהים! גשרים גבוהים, נוף מהמם, גשר אגרי + מגלשה בסוף. מסלול ביער עם תחנות לילדים. להביא חצי יורו לכדור. מקום מומלץ מאוד!"
+        },
+        {
+          "day": "יום 8 - 15.8",
+          "activities": "Pfänder",
+          "notes": "רכבל גדול סגור, מסלול חיות, מקפצות, גן שעשועים. מאוד תיירותי - בדיעבד הייתי עושה משהו אחר. אח\"כ ישבנו על הדשא ליד האגם"
+        },
+        {
+          "day": "יום 9 - 16.8",
+          "activities": "נסיעה לאיטליה",
+          "notes": ""
+        },
+        {
+          "day": "יום 10 - 17.8",
+          "activities": "טיסה לארץ",
+          "notes": ""
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Chocolarium",
+          "lat": 47.453,
+          "lng": 9.35,
+          "type": "museum",
+          "kidFriendly": 5,
+          "notes": "מפעל שוקולד עם סיור שווה!",
+          "link": "https://www.chocolarium.ch/en"
+        },
+        {
+          "name": "Pfänder",
+          "lat": 47.51,
+          "lng": 9.785,
+          "type": "mountain",
+          "kidFriendly": 4,
+          "notes": "רכבל סגור, מסלול חיות, מקפצות, גן שעשועים. מאוד תיירותי - בדיעבד הייתי עושה משהו אחר",
+          "link": "https://www.google.com/maps/search/?api=1&query=47.51,9.785"
+        },
+        {
+          "name": "Alpsee Bergwelt",
+          "lat": 47.567,
+          "lng": 10.227,
+          "type": "adventure-park",
+          "kidFriendly": 5,
+          "notes": "רכבל פתוח + מגלשת הרים (תורים ארוכים!). למעלה: פארק חבלים (מגיל 6), גן שעשועים מעץ מדהים, 2 מסעדות. יום מגניב!",
+          "link": "https://www.alpsee-bergwelt.de/en/"
+        },
+        {
+          "name": "Allgäu Coaster",
+          "lat": 47.366,
+          "lng": 10.26,
+          "type": "attraction",
+          "kidFriendly": 5,
+          "notes": "רכבל, מסלול הליכה עם כדורי עץ, מגלשת הרים.",
+          "link": "https://www.google.com/maps/search/?api=1&query=47.366,10.26"
+        },
+        {
+          "name": "Breitachklamm",
+          "lat": 47.353,
+          "lng": 10.229,
+          "type": "nature",
+          "kidFriendly": 3,
+          "notes": "מסלול בנקיק: 45 דק הלוך + 30 דק חזור. מוצל וביער. 4€ מזומן לחניה",
+          "link": "https://www.breitachklamm.com/"
+        },
+        {
+          "name": "Ravensburger Spieleland",
+          "lat": 47.723,
+          "lng": 9.573,
+          "type": "theme-park",
+          "kidFriendly": 5,
+          "notes": "פארק שעשועים מתאים לגילאים קטנים!",
+          "link": "https://www.ravensburger-spieleland.de/en/"
+        },
+        {
+          "name": "Skywalk Allgäu",
+          "lat": 47.588,
+          "lng": 9.955,
+          "type": "adventure-park",
+          "kidFriendly": 5,
+          "notes": "פארק צמרות עצים מדהים! גשרים, נוף, גשר אגרי + מגלשה. מסלול ביער עם תחנות לילדים. להביא חצי יורו לכדור. מומלץ מאוד!",
+          "link": "https://www.skywalk-allgaeu.de/en/"
+        },
+        {
+          "name": "Räuber Kasimirweg",
+          "lat": 47.42,
+          "lng": 10.08,
+          "type": "trail",
+          "kidFriendly": 5,
+          "notes": "מסלול מעגלי עם מסלול כדורים (צריך 50 סנט). מוצל וחמוד, מקבלים תעודה ומטבע. אין מקום לקנות ארטיק אחרי!",
+          "link": "https://www.google.com/maps/search/?api=1&query=47.42,10.08"
+        },
+        {
+          "name": "Sommerrodelbahn Hündle",
+          "lat": 47.518,
+          "lng": 10.053,
+          "type": "attraction",
+          "kidFriendly": 4,
+          "notes": "רכבל סגור (מתאים לעגלות), מגלשת הרים, גן שעשועים ומקפצות. מסלול למפל למעלה (להביא מים)",
+          "link": "https://www.google.com/maps/search/?api=1&query=47.518,10.053"
+        },
+        {
+          "name": "Legoland Germany",
+          "lat": 48.426,
+          "lng": 10.298,
+          "type": "theme-park",
+          "kidFriendly": 5,
+          "notes": "מלון לגולנד - כרטיס ליומיים. שווה Fast Pass ליום אחד. מלא מתקנים לגילאי 3-5. מתקנים נסגרים ב-18:00",
+          "link": "https://www.legoland.de/en/"
+        },
+        {
+          "name": "Leutaschklamm",
+          "lat": 47.373,
+          "lng": 11.147,
+          "type": "nature",
+          "kidFriendly": 4,
+          "notes": "נקיק - 3 מסלולים לבחור. https://www.leutaschklamm.com/",
+          "link": "https://www.leutaschklamm.com/"
+        },
+        {
+          "name": "Leutaschklamm (נקיק)",
+          "type": "attraction",
+          "lat": 47.373,
+          "lng": 11.147,
+          "kidFriendly": 4,
+          "notes": "לא הספקנו. 3 מסלולים לבחירה",
+          "link": "https://www.leutaschklamm.com/"
+        },
+        {
+          "name": "WONNEMAR Sonthofen",
+          "type": "kids",
+          "lat": 47.514,
+          "lng": 10.283,
+          "kidFriendly": 4,
+          "notes": "לא הספקנו. בריכות חיצוניות ופנימיות",
+          "link": ""
+        },
+        {
+          "name": "Aquaria Erlebnisbad",
+          "type": "kids",
+          "lat": 47.543,
+          "lng": 10.22,
+          "kidFriendly": 4,
+          "notes": "לא הספקנו. בריכות חיצוניות ופנימיות",
+          "link": ""
+        },
+        {
+          "name": "אגם Alpsee",
+          "type": "attraction",
+          "lat": 47.575,
+          "lng": 10.221,
+          "kidFriendly": 5,
+          "notes": "אגם מהמם לרחצה. חניה ציבורית (מטבעות), טיילת, מיניגולף, דק מוצל",
+          "link": ""
+        }
+      ],
+      "tips": [
+        "לא מומלץ לנחות באיטליה - עדיף מינכן וחוסכים יום נסיעה",
+        "לגולנד: שווה Fast Pass ליום אחד, אפשר לסיים ביומיים, מתקנים נסגרים ב-18:00",
+        "Räuber Kasimirweg: להביא מטבע 50 סנט, אין מקום לקנות אוכל אחרי",
+        "Alpsee Bergwelt: תורים ארוכים למגלשת הרים - לתכנן זמנים",
+        "Breitachklamm: 4€ מזומן לחניה",
+        "Hündle: רכבל סגור מתאים לעגלות, יש מסלול למפל (להביא מים)",
+        "Skywalk Allgäu: להביא חצי יורו לכדור לילדים",
+        "Pfänder: מאוד תיירותי, בדיעבד עדיף משהו אחר",
+        "אגם Alpsee: חניה ציבורית צריך מטבעות, מהמם לרחצה"
+      ],
+      "source": "google-sheets",
+      "instagram": [
+        "https://www.instagram.com/stories/highlights/18041752018825210/",
+        "https://www.instagram.com/stories/highlights/18025099133090213/"
+      ],
+      "googleMap": "https://www.google.com/maps/d/viewer?mid=1tdmwTdENqhWuVnq8lcb73BjYGouuD5I"
+    },
+    {
+      "id": "austria-2021",
+      "title": "אוסטריה - זלצבורג ווינה",
+      "location": "Salzburg, Kaprun & Vienna, Austria",
+      "country": "Austria",
+      "region": "Europe",
+      "dates": {
+        "start": "2021-08-31",
+        "end": "2021-09-13"
+      },
+      "coverImage": "https://images.unsplash.com/photo-1609788063095-d71bf3c1f01f?w=800",
+      "summary": "שבועיים באוסטריה - מאגרי מים, מפלים, דרך גרוסגלונקר, רכבלים ווינה. עומר בן שנה וחצי.",
+      "notes": "כל המסלול מבוסס על ספר 'משפחה מטיילת אוסטריה'. לא הייתי קונה אבל נוח להשאיל - לכל אטרקציה יש QR code לוויז. כרטיס זלצבורג לא השתלם כי עומר לא שילם באף אטרקציה (בן 1.5).",
+      "flights": "טיסה לוינה + חזרה 20:15",
+      "hotels": [
+        {
+          "name": "MOXY Vienna Airport",
+          "address": "Vienna Airport, Austria",
+          "lat": 48.1153,
+          "lng": 16.5655,
+          "nights": 1,
+          "notes": "מלון מגניב ממש במרחק הליכה מהשדה. קרוב להשכרת רכב.",
+          "link": "https://www.marriott.com/hotels/travel/vieal-moxy-vienna-airport/"
+        },
+        {
+          "name": "Landhaus & Haus Rustika",
+          "address": "Wagrain, Austria",
+          "lat": 47.334,
+          "lng": 13.303,
+          "nights": 10,
+          "notes": "אחלה! גינה, בריכה חיצונית, ארגז חול, דשא, מתקנים, כמה חיות, שירותי כביסה 8€. מקבלים כרטיס כניסה לפארק מים של העיירה לכל הימים בחינם! עדיף קומת קרקע."
+        }
+      ],
+      "schedule": [
+        {
+          "day": 1,
+          "date": "2021-08-31",
+          "title": "טיסה לוינה",
+          "activities": [
+            {
+              "time": "22:00",
+              "activity": "טיסה לוינה, לינה MOXY ליד השדה",
+              "type": "transport"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "date": "2021-09-01",
+          "title": "וינה → פלכאו",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "לקיחת רכב Avis",
+              "type": "transport"
+            },
+            {
+              "time": "11:00",
+              "activity": "DerWildeberg - גן חיות ומשחקים בדרך (אוטובוס למעלה)",
+              "type": "attraction"
+            },
+            {
+              "time": "16:00",
+              "activity": "הגעה למלון בווגראיין",
+              "type": "hotel"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "date": "2021-09-02",
+          "title": "מאגרי המים בקפרון ⭐",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "Hochgebirgsstauseen - אגמי טורקיז! חניון קומה 11, אוטובוס→רכבל→אוטובוס. שביל עשבים שעה חזרה (צריך מנשא)",
+              "type": "attraction"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "date": "2021-09-03",
+          "title": "מפלי קרימל + עולם המים",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "מפלי קרימל - הגבוהים באירופה! חניה P4, מונית למעלה, ירידה 2 שעות",
+              "type": "attraction"
+            },
+            {
+              "time": "14:00",
+              "activity": "עולם המים בקרימל - שעשועי מים",
+              "type": "kids"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "date": "2021-09-04",
+          "title": "דכשטיין - תצפית 5 האצבעות",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "רכבל דכשטיין - מסלול חצי שעה לתצפית נוף מטורף! (מנשא, לא עגלה)",
+              "type": "attraction"
+            },
+            {
+              "time": "14:00",
+              "activity": "האלשטט - עיירה מתויירת (לא התלהבנו)",
+              "type": "attraction"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "date": "2021-09-05",
+          "title": "ערוץ + גן חיות",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "Sigmund-Thun-Klamm - הליכה בערוץ + אגם מעגלי (2 שעות)",
+              "type": "attraction"
+            },
+            {
+              "time": "14:00",
+              "activity": "Wild & Adventure Park Ferleiten - גן חיות + משחקים (כל מתקן 2€, צריך מטבעות)",
+              "type": "kids"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "date": "2021-09-06",
+          "title": "אגם Gosau + מגלשת הרים",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "אגם Gosau - הליכה שעה סביב (אפשר עגלה) + רכבל",
+              "type": "attraction"
+            },
+            {
+              "time": "13:00",
+              "activity": "Karkogelhütte Abtenau - מגלשת הרים 2 קמ! אפשר עם ילד בן 1.5",
+              "type": "attraction"
+            },
+            {
+              "time": "15:00",
+              "activity": "Gollinger Wasserfall - מפל, עלייה במדרגות שעה הלוך חזור (לא עגלה)",
+              "type": "attraction"
+            }
+          ]
+        },
+        {
+          "day": 8,
+          "date": "2021-09-07",
+          "title": "הר הרוחות + פארק מים",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "Geisterberg - הר הרוחות. מומלץ מגיל 2-3. עלייה 15 דק, אפשר עגלה",
+              "type": "attraction"
+            },
+            {
+              "time": "14:00",
+              "activity": "פארק המים בווגראיין (חינם עם כרטיס המלון!)",
+              "type": "kids"
+            }
+          ]
+        },
+        {
+          "day": 9,
+          "date": "2021-09-08",
+          "title": "דרך גרוסגלונקר ⭐⭐",
+          "activities": [
+            {
+              "time": "08:00",
+              "activity": "דרך גרוסגלונקר - דרך נוף מהממת! יום שלם, נסיעה עם עצירות, בסוף קרחון!",
+              "type": "attraction"
+            }
+          ]
+        },
+        {
+          "day": 10,
+          "date": "2021-09-09",
+          "title": "אופניים + פארק מים",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "טיול אופניים 6 קמ לאגם פלאכאו (לבדוק עם המלון אם יש להשאלה)",
+              "type": "attraction"
+            },
+            {
+              "time": "14:00",
+              "activity": "פארק המים בווגראיין",
+              "type": "kids"
+            }
+          ]
+        },
+        {
+          "day": 11,
+          "date": "2021-09-10",
+          "title": "דכשטיין צד 2 - גשר תלוי",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "דכשטיין - גשר תלוי + מדרגות לשום מקום! מסלול שעה + מסעדה עם משחקים",
+              "type": "attraction"
+            },
+            {
+              "time": "14:00",
+              "activity": "רכבל Grafenberg - סטייל הר הרוחות, עליות רציניות אבל אפשר עגלה",
+              "type": "attraction"
+            }
+          ]
+        },
+        {
+          "day": 12,
+          "date": "2021-09-11",
+          "title": "נסיעה לוינה",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "נסיעה לוינה",
+              "type": "transport"
+            }
+          ]
+        },
+        {
+          "day": 13,
+          "date": "2021-09-12",
+          "title": "וינה - גן חיות + אקווריום",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "גן חיות Schönbrunn - שווה ומהמם!",
+              "type": "attraction"
+            },
+            {
+              "time": "14:00",
+              "activity": "Haus des Meeres - אקווריום 9 קומות + תצפית 360 על וינה",
+              "type": "attraction"
+            },
+            {
+              "time": "17:00",
+              "activity": "פארק פרטנר - קצת של פעם, כל מתקן כמה יורו",
+              "type": "kids"
+            }
+          ]
+        },
+        {
+          "day": 14,
+          "date": "2021-09-13",
+          "title": "קניות + טיסה",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "SCS קניון ענק - פריימארק, עגלות אוטו לילדים, משחקניות",
+              "type": "attraction"
+            },
+            {
+              "time": "18:00",
+              "activity": "טיסה לישראל 20:15",
+              "type": "transport"
+            }
+          ]
+        }
+      ],
+      "attractions": [
+        {
+          "name": "DerWildeberg",
+          "lat": 47.591,
+          "lng": 14.048,
+          "type": "zoo",
+          "kidFriendly": 4,
+          "notes": "גן חיות + משחקים. לבדוק שעות אוטובוס (רכבל פתוח מפחיד עם בן 1.5)."
+        },
+        {
+          "name": "Hochgebirgsstauseen Kaprun",
+          "lat": 47.183,
+          "lng": 12.722,
+          "type": "nature",
+          "kidFriendly": 4,
+          "notes": "אגמי טורקיז מדהימים! טיפ: חניון קומה 11! משם אוטובוס→רכבל→אוטובוס. שביל עשבים שעה (צריך מנשא).",
+          "link": "https://www.verbund.com/en-at/about-verbund/power-plants/our-power-plants/kaprun-hochgebirgsstauseen"
+        },
+        {
+          "name": "מפלי קרימל",
+          "lat": 47.208,
+          "lng": 12.178,
+          "type": "waterfall",
+          "kidFriendly": 4,
+          "notes": "הגבוהים באירופה! חניה P4, מונית למעלה, ירידה 2 שעות. אפשר עם מנשא.",
+          "link": "https://www.wasserfaelle-krimml.at/en/"
+        },
+        {
+          "name": "דכשטיין - 5 אצבעות",
+          "lat": 47.474,
+          "lng": 13.607,
+          "type": "mountain",
+          "kidFriendly": 4,
+          "notes": "רכבל + מסלול חצי שעה לתצפית מטורפת! מנשא עדיף."
+        },
+        {
+          "name": "דכשטיין - גשר תלוי",
+          "lat": 47.453,
+          "lng": 13.61,
+          "type": "mountain",
+          "kidFriendly": 4,
+          "notes": "גשר תלוי + מדרגות לשום מקום. מסלול שעה + מסעדה עם משחקים למטה."
+        },
+        {
+          "name": "Sigmund-Thun-Klamm",
+          "lat": 47.276,
+          "lng": 12.746,
+          "type": "nature",
+          "kidFriendly": 4,
+          "notes": "הליכה בערוץ + אגם מעגלי. 2 שעות. צריך קפוצון!",
+          "link": "https://www.sigmundthunklamm.at/"
+        },
+        {
+          "name": "Grossglockner Road",
+          "lat": 47.077,
+          "lng": 12.842,
+          "type": "scenic-drive",
+          "kidFriendly": 4,
+          "notes": "דרך נוף מהממת!!! יום שלם. בסוף קרחון!",
+          "link": "https://www.grossglockner.at/gg/en/"
+        },
+        {
+          "name": "מגלשת Karkogelhütte",
+          "lat": 47.462,
+          "lng": 13.352,
+          "type": "attraction",
+          "kidFriendly": 5,
+          "notes": "מגלשת הרים 2 קמ! אפשר עם ילד בן 1.5."
+        },
+        {
+          "name": "Geisterberg - הר הרוחות",
+          "lat": 47.334,
+          "lng": 13.2,
+          "type": "attraction",
+          "kidFriendly": 4,
+          "notes": "מומלץ מגיל 2-3. עלייה 15 דק, אפשר עגלה.",
+          "link": "https://www.geisterberg.at/"
+        },
+        {
+          "name": "האלשטט",
+          "lat": 47.5622,
+          "lng": 13.6493,
+          "type": "town",
+          "kidFriendly": 3,
+          "notes": "עיירה סופר מתויירת. לא התלהבנו אבל רוב האנשים אוהבים."
+        },
+        {
+          "name": "Ferleiten Wildlife Park",
+          "lat": 47.153,
+          "lng": 12.806,
+          "type": "zoo",
+          "kidFriendly": 4,
+          "notes": "גן חיות + משחקים. כל מתקן 2€ צריך מטבעות. בתחילת דרך גרוסגלונקר.",
+          "link": "https://www.wildparkferleiten.at/"
+        },
+        {
+          "name": "אגם Gosau",
+          "lat": 47.535,
+          "lng": 13.5,
+          "type": "lake",
+          "kidFriendly": 4,
+          "notes": "הליכה שעה סביב (אפשר עגלה). רכבל צמוד."
+        },
+        {
+          "name": "גן חיות Schönbrunn",
+          "lat": 48.1823,
+          "lng": 16.302,
+          "type": "zoo",
+          "kidFriendly": 5,
+          "notes": "שווה ומהמם!",
+          "link": "https://www.zoovienna.at/en/"
+        },
+        {
+          "name": "Haus des Meeres",
+          "lat": 48.197,
+          "lng": 16.353,
+          "type": "aquarium",
+          "kidFriendly": 4,
+          "notes": "אקווריום 9 קומות (יש מעלית). למעלה תצפית 360 על וינה!",
+          "link": "https://www.haus-des-meeres.at/en/"
+        },
+        {
+          "name": "Gollinger Wasserfall",
+          "lat": 47.592,
+          "lng": 13.168,
+          "type": "waterfall",
+          "kidFriendly": 3,
+          "notes": "מפל, עלייה במדרגות שעה. לא אפשר עגלה. מוצל וחמוד."
+        }
+      ],
+      "tips": [
+        "ספר 'משפחה מטיילת אוסטריה' - שווה להשאיל, QR code לוויז בכל אטרקציה",
+        "כרטיס זלצבורג - משתלם רק אם יש ילדים שמשלמים (מעל גיל 2)",
+        "סופר: הכל נסגר עד 18:00!!!",
+        "MOXY Vienna Airport - מגניב ובמרחק הליכה מהשדה",
+        "מלון Rustika: כרטיס כניסה חינם לפארק מים של העיירה!",
+        "Der Reinerhof בפלכאו - מלון מומלץ לחברים, לדבר ישירות ולא דרך בוקינג",
+        "דכשטיין: 2 צדדים רחוקים אחד מהשני! לתכנן ביומים שונים",
+        "Hochgebirgsstauseen: לחנות בקומה 11!",
+        "מפלי קרימל: חניה P4, מונית למעלה",
+        "דרך גרוסגלונקר: רק ביום יפה! יום שלם",
+        "אופניים להשכרה: 75€ חצי יום (חשמליים), לבדוק עם המלון",
+        "לקחת 2 מזוודות + עגלה פשוטה + כיסא בטיחותי (חברות ההשכרה לא מתחייבות)",
+        "רישיון בינלאומי - לא ביקשו אבל לקחת",
+        "ימי גשם: מוזיאון צעצועים / Haus der Natur / קניון יורופארק (סגור בראשון)"
+      ],
+      "source": "google-sheets",
+      "instagram": "https://www.instagram.com/stories/highlights/17905306073141387/",
+      "googleMap": "https://www.google.com/maps/d/viewer?mid=1dQYNgOHK8Etmxr0zhXgG3UEDJiL4tMce"
+    },
+    {
+      "id": "south-tyrol-2024",
+      "title": "דרום טירול - אגם גארדה",
+      "location": "South Tyrol, Italy",
+      "country": "Italy",
+      "region": "Europe",
+      "dates": {
+        "start": "2024-10-16",
+        "end": "2024-10-23"
+      },
+      "coverImage": "https://www.telegraph.co.uk/content/dam/travel/Spark/tui-lakes-and-mountains/lake-garda-with-mountains.jpg?impolicy=OG-Standard",
+      "summary": "שבוע בדרום טירול - רכבלים, פארקי חבלים, מסלולי טיול חוויתיים ונופים מטורפים.",
+      "notes": "מלון עם מסלולי טיול ישירות ממנו. עומר בן 4. רונה עוד לא נולדה.",
+      "flights": "טיסה לוורונה, נחיתה 16:05. חזרה 17:05.",
+      "hotels": [],
+      "schedule": [
+        {
+          "day": 1,
+          "date": "2024-10-16",
+          "title": "נחיתה ונסיעה למלון",
+          "activities": [
+            {
+              "time": "16:05",
+              "activity": "נחיתה בוורונה, נסיעה 3 שעות למלון",
+              "type": "transport"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "date": "2024-10-17",
+          "title": "Skytrek - פארק חבלים",
+          "activities": [
+            {
+              "time": "10:00",
+              "activity": "Skytrek High Ropes Course - פארק חבלים מתאים לעומר",
+              "type": "attraction"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "date": "2024-10-18",
+          "title": "Via Ferrata",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "Lampskopf Via Ferrata - לבדוק עם המלון ציוד ומדריך. עומר במלון",
+              "type": "attraction"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "date": "2024-10-19",
+          "title": "Rosskopf - רכבל",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "Rosskopf - רכבל, מסלול חוויתי לעומר, נדנדה עם נוף מטורף!",
+              "type": "attraction"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "date": "2024-10-20",
+          "title": "Meran 2000",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "Meran 2000 - רכבל, מסלולי טיול, אטרקציות ומגלשת הרים (שעה וחצי נסיעה)",
+              "type": "attraction"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "date": "2024-10-21",
+          "title": "Ratschings Mountain Adventure",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "Ratschings Mountain Adventure World - רכבל, מסלולי הליכה, פעילויות לעומר",
+              "type": "attraction"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "date": "2024-10-22",
+          "title": "מסלול מהמלון",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "מסלול טיול מהמלון / יום במלון",
+              "type": "attraction"
+            }
+          ]
+        },
+        {
+          "day": 8,
+          "date": "2024-10-23",
+          "title": "חזרה",
+          "activities": [
+            {
+              "time": "11:00",
+              "activity": "יציאה מהמלון, נסיעה לשדה, טיסה 17:05",
+              "type": "transport"
+            }
+          ]
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Skytrek High Ropes Course",
+          "lat": 46.901,
+          "lng": 11.432,
+          "type": "adventure-park",
+          "kidFriendly": 4,
+          "notes": "פארק חבלים מתאים לעומר. רביעי-ראשון 10:00-18:00. https://www.skytrek.it/home-en/",
+          "link": "https://www.skytrek.it/home-en/"
+        },
+        {
+          "name": "Rosskopf",
+          "lat": 46.953,
+          "lng": 11.356,
+          "type": "mountain",
+          "kidFriendly": 5,
+          "notes": "רכבל עם מסלול חוויתי לעומר + נדנדה עם נוף מטורף! רכבת הרים נסגרת 13.10. https://www.rosskopf.com/en/summer/rossy-walk.html",
+          "link": "https://www.rosskopf.com/en/"
+        },
+        {
+          "name": "Meran 2000",
+          "lat": 46.677,
+          "lng": 11.221,
+          "type": "mountain",
+          "kidFriendly": 5,
+          "notes": "רכבל, מסלולי טיול, אטרקציות ומגלשת הרים. שעה וחצי נסיעה מהמלון. שווה ממש!",
+          "link": "https://www.meran2000.com/en/"
+        },
+        {
+          "name": "Ratschings Mountain Adventure World",
+          "lat": 46.888,
+          "lng": 11.383,
+          "type": "adventure-park",
+          "kidFriendly": 5,
+          "notes": "רכבל, מסלולי הליכה, גנים ופעילויות לעומר. https://www.ratschings-jaufen.it/en/",
+          "link": "https://www.ratschings-jaufen.it/en/"
+        },
+        {
+          "name": "Gilfenklamm Gorge",
+          "lat": 46.895,
+          "lng": 11.445,
+          "type": "nature",
+          "kidFriendly": 3,
+          "notes": "מסלול הליכה בנקיק. אפשר לשלב עם סיור בעיירה ברסאנונה."
+        },
+        {
+          "name": "Bärenbachl Water & Adventure Park",
+          "lat": 47.083,
+          "lng": 11.458,
+          "type": "adventure-park",
+          "kidFriendly": 4,
+          "notes": "מתאים בעיקר לעומר. https://www.bergeralm.net/en/prices/",
+          "link": "https://www.bergeralm.net/en/"
+        },
+        {
+          "name": "Lampskopf Via Ferrata",
+          "lat": 46.92,
+          "lng": 11.41,
+          "type": "climbing",
+          "kidFriendly": 1,
+          "notes": "ויה פרטה - לבדוק ציוד ומדריך עם המלון."
+        }
+      ],
+      "tips": [
+        "מסלולים מהמלון: Waterfall trail Pflerschtal (6 קמ, 2 שעות), Stroll across the valley (מתאים לעגלות), Alriss route (6 קמ, 2 שעות, עגלות)",
+        "Rosskopf: רכבת ההרים נסגרת 13.10!",
+        "Skytrek: פתוח רביעי-ראשון 10:00-18:00",
+        "Meran 2000: שעה וחצי נסיעה מהמלון"
+      ],
+      "source": "google-sheets",
+      "instagram": "https://www.instagram.com/stories/highlights/18048572267251977/",
+      "googleMap": "https://www.google.com/maps/d/viewer?mid=1as-s2-efAx06DXkBRmld14fMylAgB5s"
+    },
+    {
+      "id": "thailand-phuket-2022",
+      "title": "תאילנד - פוקט וריילי ביץ'",
+      "location": "Phuket & Krabi, Thailand",
+      "country": "Thailand",
+      "region": "Asia",
+      "dates": {
+        "start": "2022-09-20",
+        "end": "2022-10-09"
+      },
+      "coverImage": "https://images.unsplash.com/photo-1519451241324-20b4ea2c4220?w=800",
+      "summary": "3 שבועות בתאילנד - פוקט, קולאק, ריילי ביץ'. זוג + עומר בן 2.5. מלונות ברמה גבוהה, פארק מים מטורף, וטיפוס בריילי.",
+      "notes": "עונה רטובה באזור פוקט - חוץ מ-3 ימים שהייתה סערה, רוב הימים מעוננים או שמש עם גשם סביב 17:00. לא הפריע. בריילי ביץ' הייתה שמש מטורפת.",
+      "flights": "אתיחד דרך אבו דאבי (3 שעות קונקשיין). חזרה: 10 שעות קונקשיין באבו דאבי (לקחנו חדר בשדה - להזמין מראש!). בנגקוק→פוקט, קראבי→בנגקוק טיסות פנימיות.",
+      "hotels": [
+        {
+          "name": "InterContinental Phuket",
+          "address": "Kamala Beach, Phuket",
+          "lat": 7.955,
+          "lng": 98.281,
+          "nights": 4,
+          "notes": "מלון ברמה מאוד גבוהה. חדרים גדולים, נקי בטירוף, ארוחת בוקר מטורפת. מסעדות ערב יקרות. בר חוף יקר אבל סביר עם אוכל טוב ופיצות. לא מותאם לעגלות (מדרגות לחוף). 3 בריכות, חדר משחקים חמוד. לכיוון קפה דל מר דרך הים - טיילת עם מסעדות ומסאג'ים במחירי תאילנד.",
+          "link": "https://www.ihg.com/intercontinental/hotels/us/en/phuket/hktka/hoteldetail"
+        },
+        {
+          "name": "The Sands Khao Lak",
+          "address": "Khao Lak, Thailand",
+          "lat": 8.656,
+          "lng": 98.243,
+          "nights": 3,
+          "notes": "מושלם לילדים! פארק מים - מסלול אבובים + 2 מגלשות כיפיות. חדר משחקים מטורף עם גימבורי. פשוט יותר - שומעים חדרים אחרים. ארוחת בוקר פשוטה. לא יקר - לקחנו חדר על הבריכה עם נעילה לילדים. מחוץ למלון רחוב מסעדות וחנויות.",
+          "link": "https://www.thesandskhaolak.com/"
+        },
+        {
+          "name": "The Slate Phuket",
+          "address": "Mai Khao, Phuket",
+          "lat": 8.17,
+          "lng": 98.305,
+          "nights": 5,
+          "notes": "מעוצב מגניב מאוד! בריכת ילדים ענקית + 2 בריכות מבוגרים. מסעדת מישלן (חינם אם מזמינים דרך אתר המלון 4+ לילות + הנחת ספא). ארוחת בוקר מעולה. מועדון ילדים מעאפן. צמוד לשדה אבל לא שומעים. מחוץ למלון - רחוב מסעדות, מסאג'ים וחוף ים.",
+          "link": "https://www.theslatephuket.com/"
+        },
+        {
+          "name": "Rayavadee - Railay Beach",
+          "address": "Railay Beach, Krabi",
+          "lat": 8.008,
+          "lng": 98.838,
+          "nights": 4,
+          "notes": "מלון מטורףףף! אבל יקר. ממליצה על החדר הזול (ההבדל רק טרסה). 2 קומות בחדר - הרבה מדרגות, לא ידידותי לילדים. בריכה כיפית, קיאקים וסאפ חופשי. ארוחת בוקר מעולה. מחירים גבוהים. מחוץ - רחוב מסעדות וברים כיפי במחירים רגילים. חיות (קופים, לטאות). אין מועדון ילדים. הגעה: ספיד בואט מפוקט (1.5 שעה, 20000 באט ל-4) או נסיעה 3 שעות לקראבי + בואט 900 באט.",
+          "link": "https://www.rayavadee.com/"
+        },
+        {
+          "name": "Novotel Bangkok Airport",
+          "address": "Bangkok Airport",
+          "lat": 13.71,
+          "lng": 100.75,
+          "nights": 1,
+          "notes": "ברמה נמוכה! חדרים מלוכלכים. לא מומלץ - עדיף להיכנס לעיר ולקחת מלון שווה באותו מחיר."
+        },
+        {
+          "name": "Aerotel Abu Dhabi Terminal 1",
+          "address": "Abu Dhabi Airport",
+          "lat": 24.433,
+          "lng": 54.651,
+          "nights": 1,
+          "notes": "מלון בתוך הטרמינל (קונקשיין 10 שעות). פשוט, אין חלונות, אבל עדיף מלחכות 10 שעות. להזמין מראש! השדה באבו דאבי יקר בטירוף ומעאפן."
+        }
+      ],
+      "schedule": [
+        {
+          "day": 1,
+          "date": "2022-09-20",
+          "title": "טיסה",
+          "activities": [
+            {
+              "time": "22:00",
+              "activity": "טיסה לבנגקוק דרך אבו דאבי (3 שעות קונקשיין)",
+              "type": "transport"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "date": "2022-09-22",
+          "title": "InterContinental Phuket",
+          "activities": [
+            {
+              "time": "10:00",
+              "activity": "מלון, בריכות, חוף Kamala",
+              "type": "hotel"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "date": "2022-09-24",
+          "title": "Andamanda Water Park",
+          "activities": [
+            {
+              "time": "10:00",
+              "activity": "פארק מים Andamanda - מטורף! מתאים מגיל הליכה. מתחמים לפעוטות. בארים על בריכות",
+              "type": "attraction"
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "date": "2022-09-26",
+          "title": "The Sands - פארק מים",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "The Sands Khao Lak - פארק מים + גימבורי מטורף",
+              "type": "hotel"
+            }
+          ]
+        },
+        {
+          "day": 10,
+          "date": "2022-09-29",
+          "title": "The Slate Phuket",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "The Slate - בריכת ילדים ענקית, מסעדת מישלן",
+              "type": "hotel"
+            }
+          ]
+        },
+        {
+          "day": 14,
+          "date": "2022-10-03",
+          "title": "ספיד בואט לריילי ביץ'",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "ספיד בואט לריילי עם עצירה בקו יאו נוי",
+              "type": "transport"
+            },
+            {
+              "time": "14:00",
+              "activity": "Rayavadee - מלון מטורף, קיאקים, סאפ חופשי",
+              "type": "hotel"
+            }
+          ]
+        },
+        {
+          "day": 16,
+          "date": "2022-10-05",
+          "title": "טיפוס בריילי!",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "טיפוס קירות עם מדריך 3.5 שעות - חוויה מהממת!",
+              "type": "attraction"
+            }
+          ]
+        },
+        {
+          "day": 18,
+          "date": "2022-10-07",
+          "title": "Dream World Bangkok",
+          "activities": [
+            {
+              "time": "10:00",
+              "activity": "Dream World - לונה פארק, דוכני בובות, מתקנים. עומר בעננים",
+              "type": "attraction"
+            }
+          ]
+        },
+        {
+          "day": 20,
+          "date": "2022-10-09",
+          "title": "חזרה",
+          "activities": [
+            {
+              "time": "06:00",
+              "activity": "טיסה הביתה דרך אבו דאבי (10 שעות, חדר בשדה)",
+              "type": "transport"
+            }
+          ]
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Andamanda Water Park",
+          "lat": 7.885,
+          "lng": 98.362,
+          "type": "water-park",
+          "kidFriendly": 5,
+          "notes": "פארק מים חדש ומהמם! מתחמים לפעוטות+ילדים+מבוגרים. בארים על בריכות. 10:00-19:00. כרטיס 850 באט. מצופים ילדים בפארק (אסור להביא). לוקר 150 באט. צמיד טעינה לקניות. גם בגשם!",
+          "link": "https://www.andamanda.com/"
+        },
+        {
+          "name": "Rabbit Hole Farm",
+          "lat": 8.02,
+          "lng": 98.36,
+          "type": "animals",
+          "kidFriendly": 4,
+          "notes": "חווה עם חיות קטנות - דגים, אווזים, שפנים, עזים. רכיבה על פוני. קונים אוכל בכניסה. מסעדה מגעילה 😂 הילדים מבסוטים."
+        },
+        {
+          "name": "Café del Mar",
+          "lat": 7.954,
+          "lng": 98.279,
+          "type": "restaurant",
+          "kidFriendly": 4,
+          "notes": "ביץ' קלאב עם מוסיקה, אוכל טוב ובר. בשבתות בערב מופע אש."
+        },
+        {
+          "name": "Mai Doo Bau Cafe",
+          "lat": 8.45,
+          "lng": 98.52,
+          "type": "cafe",
+          "kidFriendly": 4,
+          "notes": "בית קפה חמוד עם עלים שצפים על המים. מהמם לתמונות. עצירה בדרך לקולאק."
+        },
+        {
+          "name": "Central Festival Phuket - Aquarium",
+          "lat": 7.877,
+          "lng": 98.387,
+          "type": "mall",
+          "kidFriendly": 4,
+          "notes": "קניון ענק. אקווריום חמוד (ליום גשום). גימבורי Kidzoona משוגע!! 2 סניפים בקניון, פתוח עד 20:00. שווה בטירוף."
+        },
+        {
+          "name": "Kidzoona Phuket",
+          "lat": 7.877,
+          "lng": 98.387,
+          "type": "kids-play",
+          "kidFriendly": 5,
+          "notes": "גימבורי הכי מטורף שראיתי! 2 סניפים בקניון Central Festival, פתוח עד 20:00. שווה בטירוף."
+        },
+        {
+          "name": "טיפוס בריילי ביץ'",
+          "lat": 8.008,
+          "lng": 98.838,
+          "type": "climbing",
+          "kidFriendly": 2,
+          "notes": "מסלולי טיפוס בכל הרמות עם מדריך (3.5 שעות, 3 מבוגרים). חוויה מהממת! מטפסים גבוה, קשה אבל שווה. המדריך מעולה. הגענו בלי ניסיון והצלחנו. עומר למטה עם מישהו."
+        },
+        {
+          "name": "Dream World Bangkok",
+          "lat": 13.927,
+          "lng": 100.655,
+          "type": "theme-park",
+          "kidFriendly": 4,
+          "notes": "לונה פארק - דוכני בובות ומתקנים. חמוד. עומר בעננים. לקנות כרטיס מראש באפליקציה Klook.",
+          "link": "https://www.dreamworld.co.th/en/"
+        },
+        {
+          "name": "חוות פילים",
+          "lat": 8.01,
+          "lng": 98.38,
+          "type": "animals",
+          "kidFriendly": 2,
+          "notes": "הלכנו לחווה לא שיקומית - די מזעזע. 3 פילים, עומר לא רצה להאכיל. עדיף חווה שיקומית ולראות מרחוק."
+        }
+      ],
+      "tips": [
+        "Andamanda: כרטיס 850 באט, מצופים בפארק (אסור להביא), לוקר 150 באט, צמיד טעינה",
+        "The Slate: להזמין דרך אתר המלון (לא בוקינג!) - 4+ לילות = מישלן חינם + הנחת ספא",
+        "Rayavadee: ספיד בואט מפוקט 20,000 באט ל-4, או נסיעה 3 שעות+בואט 900 באט",
+        "Rayavadee: אפשר עצירה בקו יאו נוי בדרך - ממש כיף אם הים רגוע",
+        "Kidzoona בקניון Central Festival - גימבורי מטורף, פתוח עד 20:00",
+        "חווה שיקומית לפילים עדיף - לא חוות האכלה",
+        "Dream World: לקנות כרטיס באפליקציה Klook",
+        "קונקשיין אבו דאבי: להזמין חדר Aerotel מראש! השדה יקר ומעאפן",
+        "Novotel Bangkok Airport: לא מומלץ! עדיף מלון בעיר",
+        "עונה רטובה (ספט-אוקט): גשם בעיקר סביב 17:00, לא מפריע. עדיף קוסמוי בתאריכים אלה"
+      ],
+      "source": "pdf",
+      "instagram": [
+        "https://www.instagram.com/stories/highlights/17993855338545795/",
+        "https://www.instagram.com/stories/highlights/17911899116630325/"
+      ]
+    },
+    {
+      "id": "crete-lyttos-2026",
+      "title": "כרתים - Lyttos Beach",
+      "location": "Hersonissos, Crete, Greece",
+      "country": "Greece",
+      "region": "Europe",
+      "dates": {
+        "start": "2026-06-17",
+        "end": "2026-06-21"
+      },
+      "coverImage": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=800",
+      "summary": "חופשת all-inclusive במלון Lyttos Beach בכרתים. מלון ענק למשפחות עם פארק מים, מועדון ילדים, מרכז ספורט ומיני דיסקו.",
+      "notes": "מומלץ מאוד למשפחות עם ילדים מגיל 6+. עם קטנים עדיף מלון קטן ורגוע יותר.",
+      "flights": "",
+      "source": "הערות אישיות",
+      "instagram": "",
+      "googleMap": "",
+      "hotels": [
+        {
+          "name": "Lyttos Beach",
+          "nights": 4,
+          "address": "Hersonissos, Crete, Greece",
+          "lat": 35.3145,
+          "lng": 25.389,
+          "link": "https://www.lyttosbeach.gr/",
+          "notes": "מלון ענק למשפחות. 5+ בריכות, פארק מים גדול (מים קרים), מועדון ילדים עם ג׳ימבורי, גן שעשועים (מגיל 4+), מרכז ספורט ענק (טניס/פאדל/פיקלבול - שעה חינם ליום), מיני דיסקו כל ערב, סופרמרקט במתחם, ספא וחדר כושר. אוכל טוב למלון all-inclusive. הים גלי."
+        }
+      ],
+      "attractions": [
+        {
+          "name": "פארק מים - Lyttos Beach",
+          "type": "kids",
+          "lat": 35.3145,
+          "lng": 25.389,
+          "kidFriendly": 5,
+          "notes": "מגלשות ואטרקציות לכל הגילאים, מתחמים לקטנים, אזור אוכל עם נשנושים וגלידות. המים קרים.",
+          "link": "https://www.lyttosbeach.gr/"
+        },
+        {
+          "name": "מרכז ספורט",
+          "type": "attraction",
+          "lat": 35.3148,
+          "lng": 25.3895,
+          "kidFriendly": 4,
+          "notes": "טניס, פאדל, פיקלבול, כדורסל, כדורגל, כדורעף חופים. שעה חינם ליום כולל ציוד.",
+          "link": ""
+        },
+        {
+          "name": "מועדון ילדים",
+          "type": "kids",
+          "lat": 35.3142,
+          "lng": 25.3888,
+          "kidFriendly": 5,
+          "notes": "ג׳ימבורי ופעילויות מגוונות. גן שעשועים גדול מגיל 4+.",
+          "link": ""
+        }
+      ],
+      "schedule": [],
+      "tips": [
+        "מלון ענק - מתאים במיוחד למשפחות עם ילדים מגיל 6+",
+        "עם ילדים קטנים עדיף מלון קטן ורגוע יותר",
+        "לפחות 5 בריכות - תמיד אפשר למצוא מקום גם בעומס",
+        "קוקטיילים טובים ומבחר ברים ברחבי המלון",
+        "צוות בידור מעולה עם פעילויות כל היום",
+        "מיני דיסקו כל ערב לילדים",
+        "תוכניות ערב: קריוקי, זיהוי שירים, Just Dance",
+        "סופרמרקט בתוך המתחם עם כמעט הכל",
+        "הים גלי - פחות מתאים למי שמחפש מים שקטים",
+        "שעה חינם ליום לטניס/פאדל כולל ציוד"
+      ]
+    }
+  ]
+}

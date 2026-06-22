@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel with Kids Hub 🌍</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>🌍 Travel with Kids Hub</h1>
+            <p class="subtitle">הטיולים המשפחתיים שלנו ברחבי העולם</p>
+            <a href="https://www.google.com/maps/@46.4852228,14.9994855,959997m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="google-map-link" style="margin-top:10px;">🗺️ המפה שלנו ב-Google Maps</a>
+            <div class="family-info" id="familyInfo"></div>
+        </div>
+    </header>
+
+    <nav class="filter-bar">
+        <div class="container">
+            <button class="filter-btn active" data-filter="all">הכל</button>
+            <button class="filter-btn" data-filter="past">✅ בוצע</button>
+            <button class="filter-btn" data-filter="future">🔜 מתוכנן</button>
+            <span class="filter-divider">|</span>
+            <button class="filter-btn" data-filter="Europe">אירופה</button>
+            <button class="filter-btn" data-filter="Asia">אסיה</button>
+            <button class="filter-btn" data-filter="Americas">אמריקה</button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="trips-grid" id="tripsGrid"></section>
+
+        <section class="trip-detail hidden" id="tripDetail">
+            <button class="back-btn" id="backBtn">→ חזרה לכל הטיולים</button>
+            <div class="trip-header" id="tripHeader"></div>
+            
+            <div class="trip-tabs">
+                <button class="tab-btn active" data-tab="schedule">📅 לוח זמנים</button>
+                <button class="tab-btn" data-tab="map">🗺️ מפה</button>
+                <button class="tab-btn" data-tab="attractions">⭐ אטרקציות</button>
+                <button class="tab-btn" data-tab="notes">📝 הערות וטיפים</button>
+            </div>
+
+            <div class="tab-content" id="tabContent">
+                <div class="tab-panel active" id="schedulePanel"></div>
+                <div class="tab-panel" id="mapPanel">
+                    <div id="map" class="map-container"></div>
+                    <div class="map-legend">
+                        <span class="legend-item"><span class="dot hotel"></span> מלונות</span>
+                        <span class="legend-item"><span class="dot attraction"></span> אטרקציות</span>
+                        <span class="legend-item"><span class="dot food"></span> אוכל</span>
+                        <span class="legend-item"><span class="dot kids"></span> ילדים</span>
+                    </div>
+                </div>
+                <div class="tab-panel" id="attractionsPanel"></div>
+                <div class="tab-panel" id="notesPanel"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>✈️ נבנה באהבה למשפחות מטיילות</p>
+            <p class="small">מקורות: PDF, Google Sheets, הערות אישיות</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
