@@ -158,16 +158,30 @@ function showTripDetail(tripId) {
     const detail = document.getElementById('tripDetail');
     detail.classList.remove('hidden');
 
+    const isHotelOverview = currentTrip.hotelOverview;
+
+    // Show/hide tabs based on trip type
+    document.querySelector('[data-tab="schedule"]').style.display = isHotelOverview ? 'none' : '';
+    document.querySelector('[data-tab="map"]').style.display = isHotelOverview ? 'none' : '';
+
     renderTripHeader();
-    renderSchedule();
+    if (!isHotelOverview) {
+        renderSchedule();
+    }
     renderAttractions();
     renderNotes();
     
-    // Reset to schedule tab
+    // Reset to appropriate first tab
     document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-    document.querySelector('[data-tab="schedule"]').classList.add('active');
     document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
-    document.getElementById('schedulePanel').classList.add('active');
+    
+    if (isHotelOverview) {
+        document.querySelector('[data-tab="notes"]').classList.add('active');
+        document.getElementById('notesPanel').classList.add('active');
+    } else {
+        document.querySelector('[data-tab="schedule"]').classList.add('active');
+        document.getElementById('schedulePanel').classList.add('active');
+    }
 
     window.scrollTo(0, 0);
 }
