@@ -1991,8 +1991,8 @@
     },
     {
       "id": "south-tyrol-2024",
-      "title": "דרום טירול - אגם גארדה",
-      "location": "South Tyrol, Italy",
+      "title": "איטליה - אגם גארדה",
+      "location": "Lake Garda, Italy",
       "country": "Italy",
       "region": "Europe",
       "dates": {
@@ -2003,173 +2003,141 @@
       "summary": "שבוע בדרום טירול - רכבלים, פארקי חבלים, מסלולי טיול חוויתיים ונופים מטורפים.",
       "notes": "מלון עם מסלולי טיול ישירות ממנו. עומר בן 4. רונה עוד לא נולדה.",
       "flights": "טיסה לוורונה, נחיתה 16:05. חזרה 17:05.",
-      "hotels": [],
+      "hotels": [
+        {
+          "name": "Gardea Hotel",
+          "nights": 7,
+          "address": "Lake Garda, Italy",
+          "lat": 45.588,
+          "lng": 10.635,
+          "link": "https://www.gardeahotel.com/en/",
+          "notes": "מלון עם אוריינטציה למשפחות. חדר אוכל ברמה גבוהה (מזמינים, בופה קטן). בריכה פנימית + חיצונית מחוממת. מועדון ילדים (בלי הורים) + מועדון משחקים (עם הורים)"
+        }
+      ],
       "schedule": [
         {
-          "day": 1,
-          "date": "2024-10-16",
-          "title": "נחיתה ונסיעה למלון",
-          "activities": [
-            {
-              "time": "16:05",
-              "activity": "נחיתה בוורונה, נסיעה 3 שעות למלון",
-              "type": "transport"
-            }
-          ]
+          "day": "יום 1 - 16.10 (רביעי)",
+          "activities": "נחיתה בורונה + נסיעה למלון",
+          "notes": "טיסה נוחתת ב-16:05, שעה נסיעה למלון Gardea. סוף אוקטובר - קריר וגשום"
         },
         {
-          "day": 2,
-          "date": "2024-10-17",
-          "title": "Skytrek - פארק חבלים",
-          "activities": [
-            {
-              "time": "10:00",
-              "activity": "Skytrek High Ropes Course - פארק חבלים מתאים לעומר",
-              "type": "attraction"
-            }
-          ]
+          "day": "יום 2 - 17.10 (חמישי)",
+          "activities": "שביל פונאלה",
+          "notes": "שביל לאורך האגם, יפה ונחמד. אמור להגיע למסעדה בסוף - התחיל גשם והסתובבנו"
         },
         {
-          "day": 3,
-          "date": "2024-10-18",
-          "title": "Via Ferrata",
-          "activities": [
-            {
-              "time": "09:00",
-              "activity": "Lampskopf Via Ferrata - לבדוק עם המלון ציוד ומדריך. עומר במלון",
-              "type": "attraction"
-            }
-          ]
+          "day": "יום 3 - 18.10 (שישי)",
+          "activities": "גימבורי + Play Game + ורונה",
+          "notes": "יום גשום. טרמפולינות לגדולים, גימבורי לקטנים. אח\"כ ורונה - הסתובבנו, קניות ומסעדה"
         },
         {
-          "day": 4,
-          "date": "2024-10-19",
-          "title": "Rosskopf - רכבל",
-          "activities": [
-            {
-              "time": "09:00",
-              "activity": "Rosskopf - רכבל, מסלול חוויתי לעומר, נדנדה עם נוף מטורף!",
-              "type": "attraction"
-            }
-          ]
+          "day": "יום 4 - 19.10 (שבת)",
+          "activities": "Sea Life",
+          "notes": ""
         },
         {
-          "day": 5,
-          "date": "2024-10-20",
-          "title": "Meran 2000",
-          "activities": [
-            {
-              "time": "09:00",
-              "activity": "Meran 2000 - רכבל, מסלולי טיול, אטרקציות ומגלשת הרים (שעה וחצי נסיעה)",
-              "type": "attraction"
-            }
-          ]
+          "day": "יום 5 - 20.10 (ראשון)",
+          "activities": "מפלי ורונה + אגם טנו + Busatte פארק חבלים",
+          "notes": "מפלים יפים, תיירותי ונגיש, קצר. מסלול מעגלי שהיה מוצף. פארק חבלים - גבוה מאוד לילדים קטנים, עומר פחד. לנוער ומבוגרים אחלה"
         },
         {
-          "day": 6,
-          "date": "2024-10-21",
-          "title": "Ratschings Mountain Adventure",
-          "activities": [
-            {
-              "time": "09:00",
-              "activity": "Ratschings Mountain Adventure World - רכבל, מסלולי הליכה, פעילויות לעומר",
-              "type": "attraction"
-            }
-          ]
+          "day": "יום 6 - 21.10 (שני)",
+          "activities": "גארדה לנד + קארטינג",
+          "notes": "יום שלם בפארק שעשועים ענק! יש פארק פפה פיג לקטנים"
         },
         {
-          "day": 7,
-          "date": "2024-10-22",
-          "title": "מסלול מהמלון",
-          "activities": [
-            {
-              "time": "09:00",
-              "activity": "מסלול טיול מהמלון / יום במלון",
-              "type": "attraction"
-            }
-          ]
+          "day": "יום 7 - 22.10 (שלישי)",
+          "activities": "Monte Baldo",
+          "notes": "רכבל שקוף עם נוף מהמם! מסלול הליכה. המתבגרים עשו פרגליידינג"
         },
         {
-          "day": 8,
-          "date": "2024-10-23",
-          "title": "חזרה",
-          "activities": [
-            {
-              "time": "11:00",
-              "activity": "יציאה מהמלון, נסיעה לשדה, טיסה 17:05",
-              "type": "transport"
-            }
-          ]
+          "day": "יום 8 - 23.10 (רביעי)",
+          "activities": "טיסה חזרה",
+          "notes": "יוצאים מהמלון ב-11:00, טיסה ב-17:05"
         }
       ],
       "attractions": [
         {
-          "name": "Skytrek High Ropes Course",
-          "lat": 46.901,
-          "lng": 11.432,
-          "type": "adventure-park",
-          "kidFriendly": 4,
-          "notes": "פארק חבלים מתאים לעומר. רביעי-ראשון 10:00-18:00. https://www.skytrek.it/home-en/",
-          "link": "https://www.skytrek.it/home-en/"
-        },
-        {
-          "name": "Rosskopf",
-          "lat": 46.953,
-          "lng": 11.356,
-          "type": "mountain",
-          "kidFriendly": 5,
-          "notes": "רכבל עם מסלול חוויתי לעומר + נדנדה עם נוף מטורף! רכבת הרים נסגרת 13.10. https://www.rosskopf.com/en/summer/rossy-walk.html",
-          "link": "https://www.rosskopf.com/en/"
-        },
-        {
-          "name": "Meran 2000",
-          "lat": 46.677,
-          "lng": 11.221,
-          "type": "mountain",
-          "kidFriendly": 5,
-          "notes": "רכבל, מסלולי טיול, אטרקציות ומגלשת הרים. שעה וחצי נסיעה מהמלון. שווה ממש!",
-          "link": "https://www.meran2000.com/en/"
-        },
-        {
-          "name": "Ratschings Mountain Adventure World",
-          "lat": 46.888,
-          "lng": 11.383,
-          "type": "adventure-park",
-          "kidFriendly": 5,
-          "notes": "רכבל, מסלולי הליכה, גנים ופעילויות לעומר. https://www.ratschings-jaufen.it/en/",
-          "link": "https://www.ratschings-jaufen.it/en/"
-        },
-        {
-          "name": "Gilfenklamm Gorge",
-          "lat": 46.895,
-          "lng": 11.445,
-          "type": "nature",
+          "name": "שביל פונאלה (Ponale Trail)",
+          "type": "attraction",
+          "lat": 45.861,
+          "lng": 10.843,
           "kidFriendly": 3,
-          "notes": "מסלול הליכה בנקיק. אפשר לשלב עם סיור בעיירה ברסאנונה."
+          "notes": "שביל לאורך האגם, יפה ונחמד. מגיע למסעדה בסוף",
+          "link": ""
         },
         {
-          "name": "Bärenbachl Water & Adventure Park",
-          "lat": 47.083,
-          "lng": 11.458,
-          "type": "adventure-park",
+          "name": "Gardaland",
+          "type": "kids",
+          "lat": 45.449,
+          "lng": 10.714,
+          "kidFriendly": 5,
+          "notes": "פארק שעשועים ענק! יש פארק פפה פיג לקטנים. יום שלם",
+          "link": "https://www.gardaland.it/en/"
+        },
+        {
+          "name": "Sea Life",
+          "type": "kids",
+          "lat": 45.449,
+          "lng": 10.716,
           "kidFriendly": 4,
-          "notes": "מתאים בעיקר לעומר. https://www.bergeralm.net/en/prices/",
-          "link": "https://www.bergeralm.net/en/"
+          "notes": "",
+          "link": ""
         },
         {
-          "name": "Lampskopf Via Ferrata",
-          "lat": 46.92,
-          "lng": 11.41,
-          "type": "climbing",
-          "kidFriendly": 1,
-          "notes": "ויה פרטה - לבדוק ציוד ומדריך עם המלון."
+          "name": "מפלי ורונה (Varone Waterfall)",
+          "type": "attraction",
+          "lat": 45.887,
+          "lng": 10.863,
+          "kidFriendly": 4,
+          "notes": "יפים, תיירותי, נגיש מאוד, קצר",
+          "link": ""
+        },
+        {
+          "name": "Monte Baldo - רכבל",
+          "type": "attraction",
+          "lat": 45.725,
+          "lng": 10.855,
+          "kidFriendly": 4,
+          "notes": "רכבל שקוף עם נוף מהמם! מסלול הליכה. אפשר פרגליידינג",
+          "link": ""
+        },
+        {
+          "name": "Busatte Adventure Park",
+          "type": "kids",
+          "lat": 45.764,
+          "lng": 10.821,
+          "kidFriendly": 3,
+          "notes": "פארק חבלים - גבוה מאוד לילדים קטנים (עומר פחד). לנוער ומבוגרים מצוין",
+          "link": "https://busatteadventure.com/"
+        },
+        {
+          "name": "Play Game (טרמפולינות)",
+          "type": "kids",
+          "lat": 45.59,
+          "lng": 10.63,
+          "kidFriendly": 4,
+          "notes": "טרמפולינות לגדולים, גימבורי לקטנים. טוב ליום גשום",
+          "link": ""
+        },
+        {
+          "name": "South Garda Karting",
+          "type": "kids",
+          "lat": 45.45,
+          "lng": 10.71,
+          "kidFriendly": 4,
+          "notes": "קארטינג",
+          "link": ""
         }
       ],
       "tips": [
-        "מסלולים מהמלון: Waterfall trail Pflerschtal (6 קמ, 2 שעות), Stroll across the valley (מתאים לעגלות), Alriss route (6 קמ, 2 שעות, עגלות)",
-        "Rosskopf: רכבת ההרים נסגרת 13.10!",
-        "Skytrek: פתוח רביעי-ראשון 10:00-18:00",
-        "Meran 2000: שעה וחצי נסיעה מהמלון"
+        "סוף אוקטובר: קריר וגשום. אוגוסט חם מדי. ספטמבר/מאי-יוני עדיף",
+        "Gardea Hotel: אוכל ברמה גבוהה, מועדון ילדים בלי הורים",
+        "Gardaland: יום שלם, יש פארק פפה פיג לקטנים",
+        "Monte Baldo: רכבל שקוף מדהים, אפשר פרגליידינג",
+        "Busatte פארק חבלים: גבוה מאוד - לא מתאים לקטנים!",
+        "Play Game: אופציה טובה ליום גשום",
+        "מפלי ורונה: קצר ונגיש, שווה עצירה"
       ],
       "source": "google-sheets",
       "instagram": "https://www.instagram.com/stories/highlights/18048572267251977/",
