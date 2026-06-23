@@ -105,256 +105,163 @@
       "hotels": [
         {
           "name": "Residence Hotel Balaton",
-          "address": "Siófok, Hungary",
-          "lat": 46.905,
-          "lng": 18.048,
           "nights": 3,
-          "notes": "מלון בשיופוק עם ארוחת בוקר. ביטול עד 14.8."
+          "address": "Lake Balaton, Hungary",
+          "lat": 46.905,
+          "lng": 17.893,
+          "link": "",
+          "notes": ""
         },
         {
           "name": "Kolping Family Resort",
-          "address": "Alsópáhok, Hungary",
-          "lat": 46.787,
-          "lng": 17.179,
           "nights": 3,
-          "notes": "מלון ילדים עם חצי פנסיון.",
-          "link": "https://www.kolpinghotel.hu/"
+          "address": "Lake Balaton, Hungary",
+          "lat": 46.71,
+          "lng": 17.575,
+          "link": "https://kolpinghotel.hu/",
+          "notes": "מלון ילדים משוגע! גני שעשועים, בריכות מקורות+חיצוניות, מועדון ילדים, הפעלות כל היום, משחק מטבעות בובו. כניסה יומית ל-Funcomplex: טרמפולינות, גימבורי, נינג'ה, קירות טיפוס, לייזר, VR. אוכל פשוט אבל בסדר לילדים"
         },
         {
           "name": "7 Seasons Apartments",
-          "address": "Budapest, Hungary",
-          "lat": 47.4979,
-          "lng": 19.0402,
           "nights": 2,
-          "notes": "בודפשט עם חניה וארוחת בוקר. ביטול עד 21.8.",
-          "link": "http://7seasonsapartments.com/"
+          "address": "Budapest, Hungary",
+          "lat": 47.497,
+          "lng": 19.054,
+          "link": "",
+          "notes": "דירות פשוטות, מיקום טוב, ארוחת בוקר טובה"
         }
       ],
       "schedule": [
         {
-          "day": 1,
-          "date": "2025-08-22",
-          "title": "הגעה לאגם בלטון",
-          "activities": [
-            {
-              "time": "10:00",
-              "activity": "נחיתה בבודפשט, לקיחת רכב, נסיעה שעתיים לאגם",
-              "type": "transport"
-            },
-            {
-              "time": "15:00",
-              "activity": "סיבוב בעיירה שיופוק, גלגל ענק",
-              "type": "attraction"
-            }
-          ]
+          "day": "יום 1 - 22.8 (שישי)",
+          "activities": "נחיתה בבודפשט + נסיעה לאגם בלטון",
+          "notes": "נסיעה שעתיים מהשדה. עצרנו לארוחת ערב במקדונלדס בדרך"
         },
         {
-          "day": 2,
-          "date": "2025-08-23",
-          "title": "מגלשות הרים ופארק חבלים",
-          "activities": [
-            {
-              "time": "09:00",
-              "activity": "Balatonibob - מגלשות הרים מגיל 3 + פארק חבלים + גימבורי",
-              "type": "attraction"
-            },
-            {
-              "time": "14:00",
-              "activity": "גימבורי לרונה / גן משחקים / גן חיות (40 דק נסיעה)",
-              "type": "kids"
-            }
-          ]
+          "day": "יום 2 - 23.8 (שבת)",
+          "activities": "Balatonibob + גן חיות Veszprém Zoo",
+          "notes": "מגלשות הרים מגיל 3 וגימבורי חמוד. רונה מבסוטה בגימבורי. אכלנו צהריים שם. גן חיות אחלה עם פינת ליטוף. חיסרון: שבילי חול מאובקים - בגדים מתלכלכים"
         },
         {
-          "day": 3,
-          "date": "2025-08-24",
-          "title": "פארק אטרקציות",
-          "activities": [
-            {
-              "time": "09:00",
-              "activity": "פארק חבלים זמרדי / רונה בגימבורי",
-              "type": "attraction"
-            },
-            {
-              "time": "14:00",
-              "activity": "פארק מים מובנפיק BalaLand",
-              "type": "kids"
-            }
-          ]
+          "day": "יום 3 - 24.8 (ראשון)",
+          "activities": "פארק חבלים זמרדי",
+          "notes": "מגיל 2! ילדים אהבו מאוד, גובה מושלם. רונה רכבת מיניאטורית. בערב טיילת + גלגל ענק - מיליוני ברחשים מפריעים. באוגוסט בערבים קר - קנינו קפוצ׳ונים"
         },
         {
-          "day": 4,
-          "date": "2025-08-25",
-          "title": "ספא טרמי ונסיעה לקולפינג",
-          "activities": [
-            {
-              "time": "09:00",
-              "activity": "Zalakaros Thermal Spa - פארק מים וספא טרמי",
-              "type": "attraction"
-            },
-            {
-              "time": "15:00",
-              "activity": "נסיעה לKolping Family Resort",
-              "type": "transport"
-            }
-          ]
+          "day": "יום 4 - 25.8 (שני)",
+          "activities": "פארק מים+גימבורי Mövenpick BalaLand + נסיעה ל-Kolping",
+          "notes": "כניסה ליום בלי לינה. מקום מהמם ליום שלם! מתאים עד גיל 7. אוכל סבבה ביחס להונגריה"
         },
         {
-          "day": 5,
-          "date": "2025-08-26",
-          "title": "יום מלון Kolping",
-          "activities": [
-            {
-              "time": "09:00",
-              "activity": "מלון - בריכות, מועדון ילדים, משחקים",
-              "type": "kids"
-            }
-          ]
+          "day": "יום 5 - 26.8 (שלישי)",
+          "activities": "יום ב-Kolping Family Resort",
+          "notes": "מלון משוגע! גני שעשועים, בריכות, מועדון ילדים, הפעלות כל היום. מטבעות בובו לקנות מתנה. כניסה יומית ל-Funcomplex (3-4 שעות): טרמפולינות, גימבורי, נינג'ה, קירות טיפוס, לייזר, VR. אוכל פשוט אבל בסדר לילדים"
         },
         {
-          "day": 6,
-          "date": "2025-08-27",
-          "title": "יום מלון Kolping",
-          "activities": [
-            {
-              "time": "09:00",
-              "activity": "מלון",
-              "type": "kids"
-            }
-          ]
+          "day": "יום 6 - 27.8 (רביעי)",
+          "activities": "יום ב-Kolping Family Resort",
+          "notes": ""
         },
         {
-          "day": 7,
-          "date": "2025-08-28",
-          "title": "נסיעה לבודפשט",
-          "activities": [
-            {
-              "time": "09:00",
-              "activity": "נסיעה לבודפשט",
-              "type": "transport"
-            },
-            {
-              "time": "12:00",
-              "activity": "פארק לאומי / קרקס / גן חיות",
-              "type": "attraction"
-            }
-          ]
+          "day": "יום 7 - 28.8 (חמישי)",
+          "activities": "נסיעה לבודפשט",
+          "notes": "עצרנו בפארק חבלים (מיותר) אבל לידו חוף עם סירה+מגלשה - ילדים מבסוטים. מעבורת רכבים על האגם - חוויה+קיצור דרך. דירות 7 Seasons - פשוטות, מיקום טוב, ארוחת בוקר טובה"
         },
         {
-          "day": 8,
-          "date": "2025-08-29",
-          "title": "בודפשט",
-          "activities": [
-            {
-              "time": "09:00",
-              "activity": "רכבת הילדים",
-              "type": "attraction"
-            },
-            {
-              "time": "12:00",
-              "activity": "פארק חבלים",
-              "type": "attraction"
-            },
-            {
-              "time": "19:00",
-              "activity": "ארוחת ערב מסעדת הארי פוטר",
-              "type": "food"
-            }
-          ]
+          "day": "יום 8 - 29.8 (שישי)",
+          "activities": "בודפשט: גן חיות + קרקס",
+          "notes": "בדיעבד הייתי מוותר על בודפשט עם ילדים - חם מאוד, באגם יותר כיף. גן חיות נחמד. קרקס ארוך (2 שעות) - יצאנו אחרי 45 דק"
         },
         {
-          "day": 9,
-          "date": "2025-08-30",
-          "title": "קניות וחזרה",
-          "activities": [
-            {
-              "time": "09:00",
-              "activity": "קניות, פארק חבלים, גימבורי - מה שלא עשינו",
-              "type": "attraction"
-            },
-            {
-              "time": "14:00",
-              "activity": "נסיעה לשדה - טיסה 16:00",
-              "type": "transport"
-            }
-          ]
+          "day": "יום 9 - 30.8 (שבת)",
+          "activities": "טיסה חזרה",
+          "notes": "עצרנו באאוטלט בדרך - ילדים נהנו בגימבורי שם"
         }
       ],
       "attractions": [
         {
           "name": "Balatonibob",
-          "lat": 46.883,
-          "lng": 17.827,
-          "type": "adventure-park",
+          "type": "kids",
+          "lat": 46.88,
+          "lng": 17.72,
           "kidFriendly": 5,
-          "notes": "מגלשות הרים מגיל 3, פארק חבלים וגימבורי. https://balatonibob.hu/en/prices",
-          "link": "https://balatonibob.hu/en/"
+          "notes": "מגלשות הרים מגיל 3, גימבורי חמוד, פארק חבלים",
+          "link": "https://balatonibob.hu/en/prices"
         },
         {
-          "name": "BalaLand Family Park (Mövenpick)",
-          "lat": 46.91,
-          "lng": 17.87,
-          "type": "water-park",
-          "kidFriendly": 5,
-          "notes": "גימבורי ופארק מים. https://www.movenpickbalaland.hu/family-park/",
-          "link": "https://www.movenpickbalaland.hu/family-park/"
-        },
-        {
-          "name": "Zalakaros Thermal Spa",
-          "lat": 46.553,
-          "lng": 17.127,
-          "type": "water-park",
-          "kidFriendly": 5,
-          "notes": "פארק המים והספא הטרמי. https://zkf.hu/",
-          "link": "https://zkf.hu/"
-        },
-        {
-          "name": "Zamárdi Adventure Park",
-          "lat": 46.886,
-          "lng": 17.957,
-          "type": "adventure-park",
-          "kidFriendly": 4,
-          "notes": "פארק חבלים, חיפוש מטמון, מבוך. מתאים לעומר ודורי. https://zamardikalandpark.hu/",
-          "link": "https://zamardikalandpark.hu/"
-        },
-        {
-          "name": "גלגל ענק שיופוק",
-          "lat": 46.905,
-          "lng": 18.05,
-          "type": "attraction",
-          "kidFriendly": 4,
-          "notes": "Siófok Óriáskerék"
-        },
-        {
-          "name": "גן חיות Veszprém",
+          "name": "Veszprém Zoo",
+          "type": "kids",
           "lat": 47.093,
-          "lng": 17.89,
-          "type": "zoo",
+          "lng": 17.912,
           "kidFriendly": 4,
-          "notes": "http://www.veszpzoo.hu/en",
+          "notes": "גן חיות אחלה עם פינת ליטוף. חיסרון: שבילי חול מאובקים",
           "link": "http://www.veszpzoo.hu/en"
         },
         {
-          "name": "שייט מערות טפולצה",
-          "lat": 46.882,
-          "lng": 17.443,
-          "type": "cave",
-          "kidFriendly": 3,
-          "notes": "Tapolca Lake Cave"
+          "name": "פארק חבלים זמרדי",
+          "type": "kids",
+          "lat": 46.879,
+          "lng": 17.948,
+          "kidFriendly": 5,
+          "notes": "מגיל 2! גובה מושלם לילדים, רכבת מיניאטורית לקטנים",
+          "link": "https://zamardikalandpark.hu/palyak-es-elmenyelemek/"
         },
         {
-          "name": "רכבת הילדים - בודפשט",
-          "lat": 47.527,
-          "lng": 18.962,
-          "type": "attraction",
+          "name": "Mövenpick BalaLand",
+          "type": "kids",
+          "lat": 46.834,
+          "lng": 17.703,
           "kidFriendly": 5,
-          "notes": "רכבת שמופעלת על ידי ילדים!"
+          "notes": "פארק מים וגימבורי מהמם! אפשר כניסה ליום בלי לינה. מתאים עד גיל 7",
+          "link": "https://www.movenpickbalaland.hu/family-park/"
+        },
+        {
+          "name": "Kolping Funcomplex",
+          "type": "kids",
+          "lat": 46.71,
+          "lng": 17.575,
+          "kidFriendly": 5,
+          "notes": "טרמפולינות, גימבורי, נינג'ה, קירות טיפוס, לייזר, VR. 3-4 שעות ולא מספיק!",
+          "link": ""
+        },
+        {
+          "name": "גלגל ענק שיופוק",
+          "type": "attraction",
+          "lat": 46.905,
+          "lng": 18.049,
+          "kidFriendly": 3,
+          "notes": "בערב מיליוני ברחשים מפריעים",
+          "link": ""
+        },
+        {
+          "name": "מעבורת רכבים",
+          "type": "attraction",
+          "lat": 46.882,
+          "lng": 17.892,
+          "kidFriendly": 4,
+          "notes": "חוויה + קיצור דרך על האגם",
+          "link": ""
+        },
+        {
+          "name": "גן חיות בודפשט",
+          "type": "kids",
+          "lat": 47.519,
+          "lng": 19.076,
+          "kidFriendly": 3,
+          "notes": "נחמד. קרקס לידו ארוך מדי (2 שעות) - יצאנו אחרי 45 דק",
+          "link": ""
         }
       ],
       "tips": [
-        "מפה עם כל האטרקציות באגם בלטון: https://www.google.com/maps/d/u/0/viewer?mid=1jfJbvWvFD-DuTGiW0wEgrZX08TfwxeQ",
-        "Kolping Family Resort - חצי פנסיון, מלון ילדים מצויין",
-        "מסעדת הארי פוטר בבודפשט - מומלץ לארוחת ערב"
+        "בדיעבד: לוותר על בודפשט עם ילדים - חם מאוד, באגם יותר כיף",
+        "Kolping Family Resort: מלון ילדים מטורף, Funcomplex מדהים",
+        "BalaLand Mövenpick: אפשר כניסה ליום בלי לינה - מומלץ!",
+        "Balatonibob: מגלשות מגיל 3, גימבורי, פארק חבלים",
+        "פארק חבלים זמרדי: מגיל 2 - מושלם לקטנים!",
+        "אוגוסט בהונגריה: בערבים קר! להביא קפוצ'ונים",
+        "האוכל בהונגריה לא מצוין - Mövenpick סבבה ביחס",
+        "מעבורת רכבים על האגם: חוויה + קיצור דרך",
+        "גן חיות Veszprém: שבילי חול - בגדים מתלכלכים"
       ],
       "source": "google-sheets",
       "instagram": "https://www.instagram.com/stories/highlights/17912658786410611/",
