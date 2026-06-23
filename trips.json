@@ -817,240 +817,140 @@
       "hotels": [
         {
           "name": "Bohinj Eco Hotel",
+          "nights": 4,
           "address": "Bohinj, Slovenia",
-          "lat": 46.283,
-          "lng": 13.861,
-          "nights": 3,
-          "notes": "מלון אקולוגי עם פארק מים. מושלם לטיולים באזור.",
-          "link": "https://www.bohinj-eco-hotel.si/en/"
+          "lat": 46.273,
+          "lng": 13.883,
+          "link": "https://www.bohinj-eco-hotel.si/en/",
+          "notes": "מלון חמוד עם פארק מים ובאולינג"
         },
         {
           "name": "Family Hotel Amarin by Maistra",
+          "nights": 3,
           "address": "Rovinj, Croatia",
-          "lat": 45.077,
-          "lng": 13.617,
-          "nights": 4,
-          "notes": "מלון משפחות ליד רוביני.",
-          "link": "https://www.maistra.com/properties/family-hotel-amarin/"
+          "lat": 45.067,
+          "lng": 13.621,
+          "link": "https://www.maistra.com/accommodation/family-hotel-amarin-rovinj/",
+          "notes": "מלון ילדים מושלם! בריכות חיצוניות+פנימיות, ים, גני שעשועים, רשת טיפוס, מועדוני ילדים בלי הורים, משחקי וידאו (סוני/נינטנדו/Wii), ספא ילדים+מבוגרים, חדר סרטים. פנסיון מלא, לא יקר ביחס למלונות ילדים באירופה. מאוד קידס פרנדלי לתינוקות - יש אוכל מחית וטעימות בחדר אוכל"
         }
       ],
       "schedule": [
         {
-          "day": 1,
-          "date": "2023-09-30",
-          "title": "הגעה לבוהיני",
-          "activities": [
-            {
-              "time": "15:50",
-              "activity": "נחיתה בלובליאנה",
-              "type": "transport"
-            },
-            {
-              "time": "17:00",
-              "activity": "נסיעה לבוהיני",
-              "type": "transport"
-            },
-            {
-              "time": "18:00",
-              "activity": "פארק מים במלון",
-              "type": "kids"
-            }
-          ]
+          "day": "יום 1 - 30.9 (שבת)",
+          "activities": "טיסה ללובליאנה + הגעה למלון",
+          "notes": "טיסה 13:10-15:50. Bohinj Eco Hotel - מלון חמוד עם פארק מים ובאולינג"
         },
         {
-          "day": 2,
-          "date": "2023-10-01",
-          "title": "ערוץ וינטגר + אגם בלד",
-          "activities": [
-            {
-              "time": "08:00",
-              "activity": "ערוץ וינטגר - מסלול בתוך הערוץ (קצר או 2.5 שעות מעגלי)",
-              "type": "attraction"
-            },
-            {
-              "time": "12:00",
-              "activity": "Zipline / מיני גולף",
-              "type": "attraction"
-            },
-            {
-              "time": "15:00",
-              "activity": "אגם בלד - מגלשת הרים Straža",
-              "type": "attraction"
-            }
-          ]
+          "day": "יום 2 - 1.10 (ראשון)",
+          "activities": "מפל סביצ'ה",
+          "notes": "עלייה של 500 מדרגות, מסלול חמוד. מסעדה למטה"
         },
         {
-          "day": 3,
-          "date": "2023-10-02",
-          "title": "אגם בוהיני והר ווגל",
-          "activities": [
-            {
-              "time": "09:00",
-              "activity": "רכבל להר ווגל - אומגות ומסלול מעגלי קליל",
-              "type": "attraction"
-            },
-            {
-              "time": "12:00",
-              "activity": "חוות סוסים Ranc Mrcina (לתאם מראש!)",
-              "type": "kids"
-            },
-            {
-              "time": "14:00",
-              "activity": "מסלול אופניים 11 קמ + בית קפה שוקולד Čokohram",
-              "type": "attraction"
-            }
-          ]
+          "day": "יום 3 - 2.10 (שני)",
+          "activities": "אגם בוהיני + הר ווגל",
+          "notes": "רכבל להר ווגל ומסלול מעגלי (יש עלייה בסוף). גן משחקים חמוד לילדים"
         },
         {
-          "day": 4,
-          "date": "2023-10-03",
-          "title": "מערת פוסטוינה → קרואטיה",
-          "activities": [
-            {
-              "time": "09:00",
-              "activity": "מערת נטיפים פוסטוינה - מדהימה!",
-              "type": "attraction"
-            },
-            {
-              "time": "13:00",
-              "activity": "נסיעה 3 שעות לקרואטיה",
-              "type": "transport"
-            }
-          ]
+          "day": "יום 4 - 3.10 (שלישי)",
+          "activities": "ערוץ וינטאר + אומגות",
+          "notes": "מסלול הליכה מהמם בנקיק מעגלי. באמצע מסעדה לארטיק. אומגות מטורפות מעל הנהר!"
         },
         {
-          "day": 5,
-          "date": "2023-10-04",
-          "title": "יום מלון Amarin",
-          "activities": [
-            {
-              "time": "09:00",
-              "activity": "מלון - חוף, בריכות, פעילויות",
-              "type": "hotel"
-            }
-          ]
+          "day": "יום 5 - 4.10 (רביעי)",
+          "activities": "נסיעה לקרואטיה + מערת פוסטוינה",
+          "notes": "עצירה בדרך. מאוד תיירותי, סיור שעתיים, קר מאוד בפנים. ארוך מדי לילדים ולא מאוד מעניין"
         },
         {
-          "day": 6,
-          "date": "2023-10-05",
-          "title": "מלון + Golden Cape",
-          "activities": [
-            {
-              "time": "09:00",
-              "activity": "Golden Cape Forest Park",
-              "type": "attraction"
-            }
-          ]
+          "day": "יום 6 - 5.10 (חמישי)",
+          "activities": "Family Hotel Amarin - יום מלון",
+          "notes": "מלון ילדים מושלם! בריכות, ים, גני שעשועים, רשת טיפוס מטורפת, מועדוני ילדים, חדר משחקי וידאו (סוני/נינטנדו), ספא ילדים+מבוגרים, חדר סרטים"
         },
         {
-          "day": 7,
-          "date": "2023-10-06",
-          "title": "יום אחרון",
-          "activities": [
-            {
-              "time": "09:00",
-              "activity": "יום חופשי במלון",
-              "type": "hotel"
-            }
-          ]
+          "day": "יום 7 - 6.10 (שישי)",
+          "activities": "Family Hotel Amarin - יום מלון",
+          "notes": "אפשר לקחת אופניים, להשכיר סירה עם מגלשה בחוף. יצאנו לעיירה ליד - לא מאוד מעניין לילדים"
         },
         {
-          "day": 8,
-          "date": "2023-10-07",
-          "title": "חזרה",
-          "activities": [
-            {
-              "time": "09:30",
-              "activity": "נסיעה 2.5 שעות לשדה + החזרת רכב",
-              "type": "transport"
-            },
-            {
-              "time": "15:50",
-              "activity": "טיסה (נחיתה 21:10)",
-              "type": "transport"
-            }
-          ]
+          "day": "יום 8 - 7.10 (שבת)",
+          "activities": "נסיעה לשדה תעופה + טיסה",
+          "notes": "נסיעה 3 שעות לשדה תעופה"
         }
       ],
       "attractions": [
         {
-          "name": "ערוץ וינטגר (Vintgar Gorge)",
-          "lat": 46.392,
-          "lng": 14.085,
-          "type": "nature",
-          "kidFriendly": 4,
-          "notes": "מסלול מדהים בתוך הערוץ. 8:00-17:00. קצר או 2.5 שעות מעגלי.",
-          "link": "https://vintgar.si/?lang=en"
-        },
-        {
-          "name": "אגם בלד - מגלשת Straža",
-          "lat": 46.365,
-          "lng": 14.098,
+          "name": "מפל סביצ'ה (Savica)",
           "type": "attraction",
-          "kidFriendly": 5,
-          "notes": "מגלשת הרים עם נוף לאגם!",
-          "link": "https://www.straza-bled.si/en/Summer/Opening-hours"
+          "lat": 46.282,
+          "lng": 13.81,
+          "kidFriendly": 3,
+          "notes": "500 מדרגות עלייה, מסלול חמוד. מסעדה למטה",
+          "link": ""
         },
         {
-          "name": "הר ווגל - רכבל",
-          "lat": 46.264,
-          "lng": 13.838,
-          "type": "nature",
+          "name": "אגם בוהיני + הר ווגל",
+          "type": "attraction",
+          "lat": 46.287,
+          "lng": 13.863,
           "kidFriendly": 4,
-          "notes": "אומגות ומסלול מעגלי קליל.",
-          "link": "http://www.vogel.si/summer"
+          "notes": "רכבל להר ווגל, מסלול מעגלי עם עלייה. גן משחקים לילדים",
+          "link": ""
         },
         {
-          "name": "Zipline Dolinka",
+          "name": "ערוץ וינטאר (Vintgar Gorge)",
+          "type": "attraction",
+          "lat": 46.391,
+          "lng": 14.086,
+          "kidFriendly": 5,
+          "notes": "מסלול הליכה מהמם בנקיק מעגלי! מסעדה באמצע",
+          "link": "https://www.vintgar.si/en/"
+        },
+        {
+          "name": "אומגות (Zipline Dolinka)",
+          "type": "kids",
           "lat": 46.38,
           "lng": 14.07,
-          "type": "adventure",
-          "kidFriendly": 3,
-          "notes": "זיפליין!",
+          "kidFriendly": 5,
+          "notes": "אומגות מטורפות מעל הנהר!",
           "link": "https://zipline-dolinka.si/"
         },
         {
-          "name": "חוות סוסים Ranc Mrcina",
-          "lat": 46.29,
-          "lng": 13.87,
-          "type": "animals",
-          "kidFriendly": 5,
-          "notes": "לתאם מראש!",
-          "link": "https://ranc-mrcina.com/"
-        },
-        {
-          "name": "בית קפה שוקולד Čokohram",
-          "lat": 46.285,
-          "lng": 13.89,
-          "type": "food",
-          "kidFriendly": 5,
-          "notes": "בית קפה שמייצרים שוקולד. עצירה מושלמת במסלול אופניים.",
-          "link": "http://www.cokohram.si/about/"
-        },
-        {
           "name": "מערת פוסטוינה",
+          "type": "attraction",
           "lat": 45.782,
-          "lng": 14.205,
-          "type": "cave",
-          "kidFriendly": 4,
-          "notes": "מערת נטיפים מדהימה! חובה.",
+          "lng": 14.204,
+          "kidFriendly": 2,
+          "notes": "מאוד תיירותי. סיור שעתיים, קר מאוד בפנים. ארוך מדי לילדים, לא מאוד מעניין",
           "link": "https://www.postojnska-jama.eu/en/"
         },
         {
-          "name": "Golden Cape Forest Park",
-          "lat": 45.078,
-          "lng": 13.63,
-          "type": "park",
+          "name": "Bohinj Eco Hotel - פארק מים",
+          "type": "kids",
+          "lat": 46.273,
+          "lng": 13.883,
           "kidFriendly": 4,
-          "notes": "פארק יער ליד רוביני."
+          "notes": "פארק מים ובאולינג במלון",
+          "link": ""
+        },
+        {
+          "name": "Family Hotel Amarin",
+          "type": "kids",
+          "lat": 45.067,
+          "lng": 13.621,
+          "kidFriendly": 5,
+          "notes": "רשת טיפוס מטורפת, מועדוני ילדים, משחקי וידאו, ספא ילדים, גני שעשועים, סירה עם מגלשה",
+          "link": "https://www.maistra.com/accommodation/family-hotel-amarin-rovinj/"
         }
       ],
       "tips": [
-        "ערוץ וינטגר: 8:00-17:00, להגיע מוקדם",
-        "חוות סוסים: חובה לתאם מראש!",
-        "מסלול אופניים 11 קמ עם עצירה בשוקולד - מושלם!",
-        "פליטוויצה - רחוק מדי מהמסלול",
-        "מפל סביצה - 500 מדרגות, לשקול עם ילדים קטנים"
+        "מפל סביצ'ה: 500 מדרגות - להתכונן לעלייה עם ילדים",
+        "ערוץ וינטאר: מסלול מעגלי מהמם, יש מסעדה באמצע",
+        "אומגות Zipline Dolinka: מטורף ומומלץ!",
+        "מערת פוסטוינה: קר מאוד - להביא שכבה חמה. ארוך לילדים",
+        "Family Hotel Amarin: מלון ילדים מושלם - לא לזוז ממנו!",
+        "Amarin: פנסיון מלא, לא יקר ביחס למלונות ילדים באירופה",
+        "Amarin: מועדוני ילדים בלי הורים, חדר משחקי וידאו אפשר לשריין שעה",
+        "Amarin: לתינוקות - אוכל מחית וטעימות בחדר אוכל",
+        "אפשר להשכיר אופניים וסירה עם מגלשה בחוף Amarin"
       ],
       "source": "google-sheets",
       "instagram": "https://www.instagram.com/stories/highlights/17908162253834146/"
