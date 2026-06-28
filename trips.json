@@ -864,412 +864,194 @@
     },
     {
       "id": "italy-dolomites",
-      "title": "איטליה - דולומיטים (מתוכנן)",
-      "location": "Lake Garda & Dolomites, Italy",
+      "title": "דולומיטים + שוויץ 2026",
+      "location": "Dolomites, Italy & Zurich",
       "country": "Italy",
       "region": "Europe",
       "dates": {
-        "start": "2026-07-15",
-        "end": "2026-07-31"
+        "start": "2026-08-20",
+        "end": "2026-08-28"
       },
       "coverImage": "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?w=800",
-      "summary": "17 ימים מתוכננים באיטליה - גארדלנד, אגם גארדה, והדולומיטים. פארקי שעשועים, אגמים וטיולי הרים.",
+      "summary": "9 ימים בדולומיטים ושוויץ. רכבלים, שבילי הרפתקאות, אגמים, פארקי חבלים ומלונות משפחות.",
       "notes": "נחיתה בוורונה/מילאנו/ונציה + רכב. הדולומיטים מדהימים אבל לבדוק גובה מותר עם תינוקות לפני רכבלים.",
       "flights": "טיסה לוורונה/מילאנו/ונציה",
-      "hotels": [],
+      "hotels": [
+        {
+          "name": "Holiday Inn Express Zurich Airport",
+          "nights": 2,
+          "address": "Zurich, Switzerland",
+          "lat": 47.451,
+          "lng": 8.564,
+          "link": "",
+          "notes": "לינה ליד שדה התעופה - הגעה ויציאה"
+        },
+        {
+          "name": "Alpin Sport",
+          "nights": 3,
+          "address": "Seis am Schlern, South Tyrol, Italy",
+          "lat": 46.541,
+          "lng": 11.557,
+          "link": "",
+          "notes": "באזור Ortisei/Alpe di Siusi"
+        },
+        {
+          "name": "Das Mühlwald – Quality Time Family Resort",
+          "nights": 4,
+          "address": "Naz-Sciaves, South Tyrol, Italy",
+          "lat": 46.756,
+          "lng": 11.663,
+          "link": "https://www.dasmuehlwald.com/en/",
+          "notes": "מלון משפחות עם Milli's Indoor Play World, ביקורי חווה, פעילויות"
+        }
+      ],
       "schedule": [
         {
-          "day": 1,
-          "date": "2026-07-15",
-          "title": "נחיתה",
-          "activities": [
-            {
-              "time": "10:00",
-              "activity": "נחיתה + רכב",
-              "type": "transport"
-            }
-          ]
+          "day": "יום 1 - 20.8 (רביעי)",
+          "activities": "הגעה לציריך",
+          "notes": "לינה ב-Holiday Inn Express Zurich Airport. מנוחה וארוחת ערב"
         },
         {
-          "day": 2,
-          "date": "2026-07-16",
-          "title": "גארדלנד",
-          "activities": [
-            {
-              "time": "09:00",
-              "activity": "גארדלנד!",
-              "type": "attraction"
-            }
-          ]
+          "day": "יום 2 - 21.8 (חמישי)",
+          "activities": "נסיעה לדולומיטים (5 שעות) עם עצירות",
+          "notes": "עצירות: Walensee Lido + Family Mountain Park Serfaus-Fiss-Ladis. לינה Alpin Sport ב-Seis"
         },
         {
-          "day": 3,
-          "date": "2026-07-17",
-          "title": "גארדלנד יום 2",
-          "activities": [
-            {
-              "time": "09:00",
-              "activity": "גארדלנד + SeaLife",
-              "type": "attraction"
-            }
-          ]
+          "day": "יום 3 - 22.8 (שישי)",
+          "activities": "רכבל לאלפה די סיוסי + שביל המכשפות",
+          "notes": "רכבל Ortisei → Alpe di Siusi (Seiser Alm). הליכה קלה במרג. שביל הרפתקאות Sentiero delle Streghe. צהריים ב-Tirler Hut"
         },
         {
-          "day": 4,
-          "date": "2026-07-18",
-          "title": "פארק חבלים + שביל פונאלה",
-          "activities": [
-            {
-              "time": "09:00",
-              "activity": "פארק חבלים בוסאטה (מגיל 3)",
-              "type": "attraction"
-            },
-            {
-              "time": "14:00",
-              "activity": "שביל פונאלה - 2 שעות מריבה למפל וחזרה",
-              "type": "attraction"
-            }
-          ]
+          "day": "יום 4 - 23.8 (שבת)",
+          "activities": "Monte Pana + PanaRaida Trail + אגם Fiè",
+          "notes": "כיסא תלוי Monte Pana → שביל הרפתקאות PanaRaida. נסיעה לאגם Fiè - גן משחקים, אגם, סירות משוטים"
         },
         {
-          "day": 5,
-          "date": "2026-07-19",
-          "title": "אגם טנו + מפלים",
-          "activities": [
-            {
-              "time": "09:00",
-              "activity": "אגם טנו - שעה סביב האגם / פיקניק",
-              "type": "attraction"
-            },
-            {
-              "time": "13:00",
-              "activity": "מפלי וארונה - חצי שעה לתצפית",
-              "type": "attraction"
-            },
-            {
-              "time": "15:00",
-              "activity": "נסיעה לדולומיטים",
-              "type": "transport"
-            }
-          ]
+          "day": "יום 5 - 24.8 (ראשון)",
+          "activities": "Seceda + נסיעה ל-Das Mühlwald",
+          "notes": "רכבל Ortisei→Furnes→Seceda. תצפית פנורמית והליכה קצרה. נסיעה למלון Das Mühlwald"
         },
         {
-          "day": 6,
-          "date": "2026-07-20",
-          "title": "אגם מולבנו",
-          "activities": [
-            {
-              "time": "09:00",
-              "activity": "רכבל Pradel + Forest Park",
-              "type": "attraction"
-            }
-          ]
+          "day": "יום 6 - 25.8 (שני)",
+          "activities": "ביקור חווה + שביל תפוחים + Milli's Play World",
+          "notes": "ביקור חווה עם עזים, שביל Apple Plateau, עולם משחקים מקורה של Milli's"
         },
         {
-          "day": 7,
-          "date": "2026-07-21",
-          "title": "שמורת מפלי נארדיס",
-          "activities": [
-            {
-              "time": "09:00",
-              "activity": "אוטובוס לאורך הפארק, אפשר לרדת ולטייל",
-              "type": "attraction"
-            }
-          ]
+          "day": "יום 7 - 26.8 (שלישי)",
+          "activities": "Plose: WoodyWalk Trail + Plosebob",
+          "notes": "רכבל Plose → שביל WoodyWalk עם גני משחקים בהרים → מגלשת הרים Plosebob"
         },
         {
-          "day": 8,
-          "date": "2026-07-22",
-          "title": "Meran 2000",
-          "activities": [
-            {
-              "time": "09:00",
-              "activity": "מגלשת הרים + מסלולי טיול",
-              "type": "attraction"
-            }
-          ]
+          "day": "יום 8 - 27.8 (רביעי)",
+          "activities": "Kronaction פארק חבלים + אגם Issengo",
+          "notes": "פארק הרפתקאות Kronaction. אח\"כ אגם Issengo - שחייה, חוף וגן משחקים"
         },
         {
-          "day": 9,
-          "date": "2026-07-23",
-          "title": "Alpe di Siusi",
-          "activities": [
-            {
-              "time": "09:00",
-              "activity": "דשא ופריחה, מסלולי טיולים - אפשר כמה ימים",
-              "type": "attraction"
-            }
-          ]
-        },
-        {
-          "day": 10,
-          "date": "2026-07-24",
-          "title": "מעבר הרים סלה + עמק גארדה",
-          "activities": [
-            {
-              "time": "09:00",
-              "activity": "מעבר הרים סלה - תצפית מהאוטו",
-              "type": "attraction"
-            },
-            {
-              "time": "14:00",
-              "activity": "עמק גארדה - טיולים",
-              "type": "attraction"
-            }
-          ]
-        },
-        {
-          "day": 11,
-          "date": "2026-07-25",
-          "title": "Paneveggio / אגם קארזה + מגלשות",
-          "activities": [
-            {
-              "time": "09:00",
-              "activity": "Paneveggio מסלול נגיש / אגם קארזה",
-              "type": "attraction"
-            },
-            {
-              "time": "14:00",
-              "activity": "מרכז Leitner - מגלשות, אבובים, גן שעשועים + רכבל",
-              "type": "attraction"
-            }
-          ]
-        },
-        {
-          "day": 12,
-          "date": "2026-07-26",
-          "title": "סאס פורדוי",
-          "activities": [
-            {
-              "time": "09:00",
-              "activity": "מעבר הרים מרשים, רכבל. דרך מפותלת!",
-              "type": "attraction"
-            }
-          ]
-        },
-        {
-          "day": 13,
-          "date": "2026-07-27",
-          "title": "מרמולדה + פונטה רוקה ⭐",
-          "activities": [
-            {
-              "time": "09:00",
-              "activity": "הר המרמולדה + אגם פדאיה - לא לפספס! רכבל, הר מושלג",
-              "type": "attraction"
-            },
-            {
-              "time": "14:00",
-              "activity": "פונטה רוקה - 3 רכבלים לפסגה",
-              "type": "attraction"
-            }
-          ]
-        },
-        {
-          "day": 14,
-          "date": "2026-07-28",
-          "title": "אגמים + מגלשות",
-          "activities": [
-            {
-              "time": "09:00",
-              "activity": "אגם ברייס (Lago di Braies)",
-              "type": "attraction"
-            },
-            {
-              "time": "13:00",
-              "activity": "מגלשת הרים סן קנדידו",
-              "type": "attraction"
-            }
-          ]
-        },
-        {
-          "day": 15,
-          "date": "2026-07-29",
-          "title": "חוף + מעיינות חמים",
-          "activities": [
-            {
-              "time": "09:00",
-              "activity": "פונטה סן ויגיליו - חוף עם משחקים",
-              "type": "attraction"
-            },
-            {
-              "time": "14:00",
-              "activity": "אקווהארדנס - מעיינות חמים + בריכת ילדים",
-              "type": "attraction"
-            }
-          ]
-        },
-        {
-          "day": 16,
-          "date": "2026-07-30",
-          "title": "מפלים + גן חיות",
-          "activities": [
-            {
-              "time": "09:00",
-              "activity": "שמורת המפלים מולינה - 8 מפלים!",
-              "type": "attraction"
-            },
-            {
-              "time": "14:00",
-              "activity": "Natura Viva Zoo",
-              "type": "kids"
-            }
-          ]
-        },
-        {
-          "day": 17,
-          "date": "2026-07-31",
-          "title": "חזרה",
-          "activities": [
-            {
-              "time": "10:00",
-              "activity": "טיסה הביתה",
-              "type": "transport"
-            }
-          ]
+          "day": "יום 9 - 28.8 (חמישי)",
+          "activities": "נסיעה חזרה לציריך דרך אינסברוק",
+          "notes": "עצירה באינסברוק לקפה וטיול בעיר העתיקה. Chocolarium (מפעל שוקולד). טיסה/לינה בציריך"
         }
       ],
       "attractions": [
         {
-          "name": "Gardaland",
-          "lat": 45.4567,
-          "lng": 10.7137,
-          "type": "theme-park",
+          "name": "Serfaus-Fiss-Ladis Family Park",
+          "type": "kids",
+          "lat": 47.041,
+          "lng": 10.607,
           "kidFriendly": 5,
-          "notes": "2 לילות = יומיים כניסה + SeaLife. https://www.gardaland.it/en/",
-          "link": "https://www.gardaland.it/en/"
+          "notes": "פארק משפחות בהרים - עצירה בדרך",
+          "link": "https://www.serfaus-fiss-ladis.at/en/summer-holiday/family-summer/family-adventures"
         },
         {
-          "name": "פארק חבלים בוסאטה",
-          "lat": 45.876,
-          "lng": 10.843,
-          "type": "adventure-park",
-          "kidFriendly": 4,
-          "notes": "מגיל 3. ליד ריבה דל גארדה."
-        },
-        {
-          "name": "אגם טנו",
-          "lat": 45.932,
-          "lng": 10.821,
-          "type": "lake",
-          "kidFriendly": 5,
-          "notes": "שעה סביב האגם / פיקניק. עצירה בדרך לדולומיטים."
-        },
-        {
-          "name": "מפלי וארונה",
-          "lat": 45.769,
-          "lng": 10.864,
-          "type": "waterfall",
-          "kidFriendly": 3,
-          "notes": "חצי שעה לתצפית."
-        },
-        {
-          "name": "אגם מולבנו + Forest Park",
-          "lat": 46.145,
-          "lng": 10.963,
-          "type": "lake",
-          "kidFriendly": 4,
-          "notes": "רכבל Pradel.",
-          "link": "https://www.molveno.it/en/forest-park"
-        },
-        {
-          "name": "Meran 2000",
-          "lat": 46.677,
-          "lng": 11.221,
-          "type": "mountain",
-          "kidFriendly": 4,
-          "notes": "מגלשת הרים + מסלולים.",
-          "link": "https://www.meran2000.com/en/"
-        },
-        {
-          "name": "Alpe di Siusi",
-          "lat": 46.542,
-          "lng": 11.633,
-          "type": "nature",
-          "kidFriendly": 5,
-          "notes": "דשא ופריחה. אפשר כמה ימים!",
-          "link": "https://www.seiseralm.it/en/"
-        },
-        {
-          "name": "הר המרמולדה",
-          "lat": 46.434,
-          "lng": 11.856,
-          "type": "mountain",
-          "kidFriendly": 4,
-          "notes": "לא לפספס! רכבל פתוח, הר מושלג כל השנה."
-        },
-        {
-          "name": "פונטה רוקה",
-          "lat": 46.453,
-          "lng": 11.768,
-          "type": "mountain",
-          "kidFriendly": 3,
-          "notes": "3 רכבלים לפסגה. לבדוק גובה עם תינוקות."
-        },
-        {
-          "name": "אגם ברייס",
-          "lat": 46.694,
-          "lng": 12.085,
-          "type": "lake",
-          "kidFriendly": 5,
-          "notes": "אגם מדהים!"
-        },
-        {
-          "name": "מגלשת סן קנדידו",
-          "lat": 46.733,
-          "lng": 12.281,
+          "name": "Alpe di Siusi (Seiser Alm)",
           "type": "attraction",
+          "lat": 46.541,
+          "lng": 11.631,
           "kidFriendly": 4,
-          "notes": "מגלשת הרים."
+          "notes": "רכבל + הליכה קלה במרג עם נוף מהמם",
+          "link": "https://www.funiviaortisei.eu/"
         },
         {
-          "name": "אקווהארדנס",
-          "lat": 45.481,
-          "lng": 10.941,
-          "type": "spa",
-          "kidFriendly": 4,
-          "notes": "מעיינות חמים + בריכת ילדים. עיירה חמודה.",
-          "link": "https://www.aquardens.it/en/"
-        },
-        {
-          "name": "שמורת מפלים מולינה",
-          "lat": 45.576,
-          "lng": 10.967,
-          "type": "waterfall",
-          "kidFriendly": 4,
-          "notes": "מסלול בין 8 מפלים!"
-        },
-        {
-          "name": "סאס פורדוי",
-          "lat": 46.491,
-          "lng": 11.813,
-          "type": "mountain",
-          "kidFriendly": 3,
-          "notes": "מרשים. דרך מפותלת. מסלולים לא בטוח שמתאימים לילדים."
-        },
-        {
-          "name": "פונטה סן ויגיליו",
-          "lat": 45.585,
-          "lng": 10.713,
-          "type": "beach",
+          "name": "שביל המכשפות (Sentiero delle Streghe)",
+          "type": "kids",
+          "lat": 46.545,
+          "lng": 11.625,
           "kidFriendly": 5,
-          "notes": "חוף בתשלום עם משחקים לקטנים."
+          "notes": "שביל הרפתקאות לילדים",
+          "link": "https://www.suedtirolerland.it/it/sport-e-tempo-libero/bambini-e-famiglia/sentieri-tematici/sentiero-sorgenti-delle-streghe/"
         },
         {
-          "name": "Natura Viva Zoo",
-          "lat": 45.465,
-          "lng": 10.757,
-          "type": "zoo",
+          "name": "Monte Pana + PanaRaida Trail",
+          "type": "kids",
+          "lat": 46.531,
+          "lng": 11.608,
+          "kidFriendly": 5,
+          "notes": "כיסא תלוי + שביל הרפתקאות לילדים",
+          "link": "https://www.montepana.com/en/families-summer.asp"
+        },
+        {
+          "name": "אגם Fiè (Lago di Fiè)",
+          "type": "attraction",
+          "lat": 46.519,
+          "lng": 11.5,
+          "kidFriendly": 5,
+          "notes": "גן משחקים, אגם, סירות משוטים",
+          "link": "https://alps-activ.com/en/hike-lago-di-fie-100-eng/"
+        },
+        {
+          "name": "Seceda",
+          "type": "attraction",
+          "lat": 46.601,
+          "lng": 11.738,
           "kidFriendly": 4,
-          "notes": "גן חיות.",
-          "link": "https://www.parconaturaviva.it/en/"
+          "notes": "תצפית פנורמית מדהימה + הליכה קצרה",
+          "link": "https://www.seceda.it/en/summer"
+        },
+        {
+          "name": "Plose - WoodyWalk + Plosebob",
+          "type": "kids",
+          "lat": 46.71,
+          "lng": 11.716,
+          "kidFriendly": 5,
+          "notes": "רכבל, שביל WoodyWalk עם גני משחקים, מגלשת הרים Plosebob",
+          "link": "https://www.plose.org/en/plosebob-summer/"
+        },
+        {
+          "name": "Kronaction Adventure Park",
+          "type": "kids",
+          "lat": 46.748,
+          "lng": 11.642,
+          "kidFriendly": 4,
+          "notes": "פארק חבלים והרפתקאות",
+          "link": "https://kronaction.com/adventure-park/courses/?lang=en"
+        },
+        {
+          "name": "אגם Issengo",
+          "type": "attraction",
+          "lat": 46.769,
+          "lng": 11.607,
+          "kidFriendly": 5,
+          "notes": "שחייה, חוף וגן משחקים",
+          "link": ""
+        },
+        {
+          "name": "Chocolarium (Munz & Minor)",
+          "type": "kids",
+          "lat": 47.453,
+          "lng": 9.35,
+          "kidFriendly": 5,
+          "notes": "מפעל שוקולד - עצירה בדרך חזרה",
+          "link": "https://www.chocolarium.ch/en"
         }
       ],
       "tips": [
-        "גארדלנד: 2 לילות = 2 ימי כניסה + SeaLife",
-        "הדולומיטים: לבדוק גובה מותר עם תינוקות לפני רכבלים",
-        "Alpe di Siusi: שווה כמה ימים",
-        "מרמולדה: חובה! לא לפספס",
-        "מלון מומלץ: https://www.dasmuehlwald.com/en/"
+        "נסיעה ציריך→דולומיטים: 5 שעות, לתכנן עצירות לילדים",
+        "Serfaus-Fiss-Ladis: עצירה מומלצת בדרך",
+        "Alpe di Siusi: הרמה הגדולה באירופה - הליכות קלות עם נוף",
+        "Das Mühlwald: מלון משפחות עם פעילויות מובנות",
+        "Plosebob: מגלשת הרים - ילדים יאהבו",
+        "Chocolarium: עצירה מתוקה בדרך חזרה דרך שוויץ",
+        "אינסברוק: שווה עצירה קצרה לעיר העתיקה"
       ],
       "source": "google-sheets",
       "instagram": "",
