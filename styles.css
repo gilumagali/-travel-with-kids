@@ -375,6 +375,24 @@ body {
     flex: 1;
 }
 
+/* Schedule bullets */
+.schedule-bullets {
+    list-style: disc;
+    padding-right: 20px;
+    margin: 0;
+}
+
+.schedule-bullets li {
+    padding: 6px 0;
+    line-height: 1.6;
+    color: var(--text);
+}
+
+.schedule-bullets li.day-notes {
+    color: var(--text-light);
+    font-size: 0.9rem;
+}
+
 /* Map */
 .map-container {
     width: 100%;

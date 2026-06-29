@@ -213,27 +213,16 @@ function renderSchedule() {
         return;
     }
 
-    // Support both formats: 
-    // Old: { day, title, date, activities: [{time, type, activity}] }
-    // New: { day, activities (string), notes }
     const first = currentTrip.schedule[0];
     
     if (first.title && Array.isArray(first.activities)) {
-        // Old format with structured activities
-        const typeEmoji = {
-            hotel: '🏨', attraction: '🏛️', food: '🍽️',
-            kids: '🎠', transport: '🚆', default: '📌'
-        };
+        // Old format: convert to bullet style too
         panel.innerHTML = currentTrip.schedule.map(day => `
             <div class="day-card">
-                <h3>Day ${day.day}: ${day.title} <span class="date">${new Date(day.date).toLocaleDateString('en-US', { weekday: 'long', month: 'short', day: 'numeric' })}</span></h3>
-                <ul class="activity-list">
+                <h3>${day.title}</h3>
+                <ul class="schedule-bullets">
                     ${day.activities.map(act => `
-                        <li class="activity-item">
-                            <span class="activity-time">${act.time}</span>
-                            <span class="activity-type">${typeEmoji[act.type] || typeEmoji.default}</span>
-                            <span class="activity-text">${act.activity}</span>
-                        </li>`).join('')}
+                        <li>${act.activity}</li>`).join('')}
                 </ul>
             </div>`).join('');
     } else {
@@ -241,8 +230,10 @@ function renderSchedule() {
         panel.innerHTML = currentTrip.schedule.map(day => `
             <div class="day-card">
                 <h3>${day.day}</h3>
-                <p class="day-activity">${day.activities}</p>
-                ${day.notes ? `<p class="day-notes">💡 ${day.notes}</p>` : ''}
+                <ul class="schedule-bullets">
+                    <li>${day.activities}</li>
+                    ${day.notes ? `<li class="day-notes">💡 ${day.notes}</li>` : ''}
+                </ul>
             </div>`).join('');
     }
 }
