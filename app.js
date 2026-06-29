@@ -253,6 +253,7 @@ function renderMap() {
                 </div>`;
             return;
         }
+        // Non-embeddable Google Maps link (saved list etc.) - show link + regular map
     }
 
     // Collect all points
@@ -297,6 +298,9 @@ function renderMap() {
 
     mapDiv.innerHTML = `
         <div class="google-map-container">
+            ${currentTrip.googleMap ? `<div style="padding:12px;text-align:center;background:#f0f7ff;border-bottom:1px solid #e2e8f0;">
+                <a href="${currentTrip.googleMap}" target="_blank" class="google-map-link">🗺️ פתח את המפה המלאה ב-Google Maps</a>
+            </div>` : ''}
             <iframe src="https://maps.google.com/maps?q=${mapQuery}&z=9&output=embed&hl=he" 
                 width="100%" height="100%" style="border:0;min-height:450px;" allowfullscreen loading="lazy"></iframe>
             <div class="map-places-panel">
