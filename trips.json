@@ -479,12 +479,12 @@
             },
             {
               "type": "car",
-              "title": "השכרת רכב",
-              "dates": "18.9.26 → 28.9.26",
-              "confirmation": "",
-              "price": "",
+              "title": "השכרת רכב - Hyundai Tucson (Alamo / אלומה)",
+              "dates": "18.9 10:00 → 28.9 09:00 (10 ימים)",
+              "confirmation": "הזמנה 90541506 (פרו-פורמה)",
+              "price": "€ 632.94 (לא כולל כיסא הגבהה €15/יום)",
               "link": "",
-              "notes": "רכב לניוד בין הבסיסים וליציאות היומיות. פרטים יושלמו."
+              "notes": "קבוצה GA SFAR - Hyundai Tucson or Similar, אוטומט + מזגן. לקיחה והחזרה: Amsterdam - Schiphol Airport. כלול: ק\"מ ללא הגבלה, CDW וכיסוי גניבה (השתתפות עצמית €900 כ\"א), מע\"מ, מיסי נמל/רישוי. לא כלול: כיסא הגבהה/ילד, נהג נוסף, ניווט. הוזמן כיסא הגבהה 1 (גיל 5.6). פרו-פורמה - טרם שובר סופי; דורש רישיון ישראלי + בינלאומי. נהג: תומר סגל."
             }
           ]
         },
@@ -522,6 +522,15 @@
               "price": "",
               "link": "",
               "notes": "Restaurant Saga, Horst 31, Kaatsheuvel. מזהה הזמנה UPdrkDkqCA. חלק מהשהות באפטלינג."
+            },
+            {
+              "type": "hotel",
+              "title": "Center Parcs De Eemhof - 5p Premium Cottage",
+              "dates": "22.9 → 28.9 (6 לילות)",
+              "confirmation": "792062",
+              "price": "€ 1,515.80 · שולם במלואו",
+              "link": "https://www.centerparcs.eu/in-en/netherlands/fp_EH_holiday-park-de-eemhof",
+              "notes": "קוטג' Premium ל-5 (מיקום 284) · 2 מבוגרים, 2 ילדים ותינוק. כולל Premium service, חבילת מגבות וקרדיט פעילויות. כתובת: Slingerweg 1, Zeewolde. שולם 14.2.26."
             }
           ]
         }
