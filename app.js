@@ -436,7 +436,7 @@ function renderBookings() {
                                 ${b.confirmation ? `<span>🔖 ${b.confirmation}</span>` : ''}
                                 ${b.price ? `<span>💶 ${b.price}</span>` : ''}
                             </div>
-                            ${b.notes ? `<div class="attraction-notes">📝 ${b.notes}</div>` : ''}
+                            ${b.notes ? `<details class="booking-notes"><summary>📝 פרטים נוספים</summary><div class="attraction-notes">${b.notes}</div></details>` : ''}
                         </div>`).join('')}
                 </div>` : `<p class="booking-empty">טרם הוזנו הזמנות למשפחה זו.</p>`}
         </div>`).join('');

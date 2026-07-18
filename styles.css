@@ -470,6 +470,39 @@ body {
     border-right: 3px solid var(--primary);
 }
 
+.booking-notes {
+    margin-top: 8px;
+}
+
+.booking-notes > summary {
+    cursor: pointer;
+    color: var(--primary);
+    font-size: 0.9rem;
+    font-weight: 600;
+    list-style: none;
+    user-select: none;
+    padding: 4px 0;
+}
+
+.booking-notes > summary::-webkit-details-marker {
+    display: none;
+}
+
+.booking-notes > summary::before {
+    content: '▶ ';
+    font-size: 0.75rem;
+    display: inline-block;
+    transition: transform 0.15s ease;
+}
+
+.booking-notes[open] > summary::before {
+    content: '▼ ';
+}
+
+.booking-notes > .attraction-notes {
+    margin-top: 6px;
+}
+
 /* Notes */
 .notes-section {
     background: var(--card-bg);
