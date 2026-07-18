@@ -452,12 +452,12 @@
             },
             {
               "type": "hotel",
-              "title": "Safari Hotel Beekse Bergen",
+              "title": "Safari Hotel Beekse Bergen - Savanne Room",
               "dates": "18.9 → 21.9 (3 לילות)",
               "confirmation": "09526006040",
-              "price": "€ 2,834.84 · שולם במלואו",
+              "price": "€ 1,297.98 · שולם (חלק מהזמנה משותפת)",
               "link": "https://www.beeksebergen.nl/en",
-              "notes": "2 חדרי Savanne (חדר ל-4 וחדר ל-5 אנשים) בקומה 1 - הזמנה משותפת. כולל Attraction Pass לספארי, ארוחת בוקר ו-Rangerset. כתובת: Tilburgseweg 41, Hilvarenbeek. הוזמן ע\"י גיל (13.2.26)."
+              "notes": "חדר Savanne ל-4 אנשים, קומה 1. חלק מהזמנה משותפת 09526006040 (שולמה ע\"י גיל). כולל Attraction Pass לספארי, ארוחת בוקר ו-Rangerset. כתובת: Tilburgseweg 41, Hilvarenbeek."
             },
             {
               "type": "hotel",
@@ -494,7 +494,17 @@
         },
         {
           "family": "משפחת אקוקה",
-          "items": []
+          "items": [
+            {
+              "type": "hotel",
+              "title": "Safari Hotel Beekse Bergen - Savanne Room",
+              "dates": "18.9 → 21.9 (3 לילות)",
+              "confirmation": "09526006040",
+              "price": "€ 1,536.86 · חלק מהזמנה משותפת",
+              "link": "https://www.beeksebergen.nl/en",
+              "notes": "חדר Savanne ל-5 אנשים, קומה 1. חלק מהזמנה משותפת 09526006040 (שולמה ע\"י גיל/סגל). כולל Attraction Pass לספארי, ארוחת בוקר ו-Rangerset. כתובת: Tilburgseweg 41, Hilvarenbeek."
+            }
+          ]
         }
       ]
     },
