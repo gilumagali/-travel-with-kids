@@ -436,6 +436,57 @@
         "מ-De Eemhof יש המון אטרקציות בטווח נסיעה קצר (דולפינריום, אמסטרדם, האג)",
         "רכב שכור מומלץ לניוד בין הבסיסים וליציאות היומיות",
         "ספטמבר - להכין בגדים לכל מזג אוויר (מעילים קלים וגם קיץ)"
+      ],
+      "bookings": [
+        {
+          "family": "המשפחה שלנו",
+          "items": [
+            {
+              "type": "flight",
+              "title": "אל על - טיסות הלוך-חזור",
+              "dates": "18.9.26 → 28.9.26",
+              "confirmation": "",
+              "price": "",
+              "link": "https://www.elal.com/",
+              "notes": "הלוך 18.9, חזור 28.9."
+            },
+            {
+              "type": "hotel",
+              "title": "Beekse Bergen Safari Resort",
+              "dates": "18.9 → 21.9 (3 לילות)",
+              "confirmation": "",
+              "price": "",
+              "link": "https://www.beeksebergen.nl/en/map",
+              "notes": "כולל כניסה לספארי. חדר בקומה 1 לצפייה בחיות."
+            },
+            {
+              "type": "hotel",
+              "title": "Efteling - Wonder Hotel",
+              "dates": "21.9 → 22.9 (לילה 1)",
+              "confirmation": "",
+              "price": "",
+              "link": "https://www.efteling.com/en/wonder-hotel",
+              "notes": "כולל כרטיס ליומיים לאפטלינג."
+            },
+            {
+              "type": "hotel",
+              "title": "Center Parcs De Eemhof",
+              "dates": "22.9 → 28.9 (6 לילות)",
+              "confirmation": "",
+              "price": "",
+              "link": "https://www.centerparcs.eu/in-en/netherlands/fp_EH_holiday-park-de-eemhof",
+              "notes": "בקתה בכפר הנופש."
+            }
+          ]
+        },
+        {
+          "family": "משפחה 2",
+          "items": []
+        },
+        {
+          "family": "משפחה 3",
+          "items": []
+        }
       ]
     },
     {

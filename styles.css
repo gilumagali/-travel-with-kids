@@ -822,3 +822,56 @@ footer .small {
     text-decoration: line-through;
     color: var(--text-light);
 }
+
+/* Bookings by family */
+.booking-family {
+    margin-bottom: 24px;
+}
+
+.booking-family h3 {
+    color: var(--primary);
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--primary-light);
+}
+
+.booking-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 12px;
+}
+
+.booking-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 14px 16px;
+    box-shadow: var(--shadow);
+}
+
+.booking-card-head {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 8px;
+}
+
+.booking-type {
+    font-size: 1.2rem;
+}
+
+.booking-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    color: var(--text-light);
+    font-size: 0.9rem;
+}
+
+.booking-empty {
+    color: var(--text-light);
+    font-style: italic;
+    padding: 4px 0;
+}

@@ -235,16 +235,21 @@ function showTripDetail(tripId) {
     detail.classList.remove('hidden');
 
     const isHotelOverview = currentTrip.hotelOverview;
+    const hasBookings = currentTrip.bookings && currentTrip.bookings.length > 0;
 
     // Show/hide tabs based on trip type
     document.querySelector('[data-tab="schedule"]').style.display = isHotelOverview ? 'none' : '';
     document.querySelector('[data-tab="map"]').style.display = isHotelOverview ? 'none' : '';
+    document.querySelector('[data-tab="bookings"]').style.display = hasBookings ? '' : 'none';
 
     renderTripHeader();
     if (!isHotelOverview) {
         renderSchedule();
     }
     renderAttractions();
+    if (hasBookings) {
+        renderBookings();
+    }
     renderNotes();
     
     // Reset to appropriate first tab
@@ -400,6 +405,40 @@ function renderAttractions() {
             <span class="attraction-type">${attr.type}</span>
             <span class="kid-rating">${'⭐'.repeat(attr.kidFriendly)} (${attr.kidFriendly}/5)</span>
             ${attr.notes ? `<div class="attraction-notes">📝 ${attr.notes}</div>` : ''}
+        </div>`).join('');
+}
+
+// Render bookings grouped by family
+function renderBookings() {
+    const panel = document.getElementById('bookingsPanel');
+    const families = currentTrip.bookings;
+    if (!families || families.length === 0) {
+        panel.innerHTML = '<p>אין הזמנות עדיין.</p>';
+        return;
+    }
+
+    const typeIcon = { flight: '✈️', hotel: '🏨', ticket: '🎟️', car: '🚗', other: '📦' };
+
+    panel.innerHTML = families.map(fam => `
+        <div class="booking-family">
+            <h3>👨‍👩‍👧‍👦 ${fam.family}</h3>
+            ${(fam.items && fam.items.length > 0) ? `
+                <div class="booking-items">
+                    ${fam.items.map(b => `
+                        <div class="booking-card">
+                            <div class="booking-card-head">
+                                <span class="booking-type">${typeIcon[b.type] || '📦'}</span>
+                                <strong>${b.title}</strong>
+                                ${b.link ? `<a href="${b.link}" target="_blank" class="site-link">🔗 קישור</a>` : ''}
+                            </div>
+                            <div class="booking-meta">
+                                ${b.dates ? `<span>📅 ${b.dates}</span>` : ''}
+                                ${b.confirmation ? `<span>🔖 ${b.confirmation}</span>` : ''}
+                                ${b.price ? `<span>💶 ${b.price}</span>` : ''}
+                            </div>
+                            ${b.notes ? `<div class="attraction-notes">📝 ${b.notes}</div>` : ''}
+                        </div>`).join('')}
+                </div>` : `<p class="booking-empty">טרם הוזנו הזמנות למשפחה זו.</p>`}
         </div>`).join('');
 }
 
