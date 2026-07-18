@@ -466,16 +466,16 @@
               "confirmation": "H-059678",
               "price": "€ 446.54 · שולם במלואו",
               "link": "https://www.efteling.com/en/wonder-hotel",
-              "notes": "Premium Room · 2 מבוגרים, ילד ותינוק. כרטיס ל-2 ימים לאפטלינג כלול (ביום ההגעה והעזיבה). ארוחת בוקר בופה כלולה. הזמנות ב-Restaurant Saga (Horst 31, Kaatsheuvel): ארוחת ערב שני 21.9 19:00 (4 סועדים) + ארוחת בוקר שלישי 22.9 07:00 (4 סועדים). הוזמן ע\"י גיל מגלי."
+              "notes": "Premium Room · 2 מבוגרים, ילד ותינוק. כרטיס ל-2 ימים לאפטלינג כלול (ביום ההגעה והעזיבה). ארוחת בוקר בופה כלולה. הזמנת ארוחת ערב ב-Restaurant Saga (Horst 31, Kaatsheuvel): שני 21.9 19:00 (4 סועדים). הוזמן ע\"י גיל מגלי."
             },
             {
               "type": "hotel",
-              "title": "Center Parcs De Eemhof",
+              "title": "Center Parcs De Eemhof - 4p VIP Cottage",
               "dates": "22.9 → 28.9 (6 לילות)",
-              "confirmation": "",
-              "price": "",
+              "confirmation": "792095",
+              "price": "€ 1,531.34 · חצי מהזמנה משותפת (€3,062.68 ל-2 קוטג'ים)",
               "link": "https://www.centerparcs.eu/in-en/netherlands/fp_EH_holiday-park-de-eemhof",
-              "notes": "בקתה בכפר הנופש."
+              "notes": "קוטג' VIP ל-4 (מיקום 282). הזמנה משותפת 792095 עם משפחת גל (2 קוטג'ים). כולל VIP service, חבילת מגבות, E-Car Package ל-6, קרדיט פעילויות. כתובת: Slingerweg 1, Zeewolde. הוזמן ע\"י מתר ספיה."
             },
             {
               "type": "car",
@@ -490,7 +490,17 @@
         },
         {
           "family": "משפחת גל",
-          "items": []
+          "items": [
+            {
+              "type": "hotel",
+              "title": "Center Parcs De Eemhof - 4p VIP Cottage",
+              "dates": "22.9 → 28.9 (6 לילות)",
+              "confirmation": "792095",
+              "price": "€ 1,531.34 · חצי מהזמנה משותפת (€3,062.68 ל-2 קוטג'ים)",
+              "link": "https://www.centerparcs.eu/in-en/netherlands/fp_EH_holiday-park-de-eemhof",
+              "notes": "קוטג' VIP ל-4 (מיקום 283). הזמנה משותפת 792095 עם משפחת סגל (2 קוטג'ים). כולל VIP service, חבילת מגבות, E-Car Package ל-6, קרדיט פעילויות. כתובת: Slingerweg 1, Zeewolde. הוזמן ע\"י מתר ספיה."
+            }
+          ]
         },
         {
           "family": "משפחת אקוקה",
@@ -503,6 +513,15 @@
               "price": "€ 1,536.86 · חלק מהזמנה משותפת",
               "link": "https://www.beeksebergen.nl/en",
               "notes": "חדר Savanne ל-5 אנשים, קומה 1. חלק מהזמנה משותפת 09526006040 (שולמה ע\"י גיל/סגל). כולל Attraction Pass לספארי, ארוחת בוקר ו-Rangerset. כתובת: Tilburgseweg 41, Hilvarenbeek."
+            },
+            {
+              "type": "food",
+              "title": "Restaurant Saga - ארוחת בוקר",
+              "dates": "22.9.26 · 07:00 (4 סועדים)",
+              "confirmation": "H-059678",
+              "price": "",
+              "link": "",
+              "notes": "Restaurant Saga, Horst 31, Kaatsheuvel. מזהה הזמנה UPdrkDkqCA. חלק מהשהות באפטלינג."
             }
           ]
         }

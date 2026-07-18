@@ -417,7 +417,7 @@ function renderBookings() {
         return;
     }
 
-    const typeIcon = { flight: '✈️', hotel: '🏨', ticket: '🎟️', car: '🚗', other: '📦' };
+    const typeIcon = { flight: '✈️', hotel: '🏨', ticket: '🎟️', car: '🚗', food: '🍽️', other: '📦' };
 
     panel.innerHTML = families.map(fam => `
         <div class="booking-family">
