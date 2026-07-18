@@ -13,10 +13,25 @@
         <div class="hero-content">
             <h1>🌍 Travel with Kids Hub</h1>
             <p class="subtitle">הטיולים המשפחתיים שלנו ברחבי העולם</p>
-            <a href="https://www.google.com/maps/@46.4852228,14.9994855,959997m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="google-map-link" style="margin-top:10px;">🗺️ המפה שלנו ב-Google Maps</a>
+            <div class="hero-actions">
+                <a href="https://www.google.com/maps/@46.4852228,14.9994855,959997m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="google-map-link">🗺️ המפה שלנו ב-Google Maps</a>
+                <button type="button" class="packing-btn" id="packingBtn">🎒 רשימת ציוד</button>
+            </div>
             <div class="family-info" id="familyInfo"></div>
         </div>
     </header>
+
+    <div class="packing-modal hidden" id="packingModal">
+        <div class="packing-modal-backdrop" id="packingBackdrop"></div>
+        <div class="packing-modal-content" role="dialog" aria-modal="true" aria-labelledby="packingTitle">
+            <div class="packing-modal-header">
+                <h2 id="packingTitle">🎒 רשימת ציוד כללית</h2>
+                <button type="button" class="packing-close" id="packingClose" aria-label="סגור">✕</button>
+            </div>
+            <p class="packing-hint">סמנו פריטים שארזתם — הסימון נשמר בדפדפן שלכם.</p>
+            <div class="packing-grid" id="packingGrid"></div>
+        </div>
+    </div>
 
     <nav class="filter-bar">
         <div class="container">

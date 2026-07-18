@@ -9,6 +9,8 @@ async function init() {
         const response = await fetch('trips.json');
         tripsData = await response.json();
         renderFamilyInfo();
+        renderPackingList();
+        setupPackingModal();
         renderTripsGrid();
         setupFilters();
         setupNavigation();
@@ -84,6 +86,80 @@ function getTripStatus(trip) {
     const today = new Date();
     today.setHours(0, 0, 0, 0);
     return endDate < today ? 'past' : 'future';
+}
+
+// Render the general packing list into the modal grid
+function renderPackingList() {
+    const grid = document.getElementById('packingGrid');
+    if (!grid) return;
+    const list = tripsData.packingList;
+    if (!list || list.length === 0) {
+        grid.innerHTML = '<p>אין רשימת ציוד עדיין.</p>';
+        return;
+    }
+
+    const checked = loadPackingState();
+    grid.innerHTML = list.map(cat => `
+        <div class="packing-category">
+            <h3>${cat.icon || '📦'} ${cat.category}</h3>
+            <ul class="packing-items">
+                ${cat.items.map(item => {
+                    const key = `${cat.category}::${item}`;
+                    const isChecked = checked[key] ? 'checked' : '';
+                    return `<li>
+                        <label class="packing-item ${isChecked ? 'is-checked' : ''}">
+                            <input type="checkbox" data-key="${encodeURIComponent(key)}" ${isChecked}>
+                            <span>${item}</span>
+                        </label>
+                    </li>`;
+                }).join('')}
+            </ul>
+        </div>`).join('');
+
+    grid.querySelectorAll('input[type="checkbox"]').forEach(cb => {
+        cb.addEventListener('change', () => {
+            const key = decodeURIComponent(cb.dataset.key);
+            const state = loadPackingState();
+            if (cb.checked) state[key] = true; else delete state[key];
+            savePackingState(state);
+            cb.closest('.packing-item').classList.toggle('is-checked', cb.checked);
+        });
+    });
+}
+
+const PACKING_STORAGE_KEY = 'twk-packing-checked';
+
+function loadPackingState() {
+    try {
+        return JSON.parse(localStorage.getItem(PACKING_STORAGE_KEY)) || {};
+    } catch {
+        return {};
+    }
+}
+
+function savePackingState(state) {
+    try {
+        localStorage.setItem(PACKING_STORAGE_KEY, JSON.stringify(state));
+    } catch { /* ignore storage errors */ }
+}
+
+// Setup packing list modal open/close
+function setupPackingModal() {
+    const modal = document.getElementById('packingModal');
+    const openBtn = document.getElementById('packingBtn');
+    const closeBtn = document.getElementById('packingClose');
+    const backdrop = document.getElementById('packingBackdrop');
+    if (!modal || !openBtn) return;
+
+    const open = () => { modal.classList.remove('hidden'); document.body.style.overflow = 'hidden'; };
+    const close = () => { modal.classList.add('hidden'); document.body.style.overflow = ''; };
+
+    openBtn.addEventListener('click', open);
+    closeBtn.addEventListener('click', close);
+    backdrop.addEventListener('click', close);
+    document.addEventListener('keydown', e => {
+        if (e.key === 'Escape' && !modal.classList.contains('hidden')) close();
+    });
 }
 
 // Render trip cards grid
