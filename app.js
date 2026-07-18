@@ -408,9 +408,38 @@ function renderAttractions() {
         </div>`).join('');
 }
 
+// Bookings password gate (client-side, light protection only)
+const BOOKINGS_HASH = '9113b98df80f877c7a2ee5d865a04c9514b4e9bf25a49d315b0b15f115d2f0d2';
+
+async function sha256Hex(text) {
+    const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text));
+    return [...new Uint8Array(buf)].map(b => b.toString(16).padStart(2, '0')).join('');
+}
+
+function isBookingsUnlocked() {
+    return sessionStorage.getItem('bookingsUnlocked') === '1';
+}
+
+async function unlockBookings() {
+    if (isBookingsUnlocked()) return true;
+    const input = prompt('🔒 הזינו סיסמה לצפייה בהזמנות:');
+    if (input === null) return false;
+    const ok = (await sha256Hex(input)) === BOOKINGS_HASH;
+    if (ok) {
+        sessionStorage.setItem('bookingsUnlocked', '1');
+    } else {
+        alert('סיסמה שגויה.');
+    }
+    return ok;
+}
+
 // Render bookings grouped by family
 function renderBookings() {
     const panel = document.getElementById('bookingsPanel');
+    if (!isBookingsUnlocked()) {
+        panel.innerHTML = '<p class="booking-empty">🔒 יש להזין סיסמה כדי לצפות בהזמנות.</p>';
+        return;
+    }
     const families = currentTrip.bookings;
     if (!families || families.length === 0) {
         panel.innerHTML = '<p>אין הזמנות עדיין.</p>';
@@ -510,7 +539,13 @@ function setupNavigation() {
     });
 
     document.querySelectorAll('.tab-btn').forEach(btn => {
-        btn.addEventListener('click', () => {
+        btn.addEventListener('click', async () => {
+            if (btn.dataset.tab === 'bookings' && !(await unlockBookings())) {
+                return;
+            }
+            if (btn.dataset.tab === 'bookings') {
+                renderBookings();
+            }
             document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
             
