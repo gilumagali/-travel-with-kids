@@ -461,12 +461,12 @@
             },
             {
               "type": "hotel",
-              "title": "Efteling - Wonder Hotel",
+              "title": "Efteling Wonder Hotel - Premium Room",
               "dates": "21.9 → 22.9 (לילה 1)",
-              "confirmation": "",
-              "price": "",
+              "confirmation": "H-059678",
+              "price": "€ 446.54 · שולם במלואו",
               "link": "https://www.efteling.com/en/wonder-hotel",
-              "notes": "כולל כרטיס ליומיים לאפטלינג."
+              "notes": "Premium Room · 2 מבוגרים, ילד ותינוק. כרטיס ל-2 ימים לאפטלינג כלול (ביום ההגעה והעזיבה). ארוחת בוקר בופה כלולה. הזמנות ב-Restaurant Saga (Horst 31, Kaatsheuvel): ארוחת ערב שני 21.9 19:00 (4 סועדים) + ארוחת בוקר שלישי 22.9 07:00 (4 סועדים). הוזמן ע\"י גיל מגלי."
             },
             {
               "type": "hotel",
