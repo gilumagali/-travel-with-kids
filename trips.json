@@ -443,21 +443,21 @@
           "items": [
             {
               "type": "flight",
-              "title": "אל על - טיסות הלוך-חזור",
+              "title": "אל על - טיסות הלוך-חזור (LY337 / LY338)",
               "dates": "18.9.26 → 28.9.26",
-              "confirmation": "",
-              "price": "",
+              "confirmation": "Z4CF6V",
+              "price": "USD 3,106 · 4 נוסעים (כולל El Al Protect)",
               "link": "https://www.elal.com/",
-              "notes": "הלוך 18.9, חזור 28.9."
+              "notes": "הלוך LY337 נתב\"ג→אמסטרדם (סכיפהול), 18.9 05:10–09:00, טרמינל 3. חזור LY338 אמסטרדם→נתב\"ג, 28.9 12:15–17:30. Economy Classic, כבודה 1PC לנוסע, El Al Protect מאושר. נוסעים ומושבים: גיל (52K/33K), תומר (52J/33J), עומר-ילד (52H/33H), רונה-ילדה (52G/33G)."
             },
             {
               "type": "hotel",
-              "title": "Beekse Bergen Safari Resort",
+              "title": "Safari Hotel Beekse Bergen",
               "dates": "18.9 → 21.9 (3 לילות)",
-              "confirmation": "",
-              "price": "",
-              "link": "https://www.beeksebergen.nl/en/map",
-              "notes": "כולל כניסה לספארי. חדר בקומה 1 לצפייה בחיות."
+              "confirmation": "09526006040",
+              "price": "€ 2,834.84 · שולם במלואו",
+              "link": "https://www.beeksebergen.nl/en",
+              "notes": "2 חדרי Savanne (חדר ל-4 וחדר ל-5 אנשים) בקומה 1 - הזמנה משותפת. כולל Attraction Pass לספארי, ארוחת בוקר ו-Rangerset. כתובת: Tilburgseweg 41, Hilvarenbeek. הוזמן ע\"י גיל (13.2.26)."
             },
             {
               "type": "hotel",
