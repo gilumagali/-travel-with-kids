@@ -476,15 +476,24 @@
               "price": "",
               "link": "https://www.centerparcs.eu/in-en/netherlands/fp_EH_holiday-park-de-eemhof",
               "notes": "בקתה בכפר הנופש."
+            },
+            {
+              "type": "car",
+              "title": "השכרת רכב",
+              "dates": "18.9.26 → 28.9.26",
+              "confirmation": "",
+              "price": "",
+              "link": "",
+              "notes": "רכב לניוד בין הבסיסים וליציאות היומיות. פרטים יושלמו."
             }
           ]
         },
         {
-          "family": "משפחה 2",
+          "family": "משפחת גל",
           "items": []
         },
         {
-          "family": "משפחה 3",
+          "family": "משפחת אקוקה",
           "items": []
         }
       ]
