@@ -263,79 +263,133 @@
       ],
       "attractions": [
         {
-          "name": "ספארי Beekse Bergen",
+          "name": "Beekse Bergen Safari Resort",
           "type": "kids",
           "lat": 51.5386,
           "lng": 5.2447,
           "kidFriendly": 5,
-          "notes": "ספארי גדול - רואים חיות מקרוב, כולל מהמרפסת אם לוקחים חדר בקומה 1. כלול במחיר המלון.",
+          "notes": "בסיס 18–21.9 · לא יוצאים מהמתחם. ספארי ברכב, בסירה וברגל, בריכות, גני משחקים, מתקנים לילדים ותצפית על בעלי חיים מהחדר.",
           "link": "https://www.beeksebergen.nl/en/map"
         },
         {
-          "name": "אפטלינג (Efteling)",
+          "name": "Efteling",
           "type": "kids",
           "lat": 51.6499,
           "lng": 5.0489,
           "kidFriendly": 5,
-          "notes": "פארק שעשועים אגדות ענק ומקסים למשפחות. כרטיס ליומיים כלול במלון הפארק.",
+          "notes": "בסיס 21–22.9 · לא יוצאים מהמתחם. פארק האגדות הגדול בהולנד עם מתקנים לכל המשפחה, יער האגדות, מופעים ומסעדות. יומיים מלאים ולינה במלון.",
           "link": "https://www.efteling.com/en"
         },
         {
-          "name": "פארק מים - De Eemhof",
+          "name": "Center Parcs De Eemhof",
           "type": "kids",
           "lat": 52.2861,
           "lng": 5.3739,
           "kidFriendly": 5,
-          "notes": "פארק מים מקורה בתוך כפר הנופש, מגלשות ובריכות לכל הגילאים.",
+          "notes": "בסיס 22–28.9 · בתוך הכפר. Aqua Mundo, ג'ימבורי, חוף, מרינה, אופניים, גני משחקים, פעילויות לילדים ומסעדות. מומלץ להשאיר לפחות 2–3 ימים ליהנות רק מהכפר.",
           "link": "https://www.centerparcs.eu/in-en/netherlands/fp_EH_holiday-park-de-eemhof"
         },
         {
-          "name": "דולפינריום הרדרווייק (Dolfinarium)",
-          "type": "kids",
-          "lat": 52.3475,
-          "lng": 5.6197,
+          "name": "🥞 Hans & Grietje Pancake House",
+          "type": "food",
+          "lat": 52.3195,
+          "lng": 5.4165,
           "kidFriendly": 5,
-          "notes": "פארק ימי עם דולפינים ומופעים - כ-40 דק' נסיעה מ-De Eemhof. אטרקציה נהדרת ליום בחוץ.",
-          "link": "https://www.dolfinarium.nl/en"
+          "notes": "🚗 25–30 דק' מ-De Eemhof. מסעדת פנקייקים עם פארק משחקים ענק, חדרים מכושפים, מגלשות, בית ממתקים ואטרקציות לילדים. אפשר להעביר שם חצי יום.",
+          "link": "https://www.hansengrietje.nl/"
         },
         {
-          "name": "מדורודם (Madurodam)",
+          "name": "🚤 Giethoorn",
           "type": "attraction",
-          "lat": 52.0996,
-          "lng": 4.2989,
+          "lat": 52.7386,
+          "lng": 6.0781,
           "kidFriendly": 4,
-          "notes": "פארק מיניאטורות של הולנד בהאג - כיף לילדים ומבוגרים.",
-          "link": "https://www.madurodam.nl/en"
+          "notes": "🚗 כשעה מ-De Eemhof. כפר ציורי ללא כבישים. שוכרים סירה חשמלית ומשייטים בין התעלות והגשרים.",
+          "link": "https://giethoorn.com/"
         },
         {
-          "name": "אמסטרדם",
+          "name": "🎠 Julianatoren",
+          "type": "kids",
+          "lat": 52.2323,
+          "lng": 5.9699,
+          "kidFriendly": 5,
+          "notes": "🚗 45–50 דק' מ-De Eemhof. פארק שעשועים המיועד בעיקר לילדים עד גיל 10 עם עשרות מתקנים ומופעים.",
+          "link": "https://www.julianatoren.nl/"
+        },
+        {
+          "name": "🚲 De Hoge Veluwe National Park",
           "type": "attraction",
-          "lat": 52.3676,
-          "lng": 4.9041,
+          "lat": 52.0561,
+          "lng": 5.8342,
+          "kidFriendly": 4,
+          "notes": "🚗 50–60 דק' מ-De Eemhof. פארק טבע ענק עם אופניים לבנים חינם, מסלולי רכיבה ופיקניק.",
+          "link": "https://www.hogeveluwe.nl/en"
+        },
+        {
+          "name": "🌬️ Zaanse Schans",
+          "type": "attraction",
+          "lat": 52.4744,
+          "lng": 4.8163,
           "kidFriendly": 3,
-          "notes": "יום בעיר - שיט בתעלות, כיכרות ומוזיאונים. כשעה מ-De Eemhof.",
-          "link": ""
+          "notes": "🚗 50–60 דק' מ-De Eemhof. כפר הולנדי מסורתי עם טחנות רוח, גבינות, קבקבי עץ ובתי מלאכה. מומלץ להגיע מוקדם כי חלק מהמקומות נסגרים אחר הצהריים.",
+          "link": "https://www.dezaanseschans.nl/en/"
+        },
+        {
+          "name": "🛍️ Batavia Stad Fashion Outlet",
+          "type": "attraction",
+          "lat": 52.5185,
+          "lng": 5.468,
+          "kidFriendly": 2,
+          "notes": "🚗 25–30 דק' מ-De Eemhof. אאוטלט גדול עם מותגים כמו Nike, Adidas, Tommy Hilfiger, Levi's ועוד.",
+          "link": "https://www.bataviastad.nl/en"
+        },
+        {
+          "name": "👕 Primark Almere",
+          "type": "attraction",
+          "lat": 52.3742,
+          "lng": 5.219,
+          "kidFriendly": 2,
+          "notes": "🚗 20–25 דק' מ-De Eemhof. סניף Primark גדול במרכז הקניות Almere Centrum. מתאים לקניות בגדים, ילדים ומוצרי בית.",
+          "link": "https://www.primark.com/en-nl/stores"
+        },
+        {
+          "name": "🛍️ Almere Centrum",
+          "type": "attraction",
+          "lat": 52.3742,
+          "lng": 5.219,
+          "kidFriendly": 2,
+          "notes": "🚗 20–25 דק' מ-De Eemhof. מרכז קניות גדול עם Zara, H&M, Pull & Bear, Rituals, Douglas, MediaMarkt, Pandora ועוד מאות חנויות.",
+          "link": "https://www.almerecentrum.nl/"
+        },
+        {
+          "name": "⚽ Johan Cruyff ArenA Tour",
+          "type": "attraction",
+          "lat": 52.3143,
+          "lng": 4.9419,
+          "kidFriendly": 3,
+          "notes": "🚗 40–45 דק' מ-De Eemhof. סיור באצטדיון אייאקס – חדרי הלבשה, מנהרת השחקנים, חדר מסיבות עיתונאים ומוזיאון. מומלץ בעיקר לחובבי כדורגל.",
+          "link": "https://www.johancruijffarena.nl/en/tickets--tours/stadium-tours/"
         }
       ],
       "schedule": [
         {
           "day": "יום 1 - 18.9 (שישי)",
-          "activities": "טיסת אל על להולנד. איסוף רכב שכור וצ'ק אין ב-Safari Resort Beekse Bergen.",
+          "activities": "טיסת אל על להולנד, איסוף רכב שכור וצ'ק אין ב-Beekse Bergen Safari Resort.",
           "notes": "לבקש חדר בקומה 1 לצפייה בחיות מהמרפסת."
         },
         {
           "day": "יום 2 - 19.9 (שבת)",
-          "activities": "יום ספארי מלא - סיור בין החיות, ואחר כך בריכות וגני שעשועים במתחם.",
+          "activities": "ספארי + כפר הנופש. לא יוצאים מהמתחם.",
           "notes": ""
         },
         {
           "day": "יום 3 - 20.9 (ראשון)",
-          "activities": "עוד יום ספארי / מקפצות ובריכות. אופציה לחצי יום באטרקציה קרובה אם בא לנו.",
+          "activities": "ספארי + בריכות ומתקנים בכפר. לא יוצאים מהמתחם.",
           "notes": ""
         },
         {
           "day": "יום 4 - 21.9 (שני)",
-          "activities": "צ'ק אאוט מהספארי ונסיעה לאפטלינג. יום ראשון בפארק ולינה ב-Wonder Hotel.",
+          "activities": "צ'ק אאוט ונסיעה לאפטלינג. יום ראשון בפארק ולינה ב-Wonder Hotel. לא יוצאים מהמתחם.",
           "notes": "כרטיס ליומיים כלול במלון."
         },
         {
@@ -345,27 +399,27 @@
         },
         {
           "day": "יום 6 - 23.9 (רביעי)",
-          "activities": "יום בכפר הנופש - פארק מים, ג'ימבורי וגני משחקים.",
-          "notes": ""
+          "activities": "יום בכפר: Aqua Mundo, ג'ימבורי, חוף ומרינה.",
+          "notes": "מומלץ להשאיר 2–3 ימים ליהנות מהכפר עצמו."
         },
         {
           "day": "יום 7 - 24.9 (חמישי)",
-          "activities": "יציאה לדולפינריום הרדרווייק (כ-40 דק').",
+          "activities": "יציאה לאטרקציה מהרשימה (למשל Hans & Grietje 25–30 דק' / Primark ו-Almere Centrum 20–25 דק').",
           "notes": ""
         },
         {
           "day": "יום 8 - 25.9 (שישי)",
-          "activities": "יום בכפר הנופש / פעילויות מים ומשחקים.",
+          "activities": "יום בכפר / יציאה קצרה לפי בחירה (Batavia Stad 25–30 דק').",
           "notes": ""
         },
         {
           "day": "יום 9 - 26.9 (שבת)",
-          "activities": "יציאה לאטרקציה - מדורודם/אמסטרדם לבחירה.",
+          "activities": "יציאה לאטרקציה מהרשימה (Giethoorn ~שעה / Julianatoren 45–50 דק' / Zaanse Schans 50–60 דק' / De Hoge Veluwe 50–60 דק').",
           "notes": ""
         },
         {
           "day": "יום 10 - 27.9 (ראשון)",
-          "activities": "יום אחרון בכפר הנופש - סיכום ואריזה.",
+          "activities": "יום אחרון בכפר - סיכום, פעילויות אחרונות ואריזה.",
           "notes": ""
         },
         {
