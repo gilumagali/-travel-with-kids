@@ -294,7 +294,6 @@ function renderTripPackingList() {
 
     panel.innerHTML = `
         <div class="trip-packing-header">
-            <h3>${currentTrip.packingListTitle || '🎒 רשימת ציוד לטיול'}</h3>
             <p>סמנו פריטים שארזתם — הסימון נשמר בדפדפן שלכם.</p>
         </div>
         <div class="packing-grid" id="tripPackingGrid"></div>`;
