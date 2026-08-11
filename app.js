@@ -98,13 +98,25 @@ function renderPackingList() {
         return;
     }
 
+    renderPackingCategories(grid, list, 'general');
+}
+
+function renderPackingCategories(container, list, namespace) {
     const checked = loadPackingState();
-    grid.innerHTML = list.map(cat => `
+    let currentSection = null;
+    container.innerHTML = list.map(cat => {
+        const sectionHeading = cat.section && cat.section !== currentSection
+            ? `<h3 class="packing-section-title">${cat.section}</h3>`
+            : '';
+        currentSection = cat.section || currentSection;
+        return `${sectionHeading}
         <div class="packing-category">
             <h3>${cat.icon || '📦'} ${cat.category}</h3>
             <ul class="packing-items">
                 ${cat.items.map(item => {
-                    const key = `${cat.category}::${item}`;
+                    const key = namespace === 'general'
+                        ? `${cat.category}::${item}`
+                        : `${namespace}::${cat.section || ''}::${cat.category}::${item}`;
                     const isChecked = checked[key] ? 'checked' : '';
                     return `<li>
                         <label class="packing-item ${isChecked ? 'is-checked' : ''}">
@@ -114,9 +126,10 @@ function renderPackingList() {
                     </li>`;
                 }).join('')}
             </ul>
-        </div>`).join('');
+        </div>`;
+    }).join('');
 
-    grid.querySelectorAll('input[type="checkbox"]').forEach(cb => {
+    container.querySelectorAll('input[type="checkbox"]').forEach(cb => {
         cb.addEventListener('change', () => {
             const key = decodeURIComponent(cb.dataset.key);
             const state = loadPackingState();
@@ -236,11 +249,13 @@ function showTripDetail(tripId) {
 
     const isHotelOverview = currentTrip.hotelOverview;
     const hasBookings = currentTrip.bookings && currentTrip.bookings.length > 0;
+    const hasPackingList = currentTrip.packingList && currentTrip.packingList.length > 0;
 
     // Show/hide tabs based on trip type
     document.querySelector('[data-tab="schedule"]').style.display = isHotelOverview ? 'none' : '';
     document.querySelector('[data-tab="map"]').style.display = isHotelOverview ? 'none' : '';
     document.querySelector('[data-tab="bookings"]').style.display = hasBookings ? '' : 'none';
+    document.querySelector('[data-tab="packing"]').style.display = hasPackingList ? '' : 'none';
 
     renderTripHeader();
     if (!isHotelOverview) {
@@ -249,6 +264,9 @@ function showTripDetail(tripId) {
     renderAttractions();
     if (hasBookings) {
         renderBookings();
+    }
+    if (hasPackingList) {
+        renderTripPackingList();
     }
     renderNotes();
     
@@ -265,6 +283,26 @@ function showTripDetail(tripId) {
     }
 
     window.scrollTo(0, 0);
+}
+
+function renderTripPackingList() {
+    const panel = document.getElementById('packingPanel');
+    if (!currentTrip.packingList || currentTrip.packingList.length === 0) {
+        panel.innerHTML = '<p>אין רשימת ציוד לטיול זה.</p>';
+        return;
+    }
+
+    panel.innerHTML = `
+        <div class="trip-packing-header">
+            <h3>${currentTrip.packingListTitle || '🎒 רשימת ציוד לטיול'}</h3>
+            <p>סמנו פריטים שארזתם — הסימון נשמר בדפדפן שלכם.</p>
+        </div>
+        <div class="packing-grid" id="tripPackingGrid"></div>`;
+    renderPackingCategories(
+        document.getElementById('tripPackingGrid'),
+        currentTrip.packingList,
+        currentTrip.id
+    );
 }
 
 // Render trip header

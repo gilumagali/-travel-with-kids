@@ -806,6 +806,29 @@ footer .small {
     gap: 16px;
 }
 
+.packing-section-title {
+    grid-column: 1 / -1;
+    color: var(--text);
+    font-size: 1.25rem;
+    margin-top: 8px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--border);
+}
+
+.trip-packing-header {
+    margin-bottom: 20px;
+}
+
+.trip-packing-header h3 {
+    color: var(--primary);
+    font-size: 1.4rem;
+    margin-bottom: 4px;
+}
+
+.trip-packing-header p {
+    color: var(--text-light);
+}
+
 .packing-category {
     background: var(--bg);
     border: 1px solid var(--border);
