@@ -469,6 +469,15 @@
               "notes": "Premium Room · 2 מבוגרים, ילד ותינוק. כרטיס ל-2 ימים לאפטלינג כלול (ביום ההגעה והעזיבה). ארוחת בוקר בופה כלולה. הזמנת ארוחת ערב ב-Restaurant Saga (Horst 31, Kaatsheuvel): שני 21.9 19:00 (4 סועדים). הוזמן ע\"י גיל מגלי."
             },
             {
+              "type": "food",
+              "title": "Restaurant Saga - ארוחת ערב",
+              "dates": "22.9.26 · 19:00 (4 סועדים)",
+              "confirmation": "UPdrkDkqCA",
+              "price": "",
+              "link": "",
+              "notes": "Restaurant Saga, Horst 31, Kaatsheuvel. מזהה הזמנה UPdrkDkqCA. חלק מהשהות באפטלינג."
+            },
+            {
               "type": "hotel",
               "title": "Center Parcs De Eemhof - 4p VIP Cottage",
               "dates": "22.9 → 28.9 (6 לילות)",
@@ -549,15 +558,6 @@
               "price": "€ 492.75 · שולם כחלק מהזמנה בסך €960.01",
               "link": "https://www.efteling.com/en/wonder-hotel",
               "notes": "Premium Room · 2 מבוגרים, 2 ילדים ותינוק. צ'ק אין ב-15:00, צ'ק אאוט ב-11:00. כולל כניסה לאפטלינג ליומיים וארוחת בוקר בופה. חלק מהזמנה משותפת Gal-21-9-D6C9 עם משפחת גל; הסכום הכולל כולל €10 דמי SGR ו-€27.51 מס תיירות."
-            },
-            {
-              "type": "food",
-              "title": "Restaurant Saga - ארוחת ערב",
-              "dates": "22.9.26 · 19:00 (4 סועדים)",
-              "confirmation": "UPdrkDkqCA",
-              "price": "",
-              "link": "",
-              "notes": "Restaurant Saga, Horst 31, Kaatsheuvel. מזהה הזמנה UPdrkDkqCA. חלק מהשהות באפטלינג."
             },
             {
               "type": "hotel",
