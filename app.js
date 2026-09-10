@@ -468,7 +468,11 @@ function renderAttractions() {
 
     panel.innerHTML = currentTrip.attractions.map(attr => `
         <div class="attraction-card">
-            ${attr.image ? `<img class="attraction-image" src="${attr.image}" alt="${attr.name}">` : ''}
+            ${attr.image ? `
+                <div class="attraction-image-preview">
+                    <img class="attraction-image" src="${attr.image}" alt="${attr.name}">
+                    <a class="image-open-btn" href="${attr.image}" target="_blank">🔍 פתיחה בגודל מלא</a>
+                </div>` : ''}
             <h4>${attr.name} ${attr.link ? `<a href="${attr.link}" target="_blank" class="site-link">🔗 אתר</a>` : ''}</h4>
             <span class="attraction-type">${attr.type}</span>
             <span class="kid-rating">${'⭐'.repeat(attr.kidFriendly)} (${attr.kidFriendly}/5)</span>
