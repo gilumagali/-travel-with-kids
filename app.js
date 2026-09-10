@@ -6,7 +6,7 @@ let map = null;
 // Load data
 async function init() {
     try {
-        const response = await fetch('trips.json');
+        const response = await fetch('trips.json', { cache: 'no-store' });
         tripsData = await response.json();
         renderFamilyInfo();
         renderPackingList();
@@ -76,7 +76,7 @@ function formatDateRange(dates) {
 function getTripDuration(dates) {
     const start = new Date(dates.start);
     const end = new Date(dates.end);
-    const days = Math.ceil((end - start) / (1000 * 60 * 60 * 24));
+    const days = Math.ceil((end - start) / (1000 * 60 * 60 * 24)) + 1;
     return `${days} days`;
 }
 
@@ -334,13 +334,16 @@ function renderSchedule() {
     const first = currentTrip.schedule[0];
     
     if (first.title && Array.isArray(first.activities)) {
-        // Old format: convert to bullet style too
         panel.innerHTML = currentTrip.schedule.map(day => `
             <div class="day-card">
-                <h3>${day.title}</h3>
-                <ul class="schedule-bullets">
+                <h3>${formatScheduleHeading(day)}</h3>
+                <ul class="activity-list">
                     ${day.activities.map(act => `
-                        <li>${act.activity}</li>`).join('')}
+                        <li class="activity-item">
+                            ${act.time ? `<span class="activity-time">${act.time}</span>` : ''}
+                            <span class="activity-type">${getActivityIcon(act.type)}</span>
+                            <span class="activity-text">${act.activity}</span>
+                        </li>`).join('')}
                 </ul>
             </div>`).join('');
     } else {
@@ -354,6 +357,33 @@ function renderSchedule() {
                 </ul>
             </div>`).join('');
     }
+}
+
+function formatScheduleHeading(day) {
+    if (!day.date) return day.title;
+
+    const date = new Date(`${day.date}T00:00:00`);
+    const dateLabel = date.toLocaleDateString('he-IL', {
+        day: 'numeric',
+        month: 'numeric'
+    });
+    const weekday = date.toLocaleDateString('he-IL', {
+        weekday: 'long'
+    }).replace(/^יום\s+/, '');
+    const title = day.title.replace(/^יום\s+\d+\s*-\s*/, '');
+
+    return `יום ${day.day} - ${dateLabel} (${weekday}) - ${title}`;
+}
+
+function getActivityIcon(type) {
+    const icons = {
+        hotel: '🏨',
+        attraction: '⭐',
+        food: '🍽️',
+        kids: '🎠',
+        transport: '🚗'
+    };
+    return icons[type] || '📍';
 }
 
 // Render map
@@ -438,6 +468,7 @@ function renderAttractions() {
 
     panel.innerHTML = currentTrip.attractions.map(attr => `
         <div class="attraction-card">
+            ${attr.image ? `<img class="attraction-image" src="${attr.image}" alt="${attr.name}">` : ''}
             <h4>${attr.name} ${attr.link ? `<a href="${attr.link}" target="_blank" class="site-link">🔗 אתר</a>` : ''}</h4>
             <span class="attraction-type">${attr.type}</span>
             <span class="kid-rating">${'⭐'.repeat(attr.kidFriendly)} (${attr.kidFriendly}/5)</span>

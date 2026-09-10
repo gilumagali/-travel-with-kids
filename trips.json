@@ -217,8 +217,8 @@
   "trips": [
     {
       "id": "netherlands-2026",
-      "title": "הולנד – ספארי, אפטלינג וטיולי כוכב | טוב לב ואהבת אמת",
-      "location": "Netherlands",
+      "title": "הולנד - Beekse Bergen, Efteling ו-De Eemhof",
+      "location": "Hilvarenbeek, Kaatsheuvel & Zeewolde, Netherlands",
       "country": "Netherlands",
       "region": "Europe",
       "dates": {
@@ -226,8 +226,8 @@
         "end": "2026-09-28"
       },
       "coverImage": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?w=800",
-      "summary": "טיול משפחתי של 10 ימים בהולנד: 3 לילות בכפר נופש ספארי Beekse Bergen, יומיים בפארק אפטלינג עם לילה במלון הפארק, ו-6 לילות בכפר נופש Center Parcs De Eemhof עם יציאות יומיות לאטרקציות.",
-      "notes": "טיול מבוסס על 3 בסיסים - כל בסיס הוא כפר נופש/פארק עם המון פעילויות במקום, כך שאפשר לשלב ימי מנוחה בתוך המתחם עם יציאות לאטרקציות בסביבה. טיסות אל על.",
+      "summary": "11 ימים משפחתיים ב-Beekse Bergen, Efteling ו-Center Parcs De Eemhof, עם ספארי, פארקי שעשועים, טבע, שיט ומשחק נבחרת הולנד נגד גרמניה.",
+      "notes": "טיול מבוסס על 3 בסיסים - כל בסיס הוא כפר נופש/פארק עם המון פעילויות במקום, כך שאפשר לשלב ימי מנוחה בתוך המתחם עם יציאות לאטרקציות בסביבה. טיסות אל על.\n\nהתוכנית עודכנה לפי התחזית שנבדקה ב-10.9.2026: 19.9 הוא היום היבש והקריר יותר ומתאים לספארי; 20.9 הוא היום החם ביותר ומתאים ל-Speelland Outdoor. התחזית עדיין עשויה להשתנות, לכן כדאי לבדוק שוב 24–48 שעות מראש.",
       "flights": "אל על - הלוך 18.9.26, חזור 28.9.26",
       "source": "הערות אישיות",
       "instagram": "",
@@ -278,7 +278,8 @@
           "lng": 5.0489,
           "kidFriendly": 5,
           "notes": "בסיס 21–22.9 · לא יוצאים מהמתחם. פארק האגדות הגדול בהולנד עם מתקנים לכל המשפחה, יער האגדות, מופעים ומסעדות. יומיים מלאים ולינה במלון.",
-          "link": "https://www.efteling.com/en"
+          "link": "https://www.efteling.com/en",
+          "image": "images/omer-rides.png"
         },
         {
           "name": "Center Parcs De Eemhof",
@@ -369,73 +370,365 @@
           "kidFriendly": 3,
           "notes": "🚗 40–45 דק' מ-De Eemhof. סיור באצטדיון אייאקס – חדרי הלבשה, מנהרת השחקנים, חדר מסיבות עיתונאים ומוזיאון. מומלץ בעיקר לחובבי כדורגל.",
           "link": "https://www.johancruijffarena.nl/en/tickets--tours/stadium-tours/"
+        },
+        {
+          "name": "Speelland Beekse Bergen",
+          "type": "kids",
+          "lat": 51.524,
+          "lng": 5.109,
+          "kidFriendly": 5,
+          "notes": "לשמור ליום החם ביותר. מתחמי Outdoor ו-Indoor מאפשרים לעבור פנימה כשהטמפרטורה יורדת.",
+          "link": "https://www.beeksebergen.nl/en/speelland"
+        },
+        {
+          "name": "Maji Springs",
+          "type": "pool",
+          "lat": 51.5205,
+          "lng": 5.1168,
+          "kidFriendly": 5,
+          "notes": "בריכה מקורה שמתאימה לאחר הצ'ק-אין או כחלק מתוכנית יום גשום."
+        },
+        {
+          "name": "Speelbos Zevensprong",
+          "type": "kids",
+          "lat": 52.297,
+          "lng": 5.499,
+          "kidFriendly": 5,
+          "notes": "יער משחקים ופיקניק בבוקר של 23.9.",
+          "link": "https://www.gezinopreis.nl/speelbos-de-zevensprong/"
+        },
+        {
+          "name": "Johan Cruijff ArenA",
+          "type": "stadium",
+          "lat": 52.3143,
+          "lng": 4.9416,
+          "kidFriendly": 4,
+          "notes": "משחק UEFA Nations League: הולנד נגד גרמניה, 24.9.2026 בשעה 20:45.",
+          "link": "https://www.johancruijffarena.nl/en/calendar/446873-the-netherlands-germany/"
+        },
+        {
+          "name": "Fun Forest Amsterdam",
+          "type": "adventure-park",
+          "lat": 52.3227,
+          "lng": 4.8275,
+          "kidFriendly": 4,
+          "notes": "פארק חבלים בבוקר של 26.9. לבדוק מראש מגבלות גיל וגובה.",
+          "link": "https://www.funforest.nl/en/locations/amsterdam/"
         }
       ],
       "schedule": [
         {
-          "day": "יום 1 - 18.9 (שישי)",
-          "activities": "טיסת אל על להולנד, איסוף רכב שכור וצ'ק אין ב-Beekse Bergen Safari Resort.",
-          "notes": "לבקש חדר בקומה 1 לצפייה בחיות מהמרפסת."
+          "day": 1,
+          "date": "2026-09-18",
+          "title": "יום 1 - הגעה ל-Beekse Bergen",
+          "activities": [
+            {
+              "time": "09:00",
+              "activity": "נחיתה ב-Schiphol, איסוף מזוודות ורכב שכור",
+              "type": "transport"
+            },
+            {
+              "time": "12:30",
+              "activity": "הגעה ל-Safari Hotel וארוחת צהריים ב-Hogon או Nommos",
+              "type": "food"
+            },
+            {
+              "time": "14:00",
+              "activity": "Mini Safari Land Rovers, אם מזג האוויר מאפשר",
+              "type": "attraction"
+            },
+            {
+              "time": "15:00",
+              "activity": "צ'ק-אין ומנוחה בחדר",
+              "type": "hotel"
+            },
+            {
+              "time": "16:00",
+              "activity": "Maji Springs - בריכה מקורה עד 17:30",
+              "type": "kids"
+            },
+            {
+              "time": "18:00",
+              "activity": "ארוחת ערב בבופה Amma",
+              "type": "food"
+            },
+            {
+              "time": "19:30",
+              "activity": "באולינג אופציונלי, אם לילדים נשאר כוח",
+              "type": "kids"
+            }
+          ]
         },
         {
-          "day": "יום 2 - 19.9 (שבת)",
-          "activities": "ספארי + כפר הנופש. לא יוצאים מהמתחם.",
-          "notes": ""
+          "day": 2,
+          "date": "2026-09-19",
+          "title": "יום 2 - Safari Day (היום היבש והקריר)",
+          "activities": [
+            {
+              "time": "08:00",
+              "activity": "ארוחת בוקר והתארגנות",
+              "type": "food"
+            },
+            {
+              "time": "09:30",
+              "activity": "Car Safari",
+              "type": "attraction"
+            },
+            {
+              "time": "10:45",
+              "activity": "Walking Safari, בעלי חיים וגני משחקים",
+              "type": "attraction"
+            },
+            {
+              "time": "12:15",
+              "activity": "ארוחת צהריים ב-Wanyama Pancake Restaurant; Kongo היא חלופה מהירה יותר",
+              "type": "food"
+            },
+            {
+              "time": "13:30",
+              "activity": "Private Game Drive - התוספת המרכזית שכדאי להזמין מראש",
+              "type": "attraction"
+            },
+            {
+              "time": "15:00",
+              "activity": "Boat Safari, פעילויות מטפלים או מופע ציפורים לפי הזמינות",
+              "type": "attraction"
+            },
+            {
+              "time": "16:00",
+              "activity": "עוד בעלי חיים וגני משחקים עד בערך 17:00",
+              "type": "kids"
+            },
+            {
+              "time": "18:30",
+              "activity": "ארוחת ערב ב-Moto; חלופות: Nommos או Amma",
+              "type": "food"
+            }
+          ]
         },
         {
-          "day": "יום 3 - 20.9 (ראשון)",
-          "activities": "ספארי + בריכות ומתקנים בכפר. לא יוצאים מהמתחם.",
-          "notes": ""
+          "day": 3,
+          "date": "2026-09-20",
+          "title": "יום 3 - Speelland Day (היום החם ביותר)",
+          "activities": [
+            {
+              "time": "10:00",
+              "activity": "Speelland Outdoor: Big Wheels, מסלול באגי, סירות מתנגשות, טרמפולינות, Adventure Island ורפסודות",
+              "type": "kids"
+            },
+            {
+              "time": "12:15",
+              "activity": "ארוחת צהריים מהירה בתוך Speelland",
+              "type": "food"
+            },
+            {
+              "time": "13:00",
+              "activity": "המשך בחוץ בשעות החמות: סירות פדלים, מגלשות מים, חוף ואגם",
+              "type": "kids"
+            },
+            {
+              "time": "15:30",
+              "activity": "Speelland Indoor עד 17:00: Tiki Tower, Jungle Rush, Bouncy Beach, Super Slides ומתקני טיפוס ומשחק",
+              "type": "kids"
+            },
+            {
+              "time": "18:00",
+              "activity": "ארוחת ערב ב-Labadi - פיצה ופסטה",
+              "type": "food"
+            },
+            {
+              "time": "19:30",
+              "activity": "באולינג, אם דילגתם עליו בערב ההגעה",
+              "type": "kids"
+            }
+          ]
         },
         {
-          "day": "יום 4 - 21.9 (שני)",
-          "activities": "צ'ק אאוט ונסיעה לאפטלינג. יום ראשון בפארק ולינה ב-Wonder Hotel. לא יוצאים מהמתחם.",
-          "notes": "כרטיס ליומיים כלול במלון."
+          "day": 4,
+          "date": "2026-09-21",
+          "title": "יום 4 - Efteling, יום פארק ראשון",
+          "activities": [
+            {
+              "time": "08:00",
+              "activity": "ארוחת בוקר וצ'ק-אאוט",
+              "type": "hotel"
+            },
+            {
+              "time": "09:00",
+              "activity": "נסיעה ל-Efteling",
+              "type": "transport"
+            },
+            {
+              "time": "10:00",
+              "activity": "יום הפארק המלא הראשון ב-Efteling",
+              "type": "attraction"
+            }
+          ]
         },
         {
-          "day": "יום 5 - 22.9 (שלישי)",
-          "activities": "יום שני באפטלינג, ואז נסיעה ל-Center Parcs De Eemhof וצ'ק אין.",
-          "notes": ""
+          "day": 5,
+          "date": "2026-09-22",
+          "title": "יום 5 - Efteling ומעבר ל-De Eemhof",
+          "activities": [
+            {
+              "time": "בוקר",
+              "activity": "יום שני ב-Efteling",
+              "type": "attraction"
+            },
+            {
+              "time": "אחה״צ",
+              "activity": "עצירה בסופרמרקט והצטיידות",
+              "type": "food"
+            },
+            {
+              "time": "אחה״צ",
+              "activity": "נסיעה ל-Center Parcs De Eemhof וצ'ק-אין",
+              "type": "transport"
+            },
+            {
+              "time": "ערב",
+              "activity": "ערב רגוע והתארגנות ב-De Eemhof",
+              "type": "hotel"
+            }
+          ]
         },
         {
-          "day": "יום 6 - 23.9 (רביעי)",
-          "activities": "יום בכפר: Aqua Mundo, ג'ימבורי, חוף ומרינה.",
-          "notes": "מומלץ להשאיר 2–3 ימים ליהנות מהכפר עצמו."
+          "day": 6,
+          "date": "2026-09-23",
+          "title": "יום 6 - Speelbos, Aqua Mundo ו-Action Factory",
+          "activities": [
+            {
+              "time": "בוקר",
+              "activity": "Speelbos Zevensprong וארוחת פיקניק",
+              "type": "kids"
+            },
+            {
+              "time": "אחה״צ",
+              "activity": "Aqua Mundo ב-De Eemhof",
+              "type": "kids"
+            },
+            {
+              "time": "ערב",
+              "activity": "Action Factory",
+              "type": "kids"
+            }
+          ]
         },
         {
-          "day": "יום 7 - 24.9 (חמישי)",
-          "activities": "יציאה לאטרקציה מהרשימה (למשל Hans & Grietje 25–30 דק' / Primark ו-Almere Centrum 20–25 דק').",
-          "notes": ""
+          "day": 7,
+          "date": "2026-09-24",
+          "title": "יום 7 - De Eemhof ומשחק הולנד–גרמניה",
+          "activities": [
+            {
+              "time": "בוקר",
+              "activity": "בוקר רגוע ופעילויות ב-De Eemhof",
+              "type": "hotel"
+            },
+            {
+              "time": "אחה״צ",
+              "activity": "נסיעה לאמסטרדם והתארגנות למשחק",
+              "type": "transport"
+            },
+            {
+              "time": "20:45",
+              "activity": "הולנד נגד גרמניה - UEFA Nations League ב-Johan Cruijff ArenA",
+              "type": "attraction"
+            }
+          ]
         },
         {
-          "day": "יום 8 - 25.9 (שישי)",
-          "activities": "יום בכפר / יציאה קצרה לפי בחירה (Batavia Stad 25–30 דק').",
-          "notes": ""
+          "day": 8,
+          "date": "2026-09-25",
+          "title": "יום 8 - Giethoorn",
+          "activities": [
+            {
+              "time": "בוקר",
+              "activity": "נסיעה ל-Giethoorn, שיט בסירה וטיול בכפר",
+              "type": "attraction"
+            },
+            {
+              "time": "צהריים",
+              "activity": "ארוחת צהריים ב-Giethoorn",
+              "type": "food"
+            },
+            {
+              "time": "אחה״צ",
+              "activity": "חזרה ל-De Eemhof ו-Aqua Mundo",
+              "type": "kids"
+            }
+          ]
         },
         {
-          "day": "יום 9 - 26.9 (שבת)",
-          "activities": "יציאה לאטרקציה מהרשימה (Giethoorn ~שעה / Julianatoren 45–50 דק' / Zaanse Schans 50–60 דק' / De Hoge Veluwe 50–60 דק').",
-          "notes": ""
+          "day": 9,
+          "date": "2026-09-26",
+          "title": "יום 9 - Fun Forest Amsterdam",
+          "activities": [
+            {
+              "time": "בוקר",
+              "activity": "Fun Forest Amsterdam - פארק חבלים",
+              "type": "kids"
+            },
+            {
+              "time": "אחה״צ",
+              "activity": "חזרה ל-De Eemhof לבריכה ולפעילויות במתחם",
+              "type": "kids"
+            }
+          ]
         },
         {
-          "day": "יום 10 - 27.9 (ראשון)",
-          "activities": "יום אחרון בכפר - סיכום, פעילויות אחרונות ואריזה.",
-          "notes": ""
+          "day": 10,
+          "date": "2026-09-27",
+          "title": "יום 10 - Hans & Grietje",
+          "activities": [
+            {
+              "time": "בוקר",
+              "activity": "Hans & Grietje - גן משחקים",
+              "type": "kids"
+            },
+            {
+              "time": "צהריים",
+              "activity": "ארוחת פנקייקים ב-Hans & Grietje",
+              "type": "food"
+            },
+            {
+              "time": "אחה״צ",
+              "activity": "אחר הצהריים האחרון ב-De Eemhof",
+              "type": "hotel"
+            }
+          ]
         },
         {
-          "day": "יום 11 - 28.9 (שני)",
-          "activities": "צ'ק אאוט, החזרת רכב וטיסת אל על חזרה הביתה.",
-          "notes": ""
+          "day": 11,
+          "date": "2026-09-28",
+          "title": "יום 11 - אריזה ועזיבה",
+          "activities": [
+            {
+              "time": "בוקר",
+              "activity": "אריזה, צ'ק-אאוט ועזיבה",
+              "type": "transport"
+            }
+          ]
         }
       ],
       "tips": [
-        "לבקש חדר בקומה 1 בספארי Beekse Bergen - צופים בחיות ישירות מהמרפסת",
-        "מחיר מלון הספארי כולל כניסה לספארי עצמו",
-        "כרטיס ליומיים לאפטלינג כלול במחיר Wonder Hotel",
+        "Mini Safari Land Rovers ביום ההגעה תלוי במזג האוויר ובקצב איסוף הרכב",
+        "את פעילויות 23–27.9 אפשר להחליף לפי התחזית; Aqua Mundo ו-Action Factory הן חלופות טובות לגשם",
+        "המשחק הולנד–גרמניה מתקיים ב-24.9.2026 בשעה 20:45 ב-Johan Cruijff ArenA",
         "כל כפר נופש הוא בסיס עם המון פעילויות - אפשר לשלב ימי מנוחה עם יציאות",
+        "כלל מזג האוויר: היום היבש הטוב ביותר = Safari; היום החם ביותר = Speelland; גשם = פעילויות מקורות ובריכה",
+        "כרטיס ליומיים לאפטלינג כלול במחיר Wonder Hotel",
+        "לבדוק מגבלות גיל וגובה ב-Fun Forest Amsterdam לפני ההזמנה",
+        "לבדוק מראש חניה או תחבורה לאצטדיון וזמן חזרה מאוחר ל-De Eemhof",
+        "לבדוק שוב את התחזית 24–48 שעות מראש ולהחליף בין 19.9 ל-20.9 אם התנאים משתנים",
+        "לבקש חדר בקומה 1 בספארי Beekse Bergen - צופים בחיות ישירות מהמרפסת",
+        "להזמין מראש את ה-Private Game Drive ל-19.9 סביב 13:30–14:00",
+        "להזמין מראש סירה ב-Giethoorn ולבדוק את תחזית הרוח והגשם",
+        "לפי התחזית מ-10.9.2026: Safari ב-19.9 ו-Speelland ב-20.9",
         "מ-De Eemhof יש המון אטרקציות בטווח נסיעה קצר (דולפינריום, אמסטרדם, האג)",
+        "מחיר מלון הספארי כולל כניסה לספארי עצמו",
+        "ספטמבר - להכין בגדים לכל מזג אוויר (מעילים קלים וגם קיץ)",
         "רכב שכור מומלץ לניוד בין הבסיסים וליציאות היומיות",
-        "ספטמבר - להכין בגדים לכל מזג אוויר (מעילים קלים וגם קיץ)"
+        "תוכנית גשם ליום מלא: Car Safari → Speelland Indoor → צהריים ב-Hogon או Moto → בריכת Maji Springs → ארוחת ערב ובאולינג"
       ],
       "bookings": [
         {
