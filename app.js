@@ -473,7 +473,12 @@ function renderAttractions() {
                     <img class="attraction-image" src="${attr.image}" alt="${attr.name}">
                     <a class="image-open-btn" href="${attr.image}" target="_blank">🔍 פתיחה בגודל מלא</a>
                 </div>` : ''}
-            <h4>${attr.name} ${attr.link ? `<a href="${attr.link}" target="_blank" class="site-link">🔗 אתר</a>` : ''}</h4>
+            <h4>
+                ${attr.name}
+                ${attr.links
+                    ? attr.links.map(link => `<a href="${link.url}" target="_blank" class="site-link">🔗 ${link.label}</a>`).join('')
+                    : attr.link ? `<a href="${attr.link}" target="_blank" class="site-link">🔗 אתר</a>` : ''}
+            </h4>
             <span class="attraction-type">${attr.type}</span>
             <span class="kid-rating">${'⭐'.repeat(attr.kidFriendly)} (${attr.kidFriendly}/5)</span>
             ${attr.notes ? `<div class="attraction-notes">📝 ${attr.notes}</div>` : ''}

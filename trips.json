@@ -363,15 +363,6 @@
           "link": "https://www.almerecentrum.nl/"
         },
         {
-          "name": "⚽ Johan Cruyff ArenA Tour",
-          "type": "attraction",
-          "lat": 52.3143,
-          "lng": 4.9419,
-          "kidFriendly": 3,
-          "notes": "🚗 40–45 דק' מ-De Eemhof. סיור באצטדיון אייאקס – חדרי הלבשה, מנהרת השחקנים, חדר מסיבות עיתונאים ומוזיאון. מומלץ בעיקר לחובבי כדורגל.",
-          "link": "https://www.johancruijffarena.nl/en/tickets--tours/stadium-tours/"
-        },
-        {
           "name": "Speelland Beekse Bergen",
           "type": "kids",
           "lat": 51.524,
@@ -403,8 +394,17 @@
           "lat": 52.3143,
           "lng": 4.9416,
           "kidFriendly": 4,
-          "notes": "משחק UEFA Nations League: הולנד נגד גרמניה, 24.9.2026 בשעה 20:45.",
-          "link": "https://www.johancruijffarena.nl/en/calendar/446873-the-netherlands-germany/"
+          "notes": "🚗 40–45 דק' מ-De Eemhof. משחק UEFA Nations League: הולנד נגד גרמניה, 24.9.2026 בשעה 20:45. אפשר לשלב באותו יום גם סיור באצטדיון אייאקס – חדרי הלבשה, מנהרת השחקנים, חדר מסיבות העיתונאים והמוזיאון.",
+          "links": [
+            {
+              "label": "משחק",
+              "url": "https://www.johancruijffarena.nl/en/calendar/446873-the-netherlands-germany/"
+            },
+            {
+              "label": "סיור",
+              "url": "https://www.johancruijffarena.nl/en/tickets--tours/stadium-tours/"
+            }
+          ]
         },
         {
           "name": "Fun Forest Amsterdam",
@@ -628,6 +628,11 @@
               "time": "אחה״צ",
               "activity": "נסיעה לאמסטרדם והתארגנות למשחק",
               "type": "transport"
+            },
+            {
+              "time": "אחה״צ",
+              "activity": "סיור ב-Johan Cruijff ArenA - אפשר לשלב עם המשחק באותו יום",
+              "type": "attraction"
             },
             {
               "time": "20:45",
